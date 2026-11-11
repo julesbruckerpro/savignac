@@ -913,9 +913,9 @@ html.has-cursor select {
 }
 .nav-compact .nav-link {
   font-size: 10.5px;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1560px) {
   .nav-compact .nav-link {
     font-size: 11px;
     letter-spacing: 0.18em;
