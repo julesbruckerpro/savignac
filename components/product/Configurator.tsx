@@ -134,8 +134,9 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
   const views = useMemo<GalleryView[]>(() => {
     const out: GalleryView[] = [];
     const img = variant.images;
-    const base = `${displayName}, ${finish.toLowerCase()}`;
-    const honest = img.exact === false && img.shows ? `Visuel : ${img.shows}. Photo de cette finition à venir.` : `Visuel : ${finish.toLowerCase()}.`;
+    const lower = finish.charAt(0).toLowerCase() + finish.slice(1);
+    const base = `${displayName}, ${lower}`;
+    const honest = img.exact === false && img.shows ? `Visuel : ${img.shows}. Photo de cette finition à venir.` : `Visuel : ${lower}.`;
     if (img.troisQuarts) out.push({ id: 'troisQuarts', src: img.troisQuarts, alt: `${base}, vue de trois-quarts`, caption: honest, cutout: true });
     if (img.ferme) out.push({ id: 'ferme', src: img.ferme, alt: `${base}, couteau fermé`, caption: `Couteau fermé. ${honest}`, cutout: true });
     if (isModel) out.push({ id: 'atelier', src: atelier.src, alt: atelier.alt, caption: atelier.caption, cutout: false });

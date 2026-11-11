@@ -50,7 +50,7 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
       }}
     >
       <nav aria-label={t('main')}>
-        <ul className={`flex items-stretch ${compact ? 'gap-x-[clamp(10px,1.25vw,22px)]' : 'justify-between gap-x-3'}`}>
+        <ul className={`flex items-stretch ${compact ? 'gap-x-[clamp(8px,1vw,20px)]' : 'justify-between gap-x-3'}`}>
           {nav.map((item) => {
             const active = pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href + '/'));
             const hasMega = !!item.columns;
@@ -110,7 +110,7 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
             </div>
             {shown.feature ? (
               <Link href={shown.feature.href} className="group col-span-5 block" data-cursor="voir">
-                <span className="block overflow-hidden bg-white">
+                <span className="block overflow-hidden">
                   <Image src={shown.feature.image} alt={shown.feature.alt} width={800} height={235} sizes="480px" className="card-photo h-auto w-full" />
                 </span>
                 <span className="mt-4 flex items-baseline justify-between gap-4">

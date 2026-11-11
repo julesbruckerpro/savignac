@@ -817,7 +817,10 @@ html.has-cursor .cursor {
 
 /* carte des revendeurs : fond monochrome */
 .dealers-map .maplibregl-canvas {
-  filter: grayscale(1) contrast(1.05);
+  filter: grayscale(1) contrast(0.92) brightness(1.06);
+}
+input[type='search']::-webkit-search-cancel-button {
+  appearance: none;
 }
 .dealers-map .maplibregl-ctrl-attrib {
   font-family: var(--font-sans);
@@ -910,9 +913,9 @@ html.has-cursor select {
 }
 .nav-compact .nav-link {
   font-size: 10.5px;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1560px) {
   .nav-compact .nav-link {
     font-size: 11px;
     letter-spacing: 0.18em;

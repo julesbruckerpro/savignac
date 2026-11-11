@@ -88,7 +88,8 @@ export function site(id: number, pick: Pick = {}): Variant[] {
   const mancheGroupName = pick.mancheGroup ? MANCHE_GROUPS.find((g) => p.groups[g]) : undefined;
   const manches: (string | undefined)[] = mancheGroupName ? p.groups[mancheGroupName].map((v) => MANCHE[v] ?? v) : [pick.manche];
   const formats: (string | undefined)[] = pick.formatGroup && p.groups[pick.formatGroup] ? p.groups[pick.formatGroup].map((v) => FORMAT[v] ?? v) : [pick.format];
-  const photoLame = pick.lame || (lameGroup ? LAME[lameGroup[0]] : '14C28');
+  const offered = lames.filter((l): l is string => !!l);
+  const photoLame = pick.lame || (offered.includes('14C28') || offered.length === 0 ? '14C28' : offered[0]);
   const delay = p.availabilityText ? DELAYS.find(([re]) => re.test(p.availabilityText!))?.[1] : undefined;
   const img = IMAGES[p.id];
 

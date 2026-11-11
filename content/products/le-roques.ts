@@ -27,7 +27,7 @@ export const leRoques = define({
     ...site(31, { mecanisme: 'friction', manche: 'buis', images: { troisQuarts: `${P}/roques-buis.jpg` } }),
     ...site(24, { mecanisme: 'friction', manche: 'corne-noire', images: { troisQuarts: `${P}/roques-corne-noire.jpg` } }),
     ...site(25, { mecanisme: 'friction', manche: 'corne-blonde', images: { troisQuarts: `${P}/roques-corne-blonde.jpg` } }),
-    ...site(189, { mecanisme: 'friction', manche: 'corne-noire-facettes', images: { troisQuarts: `${P}/roques-facettes.jpg`, ferme: `${P}/roques-facettes-ferme.jpg` } }),
+    ...site(189, { mecanisme: 'friction', manche: 'corne-noire-facettes', images: { troisQuarts: `${P}/roques-facettes.jpg` } }),
     ...site(214, { mecanisme: 'friction', manche: 'corne-noire-facettes', lame: 'damas' }),
     ...site(51, { mecanisme: 'friction', mancheGroup: true, lame: 'damas', photoManche: 'corne-noire', tags: ['prestige'] }),
     ...site(220, { mecanisme: 'cran-plat', manche: 'fat-carbon-rouge' }),
@@ -64,7 +64,7 @@ export const leRoques = define({
       shortLine: 'Facettes et pointe écourtée, dessiné à l’atelier en 2011.',
       preset: { mecanisme: 'friction' },
       image: `${P}/roques-corne-blonde.jpg`,
-      imageClosed: `${P}/roques-facettes-ferme.jpg`,
+      imageClosed: '/images/produits/site/25-ferme.jpg',
       imageAlt: 'Le Roques, manche en corne blonde, lame inox, vue de trois-quarts',
     },
     {

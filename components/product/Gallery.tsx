@@ -47,7 +47,7 @@ export function Gallery({ views, swapKey, engraving }: { views: GalleryView[]; s
       >
         <span key={`${swapKey}-${view.id}`} className="swap absolute inset-0 block [container-type:inline-size]">
           {view.cutout ? (
-            <span className="absolute inset-x-0 top-1/2 block aspect-[3.4/1] -translate-y-1/2">
+            <span className="absolute inset-x-0 top-1/2 block aspect-[3.4/1] -translate-y-1/2 bg-bg">
               <Image src={view.src} alt={view.alt} fill priority sizes="(min-width: 1024px) 740px, 100vw" className="knife" />
               {engraving && view.id === 'troisQuarts' ? (
                 <span

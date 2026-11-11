@@ -71,7 +71,7 @@ async function main() {
           const g = labels[gid] ?? groupNames[gid] ?? gid;
           const v = decode(value);
           attrs[g] = v;
-          (groups[g] ??= []).includes(v) || groups[g].push(v);
+          if (!(groups[g] ??= []).includes(v)) groups[g].push(v);
         }
         combos.push({ attrs, price: Math.round((priceHT + Number(c.price)) * (1 + taxRate / 100) * 100) });
       }
