@@ -1,0 +1,733 @@
+{
+ "1": {
+  "troisQuarts": "/images/produits/site/1.jpg",
+  "ratio": 5.73,
+  "detoure": true,
+  "ferme": "/images/produits/site/1-ferme.jpg"
+ },
+ "2": {
+  "troisQuarts": "/images/produits/site/2.jpg",
+  "ratio": 5.93,
+  "detoure": true,
+  "ferme": "/images/produits/site/2-ferme.jpg"
+ },
+ "3": {
+  "troisQuarts": "/images/produits/site/3.jpg",
+  "ratio": 5.04,
+  "detoure": true,
+  "ferme": "/images/produits/site/3-ferme.jpg"
+ },
+ "4": {
+  "troisQuarts": "/images/produits/site/4.jpg",
+  "ratio": 5.61,
+  "detoure": true,
+  "ferme": "/images/produits/site/4-ferme.jpg"
+ },
+ "5": {
+  "troisQuarts": "/images/produits/site/5.jpg",
+  "ratio": 5.58,
+  "detoure": true,
+  "ferme": "/images/produits/site/5-ferme.jpg"
+ },
+ "6": {
+  "troisQuarts": "/images/produits/site/6.jpg",
+  "ratio": 5.23,
+  "detoure": true,
+  "ferme": "/images/produits/site/6-ferme.jpg"
+ },
+ "7": {
+  "troisQuarts": "/images/produits/site/7.jpg",
+  "ratio": 5.72,
+  "detoure": true,
+  "ferme": "/images/produits/site/7-ferme.jpg"
+ },
+ "9": {
+  "troisQuarts": "/images/produits/site/9.jpg",
+  "ratio": 5.91,
+  "detoure": true,
+  "ferme": "/images/produits/site/9-ferme.jpg"
+ },
+ "10": {
+  "troisQuarts": "/images/produits/site/10.jpg",
+  "ratio": 4.92,
+  "detoure": true
+ },
+ "11": {
+  "troisQuarts": "/images/produits/site/11.jpg",
+  "ratio": 3.18,
+  "detoure": true
+ },
+ "12": {
+  "troisQuarts": "/images/produits/site/12.jpg",
+  "ratio": 1.39,
+  "detoure": true
+ },
+ "13": {
+  "troisQuarts": "/images/produits/site/13.jpg",
+  "ratio": 3.69,
+  "detoure": true
+ },
+ "14": {
+  "troisQuarts": "/images/produits/site/14.jpg",
+  "ratio": 1.2,
+  "detoure": true
+ },
+ "17": {
+  "troisQuarts": "/images/produits/site/17.jpg",
+  "ratio": 6.53,
+  "detoure": true,
+  "ferme": "/images/produits/site/17-ferme.jpg"
+ },
+ "18": {
+  "troisQuarts": "/images/produits/site/18.jpg",
+  "ratio": 6.17,
+  "detoure": true,
+  "ferme": "/images/produits/site/18-ferme.jpg"
+ },
+ "19": {
+  "troisQuarts": "/images/produits/site/19.jpg",
+  "ratio": 6.07,
+  "detoure": true,
+  "ferme": "/images/produits/site/19-ferme.jpg"
+ },
+ "20": {
+  "troisQuarts": "/images/produits/site/20.jpg",
+  "ratio": 5.86,
+  "detoure": true,
+  "ferme": "/images/produits/site/20-ferme.jpg"
+ },
+ "21": {
+  "troisQuarts": "/images/produits/site/21.jpg",
+  "ratio": 6.26,
+  "detoure": true,
+  "ferme": "/images/produits/site/21-ferme.jpg"
+ },
+ "22": {
+  "troisQuarts": "/images/produits/site/22.jpg",
+  "ratio": 6.24,
+  "detoure": true,
+  "ferme": "/images/produits/site/22-ferme.jpg"
+ },
+ "23": {
+  "troisQuarts": "/images/produits/site/23.jpg",
+  "ratio": 2.1,
+  "detoure": true
+ },
+ "24": {
+  "troisQuarts": "/images/produits/site/24.jpg",
+  "ratio": 6.15,
+  "detoure": true,
+  "ferme": "/images/produits/site/24-ferme.jpg"
+ },
+ "25": {
+  "troisQuarts": "/images/produits/site/25.jpg",
+  "ratio": 4.37,
+  "detoure": true,
+  "ferme": "/images/produits/site/25-ferme.jpg"
+ },
+ "26": {
+  "troisQuarts": "/images/produits/site/26.jpg",
+  "ratio": 6.61,
+  "detoure": true,
+  "ferme": "/images/produits/site/26-ferme.jpg"
+ },
+ "27": {
+  "troisQuarts": "/images/produits/site/27.jpg",
+  "ratio": 6.67,
+  "detoure": true,
+  "ferme": "/images/produits/site/27-ferme.jpg"
+ },
+ "28": {
+  "troisQuarts": "/images/produits/site/28.jpg",
+  "ratio": 6.69,
+  "detoure": true,
+  "ferme": "/images/produits/site/28-ferme.jpg"
+ },
+ "29": {
+  "troisQuarts": "/images/produits/site/29.jpg",
+  "ratio": 6.52,
+  "detoure": true,
+  "ferme": "/images/produits/site/29-ferme.jpg"
+ },
+ "30": {
+  "troisQuarts": "/images/produits/site/30.jpg",
+  "ratio": 6.76,
+  "detoure": true,
+  "ferme": "/images/produits/site/30-ferme.jpg"
+ },
+ "31": {
+  "troisQuarts": "/images/produits/site/31.jpg",
+  "ratio": 6.7,
+  "detoure": true,
+  "ferme": "/images/produits/site/31-ferme.jpg"
+ },
+ "34": {
+  "troisQuarts": "/images/produits/site/34.jpg",
+  "ratio": 7.52,
+  "detoure": true,
+  "ferme": "/images/produits/site/34-ferme.jpg"
+ },
+ "35": {
+  "troisQuarts": "/images/produits/site/35.jpg",
+  "ratio": 7.26,
+  "detoure": true,
+  "ferme": "/images/produits/site/35-ferme.jpg"
+ },
+ "36": {
+  "troisQuarts": "/images/produits/site/36.jpg",
+  "ratio": 6.62,
+  "detoure": true,
+  "ferme": "/images/produits/site/36-ferme.jpg"
+ },
+ "37": {
+  "troisQuarts": "/images/produits/site/37.jpg",
+  "ratio": 6.95,
+  "detoure": true,
+  "ferme": "/images/produits/site/37-ferme.jpg"
+ },
+ "38": {
+  "troisQuarts": "/images/produits/site/38.jpg",
+  "ratio": 7.29,
+  "detoure": true,
+  "ferme": "/images/produits/site/38-ferme.jpg"
+ },
+ "39": {
+  "troisQuarts": "/images/produits/site/39.jpg",
+  "ratio": 7.19,
+  "detoure": true,
+  "ferme": "/images/produits/site/39-ferme.jpg"
+ },
+ "41": {
+  "troisQuarts": "/images/produits/site/41.jpg",
+  "ratio": 0.6,
+  "detoure": true
+ },
+ "42": {
+  "troisQuarts": "/images/produits/site/42.jpg",
+  "ratio": 0.7,
+  "detoure": false
+ },
+ "48": {
+  "troisQuarts": "/images/produits/site/48.jpg",
+  "ratio": 5.63,
+  "detoure": true,
+  "ferme": "/images/produits/site/48-ferme.jpg"
+ },
+ "51": {
+  "troisQuarts": "/images/produits/site/51.jpg",
+  "ratio": 4.05,
+  "detoure": true,
+  "ferme": "/images/produits/site/51-ferme.jpg"
+ },
+ "52": {
+  "troisQuarts": "/images/produits/site/52.jpg",
+  "ratio": 5.85,
+  "detoure": true,
+  "ferme": "/images/produits/site/52-ferme.jpg"
+ },
+ "59": {
+  "troisQuarts": "/images/produits/site/59.jpg",
+  "ratio": 1.39,
+  "detoure": true
+ },
+ "68": {
+  "troisQuarts": "/images/produits/site/68.jpg",
+  "ratio": 7.02,
+  "detoure": true
+ },
+ "69": {
+  "troisQuarts": "/images/produits/site/69.jpg",
+  "ratio": 7.1,
+  "detoure": true
+ },
+ "70": {
+  "troisQuarts": "/images/produits/site/70.jpg",
+  "ratio": 7.57,
+  "detoure": true
+ },
+ "71": {
+  "troisQuarts": "/images/produits/site/71.jpg",
+  "ratio": 6.81,
+  "detoure": true
+ },
+ "72": {
+  "troisQuarts": "/images/produits/site/72.jpg",
+  "ratio": 7.71,
+  "detoure": true
+ },
+ "73": {
+  "troisQuarts": "/images/produits/site/73.jpg",
+  "ratio": 6.44,
+  "detoure": true
+ },
+ "82": {
+  "troisQuarts": "/images/produits/site/82.jpg",
+  "ratio": 5.79,
+  "detoure": true,
+  "ferme": "/images/produits/site/82-ferme.jpg"
+ },
+ "87": {
+  "troisQuarts": "/images/produits/site/87.jpg",
+  "ratio": 6.06,
+  "detoure": true
+ },
+ "89": {
+  "troisQuarts": "/images/produits/site/89.jpg",
+  "ratio": 1.38,
+  "detoure": true
+ },
+ "94": {
+  "troisQuarts": "/images/produits/site/94.jpg",
+  "ratio": 5.26,
+  "detoure": true,
+  "ferme": "/images/produits/site/94-ferme.jpg"
+ },
+ "99": {
+  "troisQuarts": "/images/produits/site/99.jpg",
+  "ratio": 4.14,
+  "detoure": true
+ },
+ "103": {
+  "troisQuarts": "/images/produits/site/103.jpg",
+  "ratio": 7.13,
+  "detoure": true,
+  "ferme": "/images/produits/site/103-ferme.jpg"
+ },
+ "105": {
+  "troisQuarts": "/images/produits/site/105.jpg",
+  "ratio": 5.64,
+  "detoure": true,
+  "ferme": "/images/produits/site/105-ferme.jpg"
+ },
+ "109": {
+  "troisQuarts": "/images/produits/site/109.jpg",
+  "ratio": 4.54,
+  "detoure": true
+ },
+ "110": {
+  "troisQuarts": "/images/produits/site/110.jpg",
+  "ratio": 4.2,
+  "detoure": true,
+  "ferme": "/images/produits/site/110-ferme.jpg"
+ },
+ "113": {
+  "troisQuarts": "/images/produits/site/113.jpg",
+  "ratio": 4.35,
+  "detoure": true
+ },
+ "116": {
+  "troisQuarts": "/images/produits/site/116.jpg",
+  "ratio": 1.69,
+  "detoure": true
+ },
+ "118": {
+  "troisQuarts": "/images/produits/site/118.jpg",
+  "ratio": 1.38,
+  "detoure": false
+ },
+ "122": {
+  "troisQuarts": "/images/produits/site/122.jpg",
+  "ratio": 4.81,
+  "detoure": true,
+  "ferme": "/images/produits/site/122-ferme.jpg"
+ },
+ "124": {
+  "troisQuarts": "/images/produits/site/124.jpg",
+  "ratio": 5.11,
+  "detoure": true,
+  "ferme": "/images/produits/site/124-ferme.jpg"
+ },
+ "128": {
+  "troisQuarts": "/images/produits/site/128.jpg",
+  "ratio": 1.53,
+  "detoure": true
+ },
+ "129": {
+  "troisQuarts": "/images/produits/site/129.jpg",
+  "ratio": 2.13,
+  "detoure": true
+ },
+ "130": {
+  "troisQuarts": "/images/produits/site/130.jpg",
+  "ratio": 5.94,
+  "detoure": true
+ },
+ "131": {
+  "troisQuarts": "/images/produits/site/131.jpg",
+  "ratio": 6.16,
+  "detoure": true
+ },
+ "132": {
+  "troisQuarts": "/images/produits/site/132.jpg",
+  "ratio": 4.76,
+  "detoure": true,
+  "ferme": "/images/produits/site/132-ferme.jpg"
+ },
+ "133": {
+  "troisQuarts": "/images/produits/site/133.jpg",
+  "ratio": 6.16,
+  "detoure": true
+ },
+ "134": {
+  "troisQuarts": "/images/produits/site/134.jpg",
+  "ratio": 6.13,
+  "detoure": true,
+  "ferme": "/images/produits/site/134-ferme.jpg"
+ },
+ "135": {
+  "troisQuarts": "/images/produits/site/135.jpg",
+  "ratio": 7.26,
+  "detoure": true,
+  "ferme": "/images/produits/site/135-ferme.jpg"
+ },
+ "136": {
+  "troisQuarts": "/images/produits/site/136.jpg",
+  "ratio": 8.25,
+  "detoure": true,
+  "ferme": "/images/produits/site/136-ferme.jpg"
+ },
+ "145": {
+  "troisQuarts": "/images/produits/site/145.jpg",
+  "ratio": 5.54,
+  "detoure": true
+ },
+ "146": {
+  "troisQuarts": "/images/produits/site/146.jpg",
+  "ratio": 4.73,
+  "detoure": true
+ },
+ "147": {
+  "troisQuarts": "/images/produits/site/147.jpg",
+  "ratio": 4.49,
+  "detoure": true
+ },
+ "149": {
+  "troisQuarts": "/images/produits/site/149.jpg",
+  "ratio": 5.06,
+  "detoure": true,
+  "ferme": "/images/produits/site/149-ferme.jpg"
+ },
+ "150": {
+  "troisQuarts": "/images/produits/site/150.jpg",
+  "ratio": 6.27,
+  "detoure": true,
+  "ferme": "/images/produits/site/150-ferme.jpg"
+ },
+ "152": {
+  "troisQuarts": "/images/produits/site/152.jpg",
+  "ratio": 5.47,
+  "detoure": true
+ },
+ "153": {
+  "troisQuarts": "/images/produits/site/153.jpg",
+  "ratio": 1.68,
+  "detoure": true
+ },
+ "154": {
+  "troisQuarts": "/images/produits/site/154.jpg",
+  "ratio": 4.56,
+  "detoure": true
+ },
+ "155": {
+  "troisQuarts": "/images/produits/site/155.jpg",
+  "ratio": 5.49,
+  "detoure": true
+ },
+ "156": {
+  "troisQuarts": "/images/produits/site/156.jpg",
+  "ratio": 5.36,
+  "detoure": true
+ },
+ "157": {
+  "troisQuarts": "/images/produits/site/157.jpg",
+  "ratio": 6.29,
+  "detoure": true
+ },
+ "158": {
+  "troisQuarts": "/images/produits/site/158.jpg",
+  "ratio": 5.18,
+  "detoure": true
+ },
+ "160": {
+  "troisQuarts": "/images/produits/site/160.jpg",
+  "ratio": 5.89,
+  "detoure": true,
+  "ferme": "/images/produits/site/160-ferme.jpg"
+ },
+ "161": {
+  "troisQuarts": "/images/produits/site/161.jpg",
+  "ratio": 5.77,
+  "detoure": true
+ },
+ "162": {
+  "troisQuarts": "/images/produits/site/162.jpg",
+  "ratio": 5.07,
+  "detoure": true,
+  "ferme": "/images/produits/site/162-ferme.jpg"
+ },
+ "163": {
+  "troisQuarts": "/images/produits/site/163.jpg",
+  "ratio": 6.2,
+  "detoure": true
+ },
+ "165": {
+  "troisQuarts": "/images/produits/site/165.jpg",
+  "ratio": 0.71,
+  "detoure": true
+ },
+ "166": {
+  "troisQuarts": "/images/produits/site/166.jpg",
+  "ratio": 5.92,
+  "detoure": true,
+  "ferme": "/images/produits/site/166-ferme.jpg"
+ },
+ "167": {
+  "troisQuarts": "/images/produits/site/167.jpg",
+  "ratio": 6.05,
+  "detoure": true
+ },
+ "168": {
+  "troisQuarts": "/images/produits/site/168.jpg",
+  "ratio": 5.74,
+  "detoure": true,
+  "ferme": "/images/produits/site/168-ferme.jpg"
+ },
+ "169": {
+  "troisQuarts": "/images/produits/site/169.jpg",
+  "ratio": 5.69,
+  "detoure": true,
+  "ferme": "/images/produits/site/169-ferme.jpg"
+ },
+ "170": {
+  "troisQuarts": "/images/produits/site/170.jpg",
+  "ratio": 6.31,
+  "detoure": true,
+  "ferme": "/images/produits/site/170-ferme.jpg"
+ },
+ "172": {
+  "troisQuarts": "/images/produits/site/172.jpg",
+  "ratio": 6.19,
+  "detoure": true,
+  "ferme": "/images/produits/site/172-ferme.jpg"
+ },
+ "173": {
+  "troisQuarts": "/images/produits/site/173.jpg",
+  "ratio": 6.21,
+  "detoure": true,
+  "ferme": "/images/produits/site/173-ferme.jpg"
+ },
+ "174": {
+  "troisQuarts": "/images/produits/site/174.jpg",
+  "ratio": 5.61,
+  "detoure": true
+ },
+ "175": {
+  "troisQuarts": "/images/produits/site/175.jpg",
+  "ratio": 5.49,
+  "detoure": true
+ },
+ "176": {
+  "troisQuarts": "/images/produits/site/176.jpg",
+  "ratio": 5.51,
+  "detoure": true
+ },
+ "177": {
+  "troisQuarts": "/images/produits/site/177.jpg",
+  "ratio": 5.48,
+  "detoure": true
+ },
+ "178": {
+  "troisQuarts": "/images/produits/site/178.jpg",
+  "ratio": 5.35,
+  "detoure": true
+ },
+ "179": {
+  "troisQuarts": "/images/produits/site/179.jpg",
+  "ratio": 6.23,
+  "detoure": true,
+  "ferme": "/images/produits/site/179-ferme.jpg"
+ },
+ "180": {
+  "troisQuarts": "/images/produits/site/180.jpg",
+  "ratio": 0.7,
+  "detoure": false
+ },
+ "181": {
+  "troisQuarts": "/images/produits/site/181.jpg",
+  "ratio": 5.94,
+  "detoure": true,
+  "ferme": "/images/produits/site/181-ferme.jpg"
+ },
+ "182": {
+  "troisQuarts": "/images/produits/site/182.jpg",
+  "ratio": 5.75,
+  "detoure": true,
+  "ferme": "/images/produits/site/182-ferme.jpg"
+ },
+ "184": {
+  "troisQuarts": "/images/produits/site/184.jpg",
+  "ratio": 6.18,
+  "detoure": true
+ },
+ "186": {
+  "troisQuarts": "/images/produits/site/186.jpg",
+  "ratio": 5.77,
+  "detoure": true
+ },
+ "188": {
+  "troisQuarts": "/images/produits/site/188.jpg",
+  "ratio": 5.99,
+  "detoure": true
+ },
+ "189": {
+  "troisQuarts": "/images/produits/site/189.jpg",
+  "ratio": 6.24,
+  "detoure": true
+ },
+ "191": {
+  "troisQuarts": "/images/produits/site/191.jpg",
+  "ratio": 6.14,
+  "detoure": true,
+  "ferme": "/images/produits/site/191-ferme.jpg"
+ },
+ "192": {
+  "troisQuarts": "/images/produits/site/192.jpg",
+  "ratio": 6.73,
+  "detoure": true
+ },
+ "193": {
+  "troisQuarts": "/images/produits/site/193.jpg",
+  "ratio": 7.74,
+  "detoure": true,
+  "ferme": "/images/produits/site/193-ferme.jpg"
+ },
+ "194": {
+  "troisQuarts": "/images/produits/site/194.jpg",
+  "ratio": 5.86,
+  "detoure": true
+ },
+ "195": {
+  "troisQuarts": "/images/produits/site/195.jpg",
+  "ratio": 5.45,
+  "detoure": true
+ },
+ "196": {
+  "troisQuarts": "/images/produits/site/196.jpg",
+  "ratio": 6.17,
+  "detoure": true
+ },
+ "197": {
+  "troisQuarts": "/images/produits/site/197.jpg",
+  "ratio": 7.79,
+  "detoure": true
+ },
+ "198": {
+  "troisQuarts": "/images/produits/site/198.jpg",
+  "ratio": 8.44,
+  "detoure": true,
+  "ferme": "/images/produits/site/198-ferme.jpg"
+ },
+ "199": {
+  "troisQuarts": "/images/produits/site/199.jpg",
+  "ratio": 7.86,
+  "detoure": true
+ },
+ "200": {
+  "troisQuarts": "/images/produits/site/200.jpg",
+  "ratio": 8.02,
+  "detoure": true,
+  "ferme": "/images/produits/site/200-ferme.jpg"
+ },
+ "201": {
+  "troisQuarts": "/images/produits/site/201.jpg",
+  "ratio": 7.86,
+  "detoure": true,
+  "ferme": "/images/produits/site/201-ferme.jpg"
+ },
+ "202": {
+  "troisQuarts": "/images/produits/site/202.jpg",
+  "ratio": 8.33,
+  "detoure": true,
+  "ferme": "/images/produits/site/202-ferme.jpg"
+ },
+ "203": {
+  "troisQuarts": "/images/produits/site/203.jpg",
+  "ratio": 8.02,
+  "detoure": true,
+  "ferme": "/images/produits/site/203-ferme.jpg"
+ },
+ "204": {
+  "troisQuarts": "/images/produits/site/204.jpg",
+  "ratio": 8.88,
+  "detoure": true,
+  "ferme": "/images/produits/site/204-ferme.jpg"
+ },
+ "205": {
+  "troisQuarts": "/images/produits/site/205.jpg",
+  "ratio": 8.66,
+  "detoure": true,
+  "ferme": "/images/produits/site/205-ferme.jpg"
+ },
+ "206": {
+  "troisQuarts": "/images/produits/site/206.jpg",
+  "ratio": 8.09,
+  "detoure": true,
+  "ferme": "/images/produits/site/206-ferme.jpg"
+ },
+ "208": {
+  "troisQuarts": "/images/produits/site/208.jpg",
+  "ratio": 7.94,
+  "detoure": true,
+  "ferme": "/images/produits/site/208-ferme.jpg"
+ },
+ "209": {
+  "troisQuarts": "/images/produits/site/209.jpg",
+  "ratio": 8.57,
+  "detoure": true,
+  "ferme": "/images/produits/site/209-ferme.jpg"
+ },
+ "210": {
+  "troisQuarts": "/images/produits/site/210.jpg",
+  "ratio": 8.69,
+  "detoure": true,
+  "ferme": "/images/produits/site/210-ferme.jpg"
+ },
+ "211": {
+  "troisQuarts": "/images/produits/site/211.jpg",
+  "ratio": 7.85,
+  "detoure": true,
+  "ferme": "/images/produits/site/211-ferme.jpg"
+ },
+ "212": {
+  "troisQuarts": "/images/produits/site/212.jpg",
+  "ratio": 8.13,
+  "detoure": true
+ },
+ "213": {
+  "troisQuarts": "/images/produits/site/213.jpg",
+  "ratio": 9.81,
+  "detoure": true
+ },
+ "214": {
+  "troisQuarts": "/images/produits/site/214.jpg",
+  "ratio": 5.64,
+  "detoure": true
+ },
+ "215": {
+  "troisQuarts": "/images/produits/site/215.jpg",
+  "ratio": 5.38,
+  "detoure": true,
+  "ferme": "/images/produits/site/215-ferme.jpg"
+ },
+ "217": {
+  "troisQuarts": "/images/produits/site/217.jpg",
+  "ratio": 5.54,
+  "detoure": true,
+  "ferme": "/images/produits/site/217-ferme.jpg"
+ },
+ "220": {
+  "troisQuarts": "/images/produits/site/220.jpg",
+  "ratio": 5.41,
+  "detoure": true
+ }
+}

@@ -1,0 +1,530 @@
+[
+ {
+  "source": "/fr/couteau-ariegeois/1-couteau-ariegeois-corne-noire.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=corne-noire&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/2-couteau-ariegeois-corne-blonde.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=corne-blonde&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/3-couteau-ariegeois-chene.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/4-couteau-ariegeois-noyer.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/5-couteau-ariegeois-chene.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=platane&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/6-couteau-pliant-ariegeois-frene.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/7-couteau-ariegeois-buis.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/9-couteau-l-ariegeois-prunier.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=prunier&lame=14C28"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/10-gravure-personnalisee-lame-couteau.html",
+  "destination": "/produit/gravure-personnalisee-sur-lame"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/11-fourreau-en-cuir.html",
+  "destination": "/produit/fourreaux-en-cuir?format=petit&manche=noir"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/12-etuis-en-cuir.html",
+  "destination": "/produit/etuis-en-cuir-port-horizontal-ou-vertical?manche=noir"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/13-pierre-naturelle-a-aiguiser.html",
+  "destination": "/produit/pierre-a-aiguiser-des-pyrenees?format=pm"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/14-pierre-synthetique-a-aiguiser.html",
+  "destination": "/produit/pierre-a-aiguiser-synthetique?format=pm"
+ },
+ {
+  "source": "/fr/le-cathare/17-couteau-cathare-chene.html",
+  "destination": "/modele/le-cathare?manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/le-cathare/18-couteau-cathare-noyer.html",
+  "destination": "/modele/le-cathare?manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/le-cathare/19-couteau-cathare-platane.html",
+  "destination": "/modele/le-cathare?manche=platane&lame=14C28"
+ },
+ {
+  "source": "/fr/le-cathare/20-couteau-cathare-frene-olive.html",
+  "destination": "/modele/le-cathare?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/le-cathare/21-couteau-le-cathare-prunier.html",
+  "destination": "/modele/le-cathare?manche=prunier&lame=14C28"
+ },
+ {
+  "source": "/fr/le-cathare/22-couteau-le-cathare-buis.html",
+  "destination": "/modele/le-cathare?manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/23-guillochage.html",
+  "destination": "/produit/ciselage?format=court"
+ },
+ {
+  "source": "/fr/le-roques/24-couteau-roques-corne-noire.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=corne-noire&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/25-couteau-roques-corne-blonde.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=corne-blonde&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/26-couteau-roques-chene.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/27-couteau-le-roques-noyer.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/28-couteau-le-roques-platane.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=platane&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/29-couteau-le-roques-platane.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/30-couteau-le-roques-platane.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=prunier&lame=14C28"
+ },
+ {
+  "source": "/fr/le-roques/31-couteau-le-roques-buis.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/34-couteau-le-grat-chene.html",
+  "destination": "/modele/le-grat?manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/35-couteau-le-grat-en-noyer.html",
+  "destination": "/modele/le-grat?manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/36-couteau-le-grat-en-platane.html",
+  "destination": "/modele/le-grat?manche=platane&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/37-couteau-le-grat-en-frene-olive.html",
+  "destination": "/modele/le-grat?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/38-couteau-le-grat-en-prunier.html",
+  "destination": "/modele/le-grat?manche=prunier&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/39-couteau-le-grat-en-buis.html",
+  "destination": "/modele/le-grat?manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/41-duo-ariegeois-de-table-en-corne-noire.html",
+  "destination": "/modele/l-ariegeois-de-table?format=duo&manche=corne-noire"
+ },
+ {
+  "source": "/fr/accueil/42-coffret-de-ariegeois-de-table-corne-noire.html",
+  "destination": "/modele/l-ariegeois-de-table?format=coffret-6&manche=corne-noire"
+ },
+ {
+  "source": "/fr/prestiges/48-couteau-l-ariegeois-et-lame-rwl34.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=corne-blonde&lame=damas"
+ },
+ {
+  "source": "/fr/prestiges/51-couteau-le-roques-damas.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=corne-blonde&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/52-couteau-phasme.html",
+  "destination": "/modele/le-phasme?manche=bois-de-fer-arizona&lame=damas"
+ },
+ {
+  "source": "/fr/tables/59-ariegeois-de-table-en-bois-de-cerf.html",
+  "destination": "/modele/l-ariegeois-de-table?format=coffret-6&manche=bois-de-cerf"
+ },
+ {
+  "source": "/fr/accueil/68-grat-office.html",
+  "destination": "/produit/grat-office?manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/69-grat-office.html",
+  "destination": "/produit/grat-office?manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/70-grat-office.html",
+  "destination": "/produit/grat-office?manche=prunier&lame=XC75"
+ },
+ {
+  "source": "/fr/accueil/71-grat-office.html",
+  "destination": "/produit/grat-office?manche=platane&lame=XC75"
+ },
+ {
+  "source": "/fr/accueil/72-grat-office.html",
+  "destination": "/produit/grat-office?manche=olivier&lame=XC75"
+ },
+ {
+  "source": "/fr/accueil/73-grat-office.html",
+  "destination": "/produit/grat-office?manche=buis&lame=XC75"
+ },
+ {
+  "source": "/fr/accueil/82-couteau-ariegeois-cran-plat-bouleau.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bouleau&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/87-couteau-ariegeois-pliant-cran-plat-ebene-royal.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=ebene-royal&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/89-coffret-de-6-grat-de-table.html",
+  "destination": "/modele/le-grat-de-table?format=coffret-6&manche=bois-assortis"
+ },
+ {
+  "source": "/fr/accueil/94-couteau-phasme.html",
+  "destination": "/modele/le-phasme?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/99-prestation-atelier.html",
+  "destination": "/produit/prestation-atelier"
+ },
+ {
+  "source": "/fr/le-grat/103-couteau-le-grat-en-corne-blonde-capucin.html",
+  "destination": "/modele/le-grat?manche=corne-blonde&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/105-couteau-phasme.html",
+  "destination": "/modele/le-phasme?manche=ebene-royal&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/109-coffret-de-6-ariegeois-de-table.html",
+  "destination": "/modele/l-ariegeois-de-table?format=unite&manche=bois"
+ },
+ {
+  "source": "/fr/accueil/110-couteau-ariegeois-pliant-cran-plat-bois-de-fer-d-arizona.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bois-de-fer-arizona&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/113-couteau-fixe-le-bosc.html",
+  "destination": "/produit/le-bosc?manche=bois-de-fer-arizona"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/116-coupe-choux.html",
+  "destination": "/produit/coupe-choux?manche=noyer"
+ },
+ {
+  "source": "/fr/accueil/118-couteau-de-table-calla.html",
+  "destination": "/produit/le-calla?format=unite&manche=corian-blanc"
+ },
+ {
+  "source": "/fr/accueil/122-couteau-le-phasme-bocote.html",
+  "destination": "/modele/le-phasme?manche=bocote&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/124-couteau-ariegeois-cran-plat-loupe-noyer.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=loupe-de-noyer&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/128-coffret-grat-de-table-corne-noire.html",
+  "destination": "/modele/le-grat-de-table?format=coffret-6&manche=corne-noire"
+ },
+ {
+  "source": "/fr/accessoires-pour-couteaux/129-etuis-en-cuir.html",
+  "destination": "/produit/etui-en-cuir-port-horizontal"
+ },
+ {
+  "source": "/fr/fixes/130-le-charognard.html",
+  "destination": "/produit/le-charognard?manche=paperstone"
+ },
+ {
+  "source": "/fr/accueil/131-couteau-l-ariegeois-systeme-olivier.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/132-couteau-l-ariegeois-corne-noire-systeme-damas.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=corne-noire&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/133-couteau-ariegeois-cran-plat-bouleau.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=ebene&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/134-couteau-phasme.html",
+  "destination": "/modele/le-phasme?manche=ebene&lame=14C28"
+ },
+ {
+  "source": "/fr/le-grat/135-couteau-le-grat-en-corne-noire-capucin.html",
+  "destination": "/modele/le-grat?manche=corne-noire&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/136-couteau-montagnol-chene.html",
+  "destination": "/modele/le-montagnol?manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/145-couteau-chef-savignac.html",
+  "destination": "/produit/grat-cuisine?manche=corian-noir&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/146-grat-cuisine-chene.html",
+  "destination": "/produit/grat-cuisine?manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/147-grat-office.html",
+  "destination": "/produit/grat-office?manche=corian-noir&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/149-couteau-le-phasme-bois-de-fer.html",
+  "destination": "/modele/le-phasme?manche=bois-de-fer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/150-couteau-le-phasme-tout-intox.html",
+  "destination": "/modele/le-phasme?manche=tout-inox&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/152-grat-cuisine-en-buis.html",
+  "destination": "/produit/grat-cuisine?manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/153-grat-cuisine-platane.html",
+  "destination": "/produit/coffret-chef-office-grat?manche=chene"
+ },
+ {
+  "source": "/fr/accueil/154-couteau-a-fromage-platane.html",
+  "destination": "/produit/couteau-a-fromage?manche=platane&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/155-couteau-fromage-buis.html",
+  "destination": "/produit/couteau-a-fromage?manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/156-couteau-fromage-frene.html",
+  "destination": "/produit/couteau-a-fromage?manche=chene&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/157-ariegeois-cran-plat-tout-intox.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=tout-inox&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/158-couteau-a-fromage-olivier.html",
+  "destination": "/produit/couteau-a-fromage?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/160-couteau-l-ariegeois-systeme-buis.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=buis&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/161-couteau-l-ariegeois-systeme-bois-de-fer.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bois-de-fer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/162-couteau-le-phasme-ebene-royal.html",
+  "destination": "/modele/le-phasme?manche=ebene-royal&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/163-couteau-l-ariegeois-systeme-becote.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bocote&lame=14C28"
+ },
+ {
+  "source": "/fr/l-ariegeois-de-table/165-coffret-de-6-ariegeois-de-table-bois-assortis.html",
+  "destination": "/modele/l-ariegeois-de-table?format=coffret-6&manche=bois-assortis"
+ },
+ {
+  "source": "/fr/accueil/166-couteau-l-ariegeois-systeme-bi-matiere.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bi-matiere&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/167-couteau-l-ariegeois-systeme-bois-de-fer.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=loupe-de-noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/168-couteau-l-ariegeois-systeme-bois-de-fer.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=erable-onde&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/169-couteau-l-ariegeois-systeme-bouleau-madre-stabilise.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bouleau-madre-stabilise&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/170-couteau-l-ariegeois-systeme-corne-noire.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=corne-noire&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/172-couteau-le-phasme-bocote.html",
+  "destination": "/modele/le-phasme?manche=erable-onde&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/173-couteau-le-phasme-loupe-de-noyer.html",
+  "destination": "/modele/le-phasme?manche=loupe-de-noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/174-grat-cuisine-en-prunier.html",
+  "destination": "/produit/grat-cuisine?manche=prunier&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/175-grat-cuisine-en-noyer.html",
+  "destination": "/produit/grat-cuisine?manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/176-grat-cuisine-en-olivier.html",
+  "destination": "/produit/grat-cuisine?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/177-grat-cuisine-en-platane.html",
+  "destination": "/produit/grat-cuisine?manche=platane&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/178-couteau-a-fromage-prunier.html",
+  "destination": "/produit/couteau-a-fromage?manche=prunier&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/179-couteau-l-ariegeois-systeme-corne-de-belier-noire.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=corne-belier&lame=14C28"
+ },
+ {
+  "source": "/fr/l-ariegeois-de-table/180-coffret-de-6-ariegeois-de-table-en-corian.html",
+  "destination": "/modele/l-ariegeois-de-table?format=coffret-6&manche=corian-blanc"
+ },
+ {
+  "source": "/fr/accueil/181-couteau-l-ariegeois-systeme-corne-de-belier-noire.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bois-de-cerf&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/182-couteau-l-ariegeois-systeme-ivoire-de-phacochere.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=ivoire-phacochere&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/184-couteau-l-ariegeois-systeme-bi-matiere.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bi-matiere-bocote&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/186-couteau-l-ariegeois-systeme-olivier.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/188-couteau-l-ariegeois-systeme-bi-matiere-ebene-royal.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bi-matiere-ebene-royal&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/189-couteau-le-roques-corne-noire-a-facettes.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=corne-noire-facettes&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/191-couteau-l-ariegeois-systeme-palmier-noir.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=palmier-noir&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-ariegeois/192-couteau-ariegeois-corne-noire.html",
+  "destination": "/modele/l-ariegeois?mecanisme=friction&manche=corne-noire-facettes&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/193-couteau-le-grat-corne-noire-a-facettes.html",
+  "destination": "/modele/le-grat?manche=corne-noire-facettes&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/194-couteau-ariegeois-cran-plat-loupe-d-erable.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=loupe-d-erable&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/195-couteau-l-ariegeois-bocote-osage-systeme-damas.html",
+  "destination": "/modele/l-ariegeois?mecanisme=cran-plat&manche=bocote-osage&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/196-coffret-de-6-roques-de-table-en-corian-noir.html",
+  "destination": "/modele/le-roques-de-table?format=coffret-6&manche=corian-noir"
+ },
+ {
+  "source": "/fr/accueil/197-couteau-montagnol-olivier.html",
+  "destination": "/modele/le-montagnol?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/198-le-capi.html",
+  "destination": "/modele/le-capi?manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/199-le-capi.html",
+  "destination": "/modele/le-capi?manche=bi-matiere-ebene-royal&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/200-le-capi.html",
+  "destination": "/modele/le-capi?manche=tout-inox&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/201-le-capi.html",
+  "destination": "/modele/le-capi?manche=olivier&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/202-le-capi.html",
+  "destination": "/modele/le-capi?manche=ebene&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/203-le-capi.html",
+  "destination": "/modele/le-capi?manche=fibre-de-carbone&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/204-le-capi.html",
+  "destination": "/modele/le-capi?manche=ebene-royal&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/205-le-capi.html",
+  "destination": "/modele/le-capi?manche=corne-noire&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/206-le-capi.html",
+  "destination": "/modele/le-capi?manche=chene-vert&lame=damas"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/208-le-capi.html",
+  "destination": "/modele/le-capi?manche=corne-blonde&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/209-le-capi.html",
+  "destination": "/modele/le-capi?manche=bocote&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/210-le-capi.html",
+  "destination": "/modele/le-capi?manche=chene-fonce&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/211-le-capi.html",
+  "destination": "/modele/le-capi?manche=bois-de-serpent&lame=14C28"
+ },
+ {
+  "source": "/fr/couteau-pliants-poches/212-le-capi.html",
+  "destination": "/modele/le-capi?manche=bouleau&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/213-couteau-montagnol-noyer.html",
+  "destination": "/modele/le-montagnol?manche=noyer&lame=14C28"
+ },
+ {
+  "source": "/fr/accueil/214-couteau-le-roques-corne-noire-a-facettes.html",
+  "destination": "/modele/le-roques?mecanisme=friction&manche=corne-noire-facettes&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/215-couteau-le-phasme-palmier-damas.html",
+  "destination": "/modele/le-phasme?manche=palmier&lame=damas"
+ },
+ {
+  "source": "/fr/accueil/217-couteau-le-phasme-chene-ebonise.html",
+  "destination": "/modele/le-phasme?manche=chene-ebonise&lame=XC75"
+ },
+ {
+  "source": "/fr/accueil/220-couteau-le-roques-systeme-olivier.html",
+  "destination": "/modele/le-roques?mecanisme=cran-plat&manche=fat-carbon-rouge&lame=14C28"
+ }
+]

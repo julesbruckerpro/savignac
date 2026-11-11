@@ -1,0 +1,243 @@
+[
+ {
+  "from": "pack/archives/archive-acte.jpg",
+  "to": "archives/archive-acte.jpg"
+ },
+ {
+  "from": "pack/archives/archive-auguste-meule.jpg",
+  "to": "archives/archive-auguste-meule.jpg"
+ },
+ {
+  "from": "pack/archives/archive-facade-1920.jpg",
+  "to": "archives/archive-facade-1920.jpg"
+ },
+ {
+  "from": "pack/archives/archive-ferdinand-grat.jpg",
+  "to": "archives/archive-ferdinand-grat.jpg"
+ },
+ {
+  "from": "pack/archives/archive-foix-carte.jpg",
+  "to": "archives/archive-foix-carte.jpg"
+ },
+ {
+  "from": "pack/archives/archive-vitrine-1920.jpg",
+  "to": "archives/archive-vitrine-1920.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-1.jpg",
+  "to": "atelier/atelier-1.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-2.jpg",
+  "to": "atelier/atelier-2.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-3.jpg",
+  "to": "atelier/atelier-3.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-4.jpg",
+  "to": "atelier/atelier-4.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-5.jpg",
+  "to": "atelier/atelier-5.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-artisan-nb.jpg",
+  "to": "atelier/atelier-artisan-nb.jpg"
+ },
+ {
+  "from": "pack/atelier/atelier-panorama.jpg",
+  "to": "atelier/atelier-panorama.jpg"
+ },
+ {
+  "from": "pack/boutique/boutique-angle.jpg",
+  "to": "boutique/boutique-angle.jpg"
+ },
+ {
+  "from": "pack/boutique/boutique-facade.jpg",
+  "to": "boutique/boutique-facade.jpg"
+ },
+ {
+  "from": "pack/boutique/boutique-interieur.jpg",
+  "to": "boutique/boutique-interieur.jpg"
+ },
+ {
+  "from": "pack/paysage/montagne-nb.jpg",
+  "to": "paysage/montagne-nb.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Baptème_Roques_jean_18_avr_1786_Foix.JPG",
+  "to": "archives/archive-bapteme-jean-1786.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Baptème_Roques_pierre_31_dec_1788_Foix.JPG",
+  "to": "archives/archive-bapteme-pierre-1788.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Buvard-original2.jpg",
+  "to": "archives/archive-buvard.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Couple_1929_restauré_sépia.jpg",
+  "to": "archives/archive-couple-1929.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Mariage_Grat_Savignac_19_jul_1864_Mas_dAzil_1.JPG",
+  "to": "archives/archive-mariage-grat-savignac-1864.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Mariage_Grat_jean_pierre_Roques_Jeanne_Foix_4_fev_1833_1.JPG",
+  "to": "archives/archive-mariage-grat-roques-1833.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Matrice_Cadastrale_propriété_Roques_François.JPG",
+  "to": "archives/archive-matrice-cadastrale.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Naissance_Roques_Bernard_Foix_9_déc_1796_1.JPG",
+  "to": "archives/archive-naissance-bernard-1796.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Photos_iphone_Olivier_300613_336.JPG",
+  "to": "archives/archive-boutique-angle-1.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__HISTORIQUE_Photos_iphone_Olivier_300613_340.JPG",
+  "to": "archives/archive-boutique-angle-2.jpg"
+ },
+ {
+  "from": "raw/cms-img/etablissements__ATELIER_17_AVANT_10H.jpg",
+  "to": "atelier/atelier-17-etabli.jpg"
+ },
+ {
+  "from": "raw/cms-img/etablissements__ATELIER_17_LONGUEUR_2_10H.jpg",
+  "to": "atelier/atelier-17-longueur.jpg"
+ },
+ {
+  "from": "raw/cms-img/etablissements__ATELIER_17_MARCHANDS_PANORAMIQUE_10H.jpg",
+  "to": "atelier/atelier-17-panorama.jpg"
+ },
+ {
+  "from": "raw/cms-img/etablissements__BOUTIQUE_SAVIGNAC_15_INTERIEUR_10H.jpg",
+  "to": "boutique/boutique-15-interieur.jpg"
+ },
+ {
+  "from": "raw/cms-img/historique__Sav_160405_113974_-_copie_copie_copie_copie.jpg",
+  "to": "boutique/boutique-15-angle.jpg"
+ },
+ {
+  "from": "raw/cms-img/etablissements__FACADE_SAVIGNAC_MAISON_14_MARCHANDS_10H.jpg",
+  "to": "boutique/savignac-maison-14.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__ATELIER_ACIER_10H_1.jpeg",
+  "to": "atelier/peysales-acier.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__ATELIER_BOIS_10H.jpg",
+  "to": "atelier/peysales-bois.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__ATELIER_BOIS_1_10H.jpg",
+  "to": "atelier/peysales-bois-2.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__ATELIER_DEBIT_10H.jpg",
+  "to": "atelier/peysales-debit.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__ATELIER_PEYSALES_10H.jpg",
+  "to": "atelier/peysales-atelier.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__ATELIER_SHOWROOM_10H.jpg",
+  "to": "atelier/peysales-verriere.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__PRODUCTION_PEYSALES_PANO_10H.jpg",
+  "to": "atelier/peysales-panorama.jpg"
+ },
+ {
+  "from": "raw/cms-img/peysales__SHOWROOM_PEYSALES_10H.jpg",
+  "to": "atelier/peysales-showroom.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_14_RD_MANCHE_TABLE.jpg",
+  "to": "atelier/production-manche-table.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_DAMAS_EN_COURS.jpg",
+  "to": "atelier/production-damas-en-cours.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_DEBIT_BOIS.jpg",
+  "to": "atelier/production-debit-bois.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_DEBIT_CERF.jpg",
+  "to": "atelier/production-debit-cerf.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_DELPH_AU_DEBIT.jpg",
+  "to": "atelier/production-au-debit.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_FAB_PHASME.jpg",
+  "to": "atelier/production-fab-phasme.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_JULIEN_CNC.jpg",
+  "to": "atelier/production-cnc.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_JULIEN_DEBIT.jpg",
+  "to": "atelier/production-scie.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_Olivier_et_phasmes_10H.jpg",
+  "to": "atelier/production-olivier-phasmes.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_PLAQUETTE_ROQUES_CNC.jpg",
+  "to": "atelier/production-plaquettes-roques.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_PROTO_ROQUES_TABLE.jpg",
+  "to": "atelier/production-proto-roques-table.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_SYSTEME_EN_COURS.jpg",
+  "to": "atelier/production-systeme-en-cours.jpg"
+ },
+ {
+  "from": "raw/cms-img/production-locale__PRODUCTION_SYSTEME_FINITION.jpg",
+  "to": "atelier/production-systeme-finition.jpg"
+ },
+ {
+  "from": "raw/cms-img/brevets__Ariégeois.jpg",
+  "to": "brevets/dessin-ariegeois.jpg",
+  "noTrim": true
+ },
+ {
+  "from": "raw/cms-img/brevets__Cathare.jpg",
+  "to": "brevets/dessin-cathare.jpg",
+  "noTrim": true
+ },
+ {
+  "from": "raw/cms-img/brevets__Grat.jpg",
+  "to": "brevets/dessin-grat.jpg",
+  "noTrim": true
+ },
+ {
+  "from": "raw/cms-img/brevets__Roques.jpg",
+  "to": "brevets/dessin-roques.jpg",
+  "noTrim": true
+ },
+ {
+  "from": "raw/cms-img/fabrication-illustree__BD1-fabrication-couteau.jpg",
+  "to": "presse/bd-fabrication.jpg",
+  "noTrim": true
+ }
+]

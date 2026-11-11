@@ -1,0 +1,8027 @@
+[
+ {
+  "id": "1",
+  "title": "Couteau l'Ariégeois corne noire",
+  "price": 9200,
+  "path": "/fr/couteau-ariegeois/1-couteau-ariegeois-corne-noire.html",
+  "categories": [
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10200
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "2",
+  "title": "Couteau en corne blonde l'Ariégeois",
+  "price": 10500,
+  "path": "/fr/couteau-ariegeois/2-couteau-ariegeois-corne-blonde.html",
+  "categories": [
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 13100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 13100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 13500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 13500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 12700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 12700
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "3",
+  "title": "Couteau l'Ariégeois chêne",
+  "price": 7100,
+  "path": "/fr/couteau-ariegeois/3-couteau-ariegeois-chene.html",
+  "categories": [
+   "12",
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75",
+    "Damasteel"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 31500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 32500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 31900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 32900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 31100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 32100
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "4",
+  "title": "Couteau l'Ariégeois noyer",
+  "price": 7100,
+  "path": "/fr/couteau-ariegeois/4-couteau-ariegeois-noyer.html",
+  "categories": [
+   "12",
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "5",
+  "title": "Couteau l'Ariégeois platane",
+  "price": 7100,
+  "path": "/fr/couteau-ariegeois/5-couteau-ariegeois-chene.html",
+  "categories": [
+   "12",
+   "16"
+  ],
+  "inStock": false,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "6",
+  "title": "Couteau l'Ariégeois olivier",
+  "price": 7100,
+  "path": "/fr/couteau-ariegeois/6-couteau-pliant-ariegeois-frene.html",
+  "categories": [
+   "12",
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "7",
+  "title": "Couteau l'Ariégeois Buis",
+  "price": 7100,
+  "path": "/fr/couteau-ariegeois/7-couteau-ariegeois-buis.html",
+  "categories": [
+   "12",
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "9",
+  "title": "Couteau l'Ariégeois prunier",
+  "price": 7100,
+  "path": "/fr/couteau-ariegeois/9-couteau-l-ariegeois-prunier.html",
+  "categories": [
+   "12",
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9300
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "10",
+  "title": "Gravure personnalisée sur lame",
+  "price": 1200,
+  "path": "/fr/accessoires-pour-couteaux/10-gravure-personnalisee-lame-couteau.html",
+  "categories": [
+   "15",
+   "36"
+  ],
+  "inStock": true,
+  "groups": {
+   "Type de gravure": [
+    "Bâton #Iskoola Pola",
+    "Moderne #Apalu",
+    "Manuscrit #Exmouth",
+    "Bâton moderne #Gabriola"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Type de gravure": "Bâton #Iskoola Pola"
+    },
+    "price": 1200
+   },
+   {
+    "attrs": {
+     "Type de gravure": "Moderne #Apalu"
+    },
+    "price": 1200
+   },
+   {
+    "attrs": {
+     "Type de gravure": "Manuscrit #Exmouth"
+    },
+    "price": 1200
+   },
+   {
+    "attrs": {
+     "Type de gravure": "Bâton moderne #Gabriola"
+    },
+    "price": 1200
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "11",
+  "title": "Fourreaux en cuir",
+  "price": 1200,
+  "path": "/fr/accessoires-pour-couteaux/11-fourreau-en-cuir.html",
+  "categories": [
+   "15",
+   "33"
+  ],
+  "inStock": true,
+  "groups": {
+   "Couleur de l'accessoire": [
+    "Noir",
+    "Marron"
+   ],
+   "Taille": [
+    "Petit",
+    "Grand"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Couleur de l'accessoire": "Noir",
+     "Taille": "Petit"
+    },
+    "price": 1200
+   },
+   {
+    "attrs": {
+     "Couleur de l'accessoire": "Marron",
+     "Taille": "Petit"
+    },
+    "price": 1200
+   },
+   {
+    "attrs": {
+     "Couleur de l'accessoire": "Noir",
+     "Taille": "Grand"
+    },
+    "price": 1200
+   },
+   {
+    "attrs": {
+     "Couleur de l'accessoire": "Marron",
+     "Taille": "Grand"
+    },
+    "price": 1200
+   }
+  ],
+  "views": 7
+ },
+ {
+  "id": "12",
+  "title": "Etuis en cuir port horizontal ou vertical",
+  "price": 2700,
+  "path": "/fr/accessoires-pour-couteaux/12-etuis-en-cuir.html",
+  "categories": [
+   "15",
+   "33"
+  ],
+  "inStock": true,
+  "groups": {
+   "Couleur de l'accessoire": [
+    "Noir",
+    "Marron"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Couleur de l'accessoire": "Noir"
+    },
+    "price": 2700
+   },
+   {
+    "attrs": {
+     "Couleur de l'accessoire": "Marron"
+    },
+    "price": 2700
+   }
+  ],
+  "views": 9
+ },
+ {
+  "id": "13",
+  "title": "Pierre à aiguiser des Pyrénées",
+  "price": 900,
+  "path": "/fr/accessoires-pour-couteaux/13-pierre-naturelle-a-aiguiser.html",
+  "categories": [
+   "15",
+   "35"
+  ],
+  "inStock": true,
+  "groups": {
+   "Pierre à aiguiser": [
+    "Pierre naturelle à aiguiser PM",
+    "Pierre naturelle à aiguiser MM",
+    "Pierre naturelle à aiguiser GM"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre naturelle à aiguiser PM"
+    },
+    "price": 600
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre naturelle à aiguiser MM"
+    },
+    "price": 900
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre naturelle à aiguiser GM"
+    },
+    "price": 1400
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "14",
+  "title": "Pierre à aiguiser synthétique",
+  "price": 1800,
+  "path": "/fr/accessoires-pour-couteaux/14-pierre-synthetique-a-aiguiser.html",
+  "categories": [
+   "15",
+   "35"
+  ],
+  "inStock": true,
+  "groups": {
+   "Pierre à aiguiser": [
+    "Pierre synthétique corindon PM",
+    "Pierre synthétique corindon MM",
+    "Pierre synthétique corindon GM"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre synthétique corindon PM"
+    },
+    "price": 1800
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre synthétique corindon MM"
+    },
+    "price": 3500
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre synthétique corindon GM"
+    },
+    "price": 5900
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "17",
+  "title": "Couteau le Cathare chêne",
+  "price": 7300,
+  "path": "/fr/le-cathare/17-couteau-cathare-chene.html",
+  "categories": [
+   "12",
+   "19"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "18",
+  "title": "Couteau le Cathare noyer",
+  "price": 7300,
+  "path": "/fr/le-cathare/18-couteau-cathare-noyer.html",
+  "categories": [
+   "12",
+   "19"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "19",
+  "title": "Couteau le Cathare platane",
+  "price": 7300,
+  "path": "/fr/le-cathare/19-couteau-cathare-platane.html",
+  "categories": [
+   "12",
+   "19"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "20",
+  "title": "Couteau le Cathare olivier",
+  "price": 7300,
+  "path": "/fr/le-cathare/20-couteau-cathare-frene-olive.html",
+  "categories": [
+   "12",
+   "19"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "21",
+  "title": "Couteau le cathare prunier",
+  "price": 7300,
+  "path": "/fr/le-cathare/21-couteau-le-cathare-prunier.html",
+  "categories": [
+   "12",
+   "19"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "22",
+  "title": "Couteau le cathare buis",
+  "price": 7300,
+  "path": "/fr/le-cathare/22-couteau-le-cathare-buis.html",
+  "categories": [
+   "12",
+   "19"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir grand modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "23",
+  "title": "Ciselage",
+  "price": 400,
+  "path": "/fr/accessoires-pour-couteaux/23-guillochage.html",
+  "categories": [
+   "15",
+   "45"
+  ],
+  "inStock": true,
+  "groups": {
+   "Ciselage": [
+    "Ciselage Long",
+    "Ciselage court"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 800
+   },
+   {
+    "attrs": {
+     "Ciselage": "Ciselage court"
+    },
+    "price": 400
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "24",
+  "title": "Couteau le Roques corne noire",
+  "price": 9200,
+  "path": "/fr/le-roques/24-couteau-roques-corne-noire.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11400
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11400
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "25",
+  "title": "Couteau le Roques corne blonde",
+  "price": 10500,
+  "path": "/fr/le-roques/25-couteau-roques-corne-blonde.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 13100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 13100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 13500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 13500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 12700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 12700
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "26",
+  "title": "Couteau le Roques chêne",
+  "price": 7300,
+  "path": "/fr/le-roques/26-couteau-roques-chene.html",
+  "categories": [
+   "12",
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 228700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 228700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 229100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 229100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 228300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 228300
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "27",
+  "title": "Couteau le Roques noyer",
+  "price": 7300,
+  "path": "/fr/le-roques/27-couteau-le-roques-noyer.html",
+  "categories": [
+   "12",
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "28",
+  "title": "Couteau le Roques platane",
+  "price": 7300,
+  "path": "/fr/le-roques/28-couteau-le-roques-platane.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "29",
+  "title": "Couteau le Roques olivier",
+  "price": 7300,
+  "path": "/fr/le-roques/29-couteau-le-roques-platane.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "30",
+  "title": "Couteau le Roques prunier",
+  "price": 7300,
+  "path": "/fr/le-roques/30-couteau-le-roques-platane.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "31",
+  "title": "Couteau le Roques buis",
+  "price": 7300,
+  "path": "/fr/le-roques/31-couteau-le-roques-buis.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "34",
+  "title": "Couteau le Grat en chêne",
+  "price": 6900,
+  "path": "/fr/le-grat/34-couteau-le-grat-chene.html",
+  "categories": [
+   "12",
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "35",
+  "title": "Couteau le Grat en noyer",
+  "price": 6900,
+  "path": "/fr/le-grat/35-couteau-le-grat-en-noyer.html",
+  "categories": [
+   "12",
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "36",
+  "title": "Couteau le Grat en platane",
+  "price": 6900,
+  "path": "/fr/le-grat/36-couteau-le-grat-en-platane.html",
+  "categories": [
+   "12",
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "37",
+  "title": "Couteau le Grat en olivier",
+  "price": 6900,
+  "path": "/fr/le-grat/37-couteau-le-grat-en-frene-olive.html",
+  "categories": [
+   "12",
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "38",
+  "title": "Couteau le Grat en prunier",
+  "price": 6900,
+  "path": "/fr/le-grat/38-couteau-le-grat-en-prunier.html",
+  "categories": [
+   "12",
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "39",
+  "title": "Couteau le Grat en buis",
+  "price": 6900,
+  "path": "/fr/le-grat/39-couteau-le-grat-en-buis.html",
+  "categories": [
+   "12",
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 7300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 7700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 8700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 7900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9100
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "41",
+  "title": "Duo Ariégeois de table en corne noire",
+  "price": 18600,
+  "path": "/fr/accueil/41-duo-ariegeois-de-table-en-corne-noire.html",
+  "categories": [
+   "37",
+   "55"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "42",
+  "title": "Coffret de Ariégeois de table corne noire",
+  "price": 46200,
+  "path": "/fr/accueil/42-coffret-de-ariegeois-de-table-corne-noire.html",
+  "categories": [
+   "37",
+   "55"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "48",
+  "title": "Couteau l'Ariégeois Damas corne blonde",
+  "price": 29900,
+  "path": "/fr/prestiges/48-couteau-l-ariegeois-et-lame-rwl34.html",
+  "categories": [
+   "40"
+  ],
+  "inStock": true,
+  "availabilityText": "Veuillez nous contacter pour plus d'informations sur le délai",
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ],
+   "Choix du manche": [
+    "Corne blonde",
+    "Corne noire"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Choix du manche": "Corne blonde"
+    },
+    "price": 29900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele",
+     "Choix du manche": "Corne blonde"
+    },
+    "price": 30900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Choix du manche": "Corne noire"
+    },
+    "price": 29900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele",
+     "Choix du manche": "Corne noire"
+    },
+    "price": 30900
+   }
+  ],
+  "views": 7
+ },
+ {
+  "id": "51",
+  "title": "Couteau le Roques Damas",
+  "price": 29900,
+  "path": "/fr/prestiges/51-couteau-le-roques-damas.html",
+  "categories": [
+   "40"
+  ],
+  "inStock": true,
+  "availabilityText": "Veuillez nous contacter pour plus d'informations sur le délai",
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Choix du manche": [
+    "Corne blonde",
+    "Corne noire"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Choix du manche": "Corne blonde",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 30300
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir petit modele",
+     "Choix du manche": "Corne blonde",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 32500
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Choix du manche": "Corne noire",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 30300
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir petit modele",
+     "Choix du manche": "Corne noire",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 32500
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Choix du manche": "Corne blonde",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 30700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir petit modele",
+     "Choix du manche": "Corne blonde",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 32900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Choix du manche": "Corne noire",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 30700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir petit modele",
+     "Choix du manche": "Corne noire",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 32900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Choix du manche": "Corne blonde",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 29900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir petit modele",
+     "Choix du manche": "Corne blonde",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 32100
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Choix du manche": "Corne noire",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 29900
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir petit modele",
+     "Choix du manche": "Corne noire",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 32100
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "52",
+  "title": "Couteau le phasme Damas Bois de fer d'Arizona",
+  "price": 45000,
+  "path": "/fr/accueil/52-couteau-phasme.html",
+  "categories": [
+   "40",
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Veuillez nous contacter pour plus d'informations sur le délai",
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "59",
+  "title": "Ariégeois de table en bois de cerf",
+  "price": 56200,
+  "path": "/fr/tables/59-ariegeois-de-table-en-bois-de-cerf.html",
+  "categories": [
+   "37"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 2
+ },
+ {
+  "id": "68",
+  "title": "Grat office noyer",
+  "price": 6800,
+  "path": "/fr/accueil/68-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 6800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 6800
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "69",
+  "title": "Grat office chêne",
+  "price": 6800,
+  "path": "/fr/accueil/69-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 6800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 6800
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "70",
+  "title": "Grat office prunier",
+  "price": 6800,
+  "path": "/fr/accueil/70-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 6800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 6800
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "71",
+  "title": "Grat office platane",
+  "price": 6800,
+  "path": "/fr/accueil/71-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 6800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 6800
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "72",
+  "title": "Grat office olivier",
+  "price": 6800,
+  "path": "/fr/accueil/72-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 6800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 6800
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "73",
+  "title": "Grat office buis",
+  "price": 6800,
+  "path": "/fr/accueil/73-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 6800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 6800
+   }
+  ],
+  "views": 1
+ },
+ {
+  "id": "82",
+  "title": "Couteau l'Ariégeois système bouleau",
+  "price": 17000,
+  "path": "/fr/accueil/82-couteau-ariegeois-cran-plat-bouleau.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 2 semaines",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28"
+   ],
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 17000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 19700
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "87",
+  "title": "Couteau l'Ariégeois système Ebène Royal",
+  "price": 19000,
+  "path": "/fr/accueil/87-couteau-ariegeois-pliant-cran-plat-ebene-royal.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28"
+   ],
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "89",
+  "title": "Coffret de Grat de table en bois assortis",
+  "price": 39900,
+  "path": "/fr/accueil/89-coffret-de-6-grat-de-table.html",
+  "categories": [
+   "37",
+   "42"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 7
+ },
+ {
+  "id": "94",
+  "title": "Couteau le Phasme Olivier",
+  "price": 14000,
+  "path": "/fr/accueil/94-couteau-phasme.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 14000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 14000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 16000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 16000
+   }
+  ],
+  "views": 10
+ },
+ {
+  "id": "99",
+  "title": "Prestation Atelier",
+  "price": 500,
+  "path": "/fr/accueil/99-prestation-atelier.html",
+  "categories": [
+   "15"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "103",
+  "title": "Couteau le Grat en corne blonde",
+  "price": 10200,
+  "path": "/fr/le-grat/103-couteau-le-grat-en-corne-blonde-capucin.html",
+  "categories": [
+   "18"
+  ],
+  "inStock": false,
+  "availabilityText": "Ce produit n'est plus en stock",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Sans Ciselage",
+    "Ciselage Long",
+    "Ciselage court"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 12400
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 11200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 12400
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 13200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 12000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 13200
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 12800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 10600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 12800
+   }
+  ],
+  "views": 7
+ },
+ {
+  "id": "105",
+  "title": "Couteau le phasme Damas Ébène Royal",
+  "price": 45000,
+  "path": "/fr/accueil/105-couteau-phasme.html",
+  "categories": [
+   "40",
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Veuillez nous contacter pour plus d'informations sur le délai",
+  "groups": {
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 45000
+   },
+   {
+    "attrs": {
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 47000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "109",
+  "title": "Ariégeois de table",
+  "price": 7400,
+  "path": "/fr/accueil/109-coffret-de-6-ariegeois-de-table.html",
+  "categories": [
+   "37",
+   "55"
+  ],
+  "inStock": false,
+  "availabilityText": "Ce produit n'est plus en stock",
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "110",
+  "title": "Couteau Ariégeois pliant cran plat Bois de fer D'Arizona",
+  "price": 47000,
+  "path": "/fr/accueil/110-couteau-ariegeois-pliant-cran-plat-bois-de-fer-d-arizona.html",
+  "categories": [
+   "40"
+  ],
+  "inStock": true,
+  "availabilityText": "Veuillez nous contacter pour plus d'informations sur le délai",
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "113",
+  "title": "Couteau fixe Le Bosc",
+  "price": 25000,
+  "path": "/fr/accueil/113-couteau-fixe-le-bosc.html",
+  "categories": [
+   "44"
+  ],
+  "inStock": false,
+  "availabilityText": "Ce produit n'est plus en stock",
+  "groups": {
+   "Pierre à aiguiser": [
+    "Sans pierre à aiguiser",
+    "Pierre synthétique corindon PM"
+   ],
+   "Choix du manche": [
+    "Bois de fer d'arizona",
+    "Ebène royale"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Sans pierre à aiguiser",
+     "Choix du manche": "Bois de fer d'arizona"
+    },
+    "price": 25000
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Sans pierre à aiguiser",
+     "Choix du manche": "Ebène royale"
+    },
+    "price": 25000
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre synthétique corindon PM",
+     "Choix du manche": "Bois de fer d'arizona"
+    },
+    "price": 26200
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre synthétique corindon PM",
+     "Choix du manche": "Ebène royale"
+    },
+    "price": 26200
+   }
+  ],
+  "views": 8
+ },
+ {
+  "id": "116",
+  "title": "Coupe choux",
+  "price": 18000,
+  "path": "/fr/accessoires-pour-couteaux/116-coupe-choux.html",
+  "categories": [
+   "15",
+   "56"
+  ],
+  "inStock": false,
+  "availabilityText": "Ce produit n'est plus en stock",
+  "groups": {
+   "Choix du manche": [
+    "Noyer",
+    "Bouleau madré"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix du manche": "Noyer"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Bouleau madré"
+    },
+    "price": 18000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "118",
+  "title": "Couteau de table design le Calla",
+  "price": 54500,
+  "path": "/fr/accueil/118-couteau-de-table-calla.html",
+  "categories": [
+   "37",
+   "54"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix du manche": [
+    "Corian blanc",
+    "Corian Noir"
+   ],
+   "Assortiment de table": [
+    "Couteau à l'unité",
+    "Duo de table",
+    "Coffret de 6 couteaux"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc",
+     "Assortiment de table": "Couteau à l'unité"
+    },
+    "price": 10100
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc",
+     "Assortiment de table": "Duo de table"
+    },
+    "price": 19100
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc",
+     "Assortiment de table": "Coffret de 6 couteaux"
+    },
+    "price": 58100
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir",
+     "Assortiment de table": "Couteau à l'unité"
+    },
+    "price": 10100
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir",
+     "Assortiment de table": "Duo de table"
+    },
+    "price": 19100
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir",
+     "Assortiment de table": "Coffret de 6 couteaux"
+    },
+    "price": 54500
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "122",
+  "title": "Couteau le Phasme Bocote",
+  "price": 16000,
+  "path": "/fr/accueil/122-couteau-le-phasme-bocote.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 16000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 16000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 18000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "124",
+  "title": "Couteau Ariégeois cran plat loupe de noyer",
+  "price": 47000,
+  "path": "/fr/accueil/124-couteau-ariegeois-cran-plat-loupe-noyer.html",
+  "categories": [
+   "40"
+  ],
+  "inStock": true,
+  "availabilityText": "Merci de nous consulter pour informations 05 61 02 90 70",
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "128",
+  "title": "Coffret Grat de table corne noire",
+  "price": 45000,
+  "path": "/fr/accueil/128-coffret-grat-de-table-corne-noire.html",
+  "categories": [
+   "37",
+   "42"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 2
+ },
+ {
+  "id": "129",
+  "title": "Etui en cuir port horizontal",
+  "price": 2500,
+  "path": "/fr/accessoires-pour-couteaux/129-etuis-en-cuir.html",
+  "categories": [
+   "15",
+   "33"
+  ],
+  "inStock": true,
+  "groups": {
+   "ETUI CUIR PORT HORIZONTAL": [
+    "MILLESIME"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "ETUI CUIR PORT HORIZONTAL": "MILLESIME"
+    },
+    "price": 2500
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "130",
+  "title": "Le Charognard",
+  "price": 19900,
+  "path": "/fr/fixes/130-le-charognard.html",
+  "categories": [
+   "44"
+  ],
+  "inStock": true,
+  "groups": {
+   "Finition manche": [
+    "manche papertone"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Finition manche": "manche papertone"
+    },
+    "price": 19900
+   }
+  ],
+  "views": 8
+ },
+ {
+  "id": "131",
+  "title": "Couteau l'Ariégeois système Olivier",
+  "price": 15000,
+  "path": "/fr/accueil/131-couteau-l-ariegeois-systeme-olivier.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28"
+   ],
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 15000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 17700
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "132",
+  "title": "Couteau l'Ariégeois corne noire système damas",
+  "price": 47000,
+  "path": "/fr/accueil/132-couteau-l-ariegeois-corne-noire-systeme-damas.html",
+  "categories": [
+   "40"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1MOIS",
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "133",
+  "title": "Couteau l'Ariégeois système Ebène",
+  "price": 15000,
+  "path": "/fr/accueil/133-couteau-ariegeois-cran-plat-bouleau.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28"
+   ],
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 15000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 17700
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "134",
+  "title": "Couteau le Phasme Ebène",
+  "price": 14000,
+  "path": "/fr/accueil/134-couteau-phasme.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75",
+    "Damasteel"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 14000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 14000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 39000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 16000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 16000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 41000
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "135",
+  "title": "Couteau le Grat en corne noire",
+  "price": 8900,
+  "path": "/fr/le-grat/135-couteau-le-grat-en-corne-noire-capucin.html",
+  "categories": [
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ],
+   "Ciselage": [
+    "Ciselage court",
+    "Ciselage Long",
+    "Sans Ciselage"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 8900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 9900
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage court"
+    },
+    "price": 11100
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 9300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 10300
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Ciselage Long"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 8500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 9500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Etui en cuir petit modele",
+     "Ciselage": "Sans Ciselage"
+    },
+    "price": 10700
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "136",
+  "title": "COUTEAU MONTAGNOL CHENE",
+  "price": 4600,
+  "path": "/fr/accueil/136-couteau-montagnol-chene.html",
+  "categories": [
+   "12",
+   "65"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 4600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 4600
+   }
+  ],
+  "views": 7
+ },
+ {
+  "id": "145",
+  "title": "Grat cuisine corian",
+  "price": 14800,
+  "path": "/fr/accueil/145-couteau-chef-savignac.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "146",
+  "title": "Grat cuisine chêne",
+  "price": 14100,
+  "path": "/fr/accueil/146-grat-cuisine-chene.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "147",
+  "title": "Grat office corian",
+  "price": 6900,
+  "path": "/fr/accueil/147-grat-office.html",
+  "categories": [
+   "66"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix du manche": [
+    "Corian Noir",
+    "Corian blanc"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir"
+    },
+    "price": 6900
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc"
+    },
+    "price": 6900
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "149",
+  "title": "Couteau le Phasme Bois de fer",
+  "price": 18000,
+  "path": "/fr/accueil/149-couteau-le-phasme-bois-de-fer.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "150",
+  "title": "Couteau le Phasme tout inox",
+  "price": 12000,
+  "path": "/fr/accueil/150-couteau-le-phasme-tout-intox.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {},
+  "combos": [],
+  "views": 5
+ },
+ {
+  "id": "152",
+  "title": "Grat cuisine buis",
+  "price": 14100,
+  "path": "/fr/accueil/152-grat-cuisine-en-buis.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "153",
+  "title": "Coffret Chef + Office Grat",
+  "price": 19200,
+  "path": "/fr/accueil/153-grat-cuisine-platane.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix du manche": [
+    "Chêne",
+    "Noyer",
+    "Frêne",
+    "Prunier",
+    "Buis",
+    "Corian Noir",
+    "Corian blanc"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix du manche": "Chêne"
+    },
+    "price": 19200
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Noyer"
+    },
+    "price": 19200
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Frêne"
+    },
+    "price": 19200
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Prunier"
+    },
+    "price": 19200
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Buis"
+    },
+    "price": 19200
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir"
+    },
+    "price": 19900
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc"
+    },
+    "price": 19900
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "154",
+  "title": "Couteau à Fromage Platane",
+  "price": 12900,
+  "path": "/fr/accueil/154-couteau-a-fromage-platane.html",
+  "categories": [
+   "69"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "155",
+  "title": "Couteau à Fromage Buis",
+  "price": 12900,
+  "path": "/fr/accueil/155-couteau-fromage-buis.html",
+  "categories": [
+   "69"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 2
+ },
+ {
+  "id": "156",
+  "title": "Couteau à Fromage Chêne",
+  "price": 12900,
+  "path": "/fr/accueil/156-couteau-fromage-frene.html",
+  "categories": [
+   "69"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 2
+ },
+ {
+  "id": "157",
+  "title": "Couteau l'Ariégeois système tout inox",
+  "price": 12000,
+  "path": "/fr/accueil/157-ariegeois-cran-plat-tout-intox.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 12000
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 14700
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "158",
+  "title": "Couteau à Fromage Olivier",
+  "price": 12900,
+  "path": "/fr/accueil/158-couteau-a-fromage-olivier.html",
+  "categories": [
+   "69"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 2
+ },
+ {
+  "id": "160",
+  "title": "Couteau l'Ariégeois système Buis",
+  "price": 15000,
+  "path": "/fr/accueil/160-couteau-l-ariegeois-systeme-buis.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 15000
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 17700
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "161",
+  "title": "Couteau l'Ariégeois système Bois de fer",
+  "price": 19000,
+  "path": "/fr/accueil/161-couteau-l-ariegeois-systeme-bois-de-fer.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "162",
+  "title": "Couteau le Phasme Ebène Royal",
+  "price": 18000,
+  "path": "/fr/accueil/162-couteau-le-phasme-ebene-royal.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": false,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   }
+  ],
+  "views": 10
+ },
+ {
+  "id": "163",
+  "title": "Couteau l'Ariégeois système Bocote",
+  "price": 17000,
+  "path": "/fr/accueil/163-couteau-l-ariegeois-systeme-becote.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 17000
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 19700
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "165",
+  "title": "Coffret de 6 Ariégeois de table (bois assortis)",
+  "price": 41000,
+  "path": "/fr/l-ariegeois-de-table/165-coffret-de-6-ariegeois-de-table-bois-assortis.html",
+  "categories": [
+   "37",
+   "55"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 8
+ },
+ {
+  "id": "166",
+  "title": "Couteau l'Ariégeois système Bi-matière",
+  "price": 19000,
+  "path": "/fr/accueil/166-couteau-l-ariegeois-systeme-bi-matiere.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "167",
+  "title": "Couteau l'Ariégeois système Loupe de noyer",
+  "price": 19000,
+  "path": "/fr/accueil/167-couteau-l-ariegeois-systeme-bois-de-fer.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": false,
+  "availabilityText": "Ce produit n'est plus en stock",
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "168",
+  "title": "Couteau l'Ariégeois système Erable ondé",
+  "price": 19000,
+  "path": "/fr/accueil/168-couteau-l-ariegeois-systeme-bois-de-fer.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "169",
+  "title": "Couteau l'Ariégeois système Bouleau madré stabilisé",
+  "price": 19000,
+  "path": "/fr/accueil/169-couteau-l-ariegeois-systeme-bouleau-madre-stabilise.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "170",
+  "title": "Couteau l'Ariégeois système Corne Noire",
+  "price": 19000,
+  "path": "/fr/accueil/170-couteau-l-ariegeois-systeme-corne-noire.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "172",
+  "title": "Couteau le Phasme Erable ondé",
+  "price": 18000,
+  "path": "/fr/accueil/172-couteau-le-phasme-bocote.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "173",
+  "title": "Couteau le Phasme Loupe de noyer",
+  "price": 18000,
+  "path": "/fr/accueil/173-couteau-le-phasme-loupe-de-noyer.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 18000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 20000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "174",
+  "title": "Grat cuisine prunier",
+  "price": 14100,
+  "path": "/fr/accueil/174-grat-cuisine-en-prunier.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "175",
+  "title": "Grat cuisine Noyer",
+  "price": 14100,
+  "path": "/fr/accueil/175-grat-cuisine-en-noyer.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "176",
+  "title": "Grat cuisine Olivier",
+  "price": 14100,
+  "path": "/fr/accueil/176-grat-cuisine-en-olivier.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "177",
+  "title": "Grat cuisine Platane",
+  "price": 14100,
+  "path": "/fr/accueil/177-grat-cuisine-en-platane.html",
+  "categories": [
+   "68"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "178",
+  "title": "Couteau à Fromage Prunier",
+  "price": 12900,
+  "path": "/fr/accueil/178-couteau-a-fromage-prunier.html",
+  "categories": [
+   "69"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 1
+ },
+ {
+  "id": "179",
+  "title": "Couteau l'Ariégeois système Corne de Bélier",
+  "price": 20000,
+  "path": "/fr/accueil/179-couteau-l-ariegeois-systeme-corne-de-belier-noire.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 22700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 20000
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "180",
+  "title": "Coffret de 6 Ariégeois de table en Corian Noir",
+  "price": 42200,
+  "path": "/fr/l-ariegeois-de-table/180-coffret-de-6-ariegeois-de-table-en-corian.html",
+  "categories": [
+   "37",
+   "55"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix du manche": [
+    "Corian blanc",
+    "Corian Noir"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc"
+    },
+    "price": 42200
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir"
+    },
+    "price": 42200
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "181",
+  "title": "Couteau l'Ariégeois système Bois de cerf",
+  "price": 22000,
+  "path": "/fr/accueil/181-couteau-l-ariegeois-systeme-corne-de-belier-noire.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 24700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 22000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "182",
+  "title": "Couteau l'Ariégeois système Ivoire de Phacochère",
+  "price": 44000,
+  "path": "/fr/accueil/182-couteau-l-ariegeois-systeme-ivoire-de-phacochere.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 46200
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 44000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "184",
+  "title": "Couteau l'Ariégeois système Bi-matière Bocote",
+  "price": 19000,
+  "path": "/fr/accueil/184-couteau-l-ariegeois-systeme-bi-matiere.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "186",
+  "title": "Couteau l'Ariégeois système Noyer",
+  "price": 15000,
+  "path": "/fr/accueil/186-couteau-l-ariegeois-systeme-olivier.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28"
+   ],
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 17700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 15000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "188",
+  "title": "Couteau l'Ariégeois système Bi-matière Ebène-Royal",
+  "price": 19000,
+  "path": "/fr/accueil/188-couteau-l-ariegeois-systeme-bi-matiere-ebene-royal.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 21700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 19000
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "189",
+  "title": "Couteau le Roques corne noire à facettes",
+  "price": 11500,
+  "path": "/fr/accueil/189-couteau-le-roques-corne-noire-a-facettes.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Finition manche": [
+    "Finition manche mat",
+    "Finition manche brillant"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 12500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 12500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 12500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 12500
+   }
+  ],
+  "views": 6
+ },
+ {
+  "id": "191",
+  "title": "Couteau l'Ariégeois système Palmier noir",
+  "price": 17000,
+  "path": "/fr/accueil/191-couteau-l-ariegeois-systeme-palmier-noir.html",
+  "categories": [
+   "49"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Etui en cuir grand modele",
+    "Fourreau en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 19700
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 17000
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "192",
+  "title": "Couteau l'Ariégeois corne noire à facettes",
+  "price": 11500,
+  "path": "/fr/couteau-ariegeois/192-couteau-ariegeois-corne-noire.html",
+  "categories": [
+   "16"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Finition manche": [
+    "Finition manche mat",
+    "Finition manche brillant"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 12500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 12500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 12500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 11500
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 12500
+   }
+  ],
+  "views": 7
+ },
+ {
+  "id": "193",
+  "title": "Couteau le Grat corne noire à facettes",
+  "price": 10800,
+  "path": "/fr/accueil/193-couteau-le-grat-corne-noire-a-facettes.html",
+  "categories": [
+   "18"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Carbone XC75"
+   ],
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Finition manche": [
+    "Finition manche mat"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 10800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 11800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 10800
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 11800
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "194",
+  "title": "Couteau Ariégeois cran plat loupe d'érable Damas",
+  "price": 47000,
+  "path": "/fr/accueil/194-couteau-ariegeois-cran-plat-loupe-d-erable.html",
+  "categories": [
+   "40",
+   "49"
+  ],
+  "inStock": false,
+  "availabilityText": "Veuillez nous contacter pour plus d'informations sur le délai",
+  "groups": {
+   "Accessoires": [
+    "Fourreau en cuir grand modele",
+    "Etui en cuir grand modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele"
+    },
+    "price": 47000
+   },
+   {
+    "attrs": {
+     "Accessoires": "Etui en cuir grand modele"
+    },
+    "price": 49200
+   }
+  ],
+  "views": 5
+ },
+ {
+  "id": "195",
+  "title": "Couteau l'Ariégeois Bocote Osage système damas",
+  "price": 47000,
+  "path": "/fr/accueil/195-couteau-l-ariegeois-bocote-osage-systeme-damas.html",
+  "categories": [
+   "40"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {},
+  "combos": [],
+  "views": 5
+ },
+ {
+  "id": "196",
+  "title": "Coffret de 6 Roques de table en Corian Noir",
+  "price": 41000,
+  "path": "/fr/accueil/196-coffret-de-6-roques-de-table-en-corian-noir.html",
+  "categories": [
+   "37",
+   "71"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix du manche": [
+    "Corian Noir",
+    "Corian blanc"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix du manche": "Corian Noir"
+    },
+    "price": 41000
+   },
+   {
+    "attrs": {
+     "Choix du manche": "Corian blanc"
+    },
+    "price": 41000
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "197",
+  "title": "COUTEAU MONTAGNOL OLIVIER",
+  "price": 4600,
+  "path": "/fr/accueil/197-couteau-montagnol-olivier.html",
+  "categories": [
+   "12",
+   "65"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 4600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 4600
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "198",
+  "title": "Le Capi Noyer",
+  "price": 14000,
+  "path": "/fr/couteau-pliants-poches/198-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "199",
+  "title": "Le Capi Bi-matière (Ebène/Ebène Royale)",
+  "price": 18000,
+  "path": "/fr/couteau-pliants-poches/199-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "200",
+  "title": "Le Capi tout inox",
+  "price": 10000,
+  "path": "/fr/couteau-pliants-poches/200-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "201",
+  "title": "Le Capi Olivier",
+  "price": 14000,
+  "path": "/fr/couteau-pliants-poches/201-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "202",
+  "title": "Le Capi Ebène",
+  "price": 14000,
+  "path": "/fr/couteau-pliants-poches/202-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "203",
+  "title": "Le Capi Fibre de Carbone",
+  "price": 20000,
+  "path": "/fr/couteau-pliants-poches/203-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 5
+ },
+ {
+  "id": "204",
+  "title": "Le Capi Ebène Royale",
+  "price": 18000,
+  "path": "/fr/couteau-pliants-poches/204-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 5
+ },
+ {
+  "id": "205",
+  "title": "Le Capi Corne Noire",
+  "price": 18000,
+  "path": "/fr/couteau-pliants-poches/205-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "206",
+  "title": "Le Capi Chêne vert damas",
+  "price": 41000,
+  "path": "/fr/couteau-pliants-poches/206-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "208",
+  "title": "Le Capi Corne Blonde",
+  "price": 18000,
+  "path": "/fr/couteau-pliants-poches/208-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "209",
+  "title": "Le Capi Bocote",
+  "price": 16000,
+  "path": "/fr/couteau-pliants-poches/209-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "210",
+  "title": "Le Capi Chêne Foncé",
+  "price": 14000,
+  "path": "/fr/couteau-pliants-poches/210-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "211",
+  "title": "Le Capi Bois de serpent",
+  "price": 16000,
+  "path": "/fr/couteau-pliants-poches/211-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 3
+ },
+ {
+  "id": "212",
+  "title": "Le Capi Bouleau",
+  "price": 16000,
+  "path": "/fr/couteau-pliants-poches/212-le-capi.html",
+  "categories": [
+   "72"
+  ],
+  "inStock": true,
+  "groups": {},
+  "combos": [],
+  "views": 4
+ },
+ {
+  "id": "213",
+  "title": "COUTEAU MONTAGNOL NOYER",
+  "price": 4600,
+  "path": "/fr/accueil/213-couteau-montagnol-noyer.html",
+  "categories": [
+   "12",
+   "65"
+  ],
+  "inStock": true,
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75",
+    "Inoxydable 14C28"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75"
+    },
+    "price": 4600
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28"
+    },
+    "price": 4600
+   }
+  ],
+  "views": 4
+ },
+ {
+  "id": "214",
+  "title": "Couteau le Roques corne noire à facettes damas",
+  "price": 30500,
+  "path": "/fr/accueil/214-couteau-le-roques-corne-noire-a-facettes.html",
+  "categories": [
+   "17"
+  ],
+  "inStock": true,
+  "groups": {
+   "Accessoires": [
+    "Aucun (fourreau synthétique)",
+    "Fourreau en cuir grand modele"
+   ],
+   "Finition manche": [
+    "Finition manche mat",
+    "Finition manche brillant"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 30500
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche mat"
+    },
+    "price": 31500
+   },
+   {
+    "attrs": {
+     "Accessoires": "Aucun (fourreau synthétique)",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 30500
+   },
+   {
+    "attrs": {
+     "Accessoires": "Fourreau en cuir grand modele",
+     "Finition manche": "Finition manche brillant"
+    },
+    "price": 31500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "215",
+  "title": "Couteau le Phasme Palmier Damas",
+  "price": 43000,
+  "path": "/fr/accueil/215-couteau-le-phasme-palmier-damas.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": false,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Pierre à aiguiser": [
+    "Sans pierre à aiguiser",
+    "Pierre synthétique corindon PM"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Sans pierre à aiguiser"
+    },
+    "price": 43000
+   },
+   {
+    "attrs": {
+     "Pierre à aiguiser": "Pierre synthétique corindon PM"
+    },
+    "price": 44500
+   }
+  ],
+  "views": 3
+ },
+ {
+  "id": "217",
+  "title": "Couteau le Phasme Chêne Ebonisé",
+  "price": 19000,
+  "path": "/fr/accueil/217-couteau-le-phasme-chene-ebonise.html",
+  "categories": [
+   "50"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Carbone XC75"
+   ],
+   "Finition manche Phasme": [
+    "Manche plat arrondi",
+    "Manche large ergonomique"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche plat arrondi"
+    },
+    "price": 19000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Carbone XC75",
+     "Finition manche Phasme": "Manche large ergonomique"
+    },
+    "price": 21000
+   }
+  ],
+  "views": 2
+ },
+ {
+  "id": "220",
+  "title": "Couteau le Roques système Fat Carbon Rouge",
+  "price": 22000,
+  "path": "/fr/accueil/220-couteau-le-roques-systeme-olivier.html",
+  "categories": [
+   "59"
+  ],
+  "inStock": true,
+  "availabilityText": "Délai de fabrication : 1 semaine",
+  "groups": {
+   "Choix de la lame": [
+    "Inoxydable 14C28",
+    "Damasteel"
+   ],
+   "Accessoires": [
+    "Fourreau en cuir petit modele",
+    "Etui en cuir petit modele"
+   ]
+  },
+  "combos": [
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Fourreau en cuir petit modele"
+    },
+    "price": 22000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Inoxydable 14C28",
+     "Accessoires": "Etui en cuir petit modele"
+    },
+    "price": 24700
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Fourreau en cuir petit modele"
+    },
+    "price": 48000
+   },
+   {
+    "attrs": {
+     "Choix de la lame": "Damasteel",
+     "Accessoires": "Etui en cuir petit modele"
+    },
+    "price": 50700
+   }
+  ],
+  "views": 5
+ }
+]
