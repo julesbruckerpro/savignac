@@ -41,8 +41,8 @@
   "search": {
     "title": "Rechercher",
     "placeholder": "Un modèle, une matière, une page",
-    "empty": "Aucun résultat pour « {query} ».",
-    "hint": "Essayez « Roques », « corne », « damas », « revendeurs ».",
+    "empty": "Aucun résultat pour « {query} ».",
+    "hint": "Essayez « Roques », « corne », « damas », « revendeurs ».",
     "models": "Couteaux",
     "pages": "La Maison"
   },
@@ -96,9 +96,9 @@
     "cgv": "Conditions générales de vente",
     "legal": "Mentions légales",
     "privacy": "Confidentialité",
-    "combs": "Les peignes en corne : peigne-savignac.com",
+    "combs": "Les peignes en corne : peigne-savignac.com",
     "rights": "© Coutellerie Savignac",
-    "shopLabel": "La boutique « Le 15 »",
+    "shopLabel": "La boutique « Le 15 »",
     "follow": "Nous suivre"
   },
   "cart": {
@@ -107,7 +107,7 @@
     "view": "Voir le panier",
     "continue": "Continuer",
     "empty": "Votre panier attend son premier couteau.",
-    "engraving": "Gravure : « {text} »",
+    "engraving": "Gravure : « {text} »",
     "chisel": "Ciselage du dos de lame",
     "quantity": "Quantité",
     "decrease": "Retirer un exemplaire",

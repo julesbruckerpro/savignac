@@ -18,7 +18,7 @@ export const collections: Collection[] = [
     editorial: {
       title: 'Du capucin au cran plat.',
       columns: [
-        'Tous nos pliants descendent du capucin, le couteau à friction des bergers pyrénéens : une lame, un manche, deux clous. Ferdinand Grat le fabriquait à Foix au XIXᵉ siècle ; la Maison en a tiré L’Ariégeois, Le Cathare, Le Grat, Le Roques, Le Montagnol et Le Phasme.',
+        'Nos pliants à friction descendent du capucin, le couteau des bergers pyrénéens : une lame, un manche, deux clous. Ferdinand Grat le fabriquait à Foix au XIXᵉ siècle ; la Maison en a tiré L’Ariégeois, Le Cathare, Le Grat, Le Roques et Le Montagnol. Le Phasme, lui, s’inspire du coupe-chou.',
         'Les couteaux à système ajoutent un ressort : le cran plat maintient la lame ouverte et l’arrête à 90° avant de la refermer. C’est le mécanisme de L’Ariégeois cran plat, du Roques cran plat et du Capi.',
       ],
     },

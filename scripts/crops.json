@@ -1,13 +1,80 @@
 {
-  "ferme": {
-    "11": false, "87": false, "113": false, "130": false, "131": false, "133": false, "145": false, "154": false, "156": false,
-    "157": false, "161": false, "163": false, "167": false, "184": false, "186": false, "188": false, "189": false, "192": false,
-    "194": false, "195": false, "197": false, "199": false, "212": false, "213": false, "214": false, "220": false,
-    "105": 3
+ "ferme": {
+  "11": false,
+  "87": false,
+  "113": false,
+  "130": false,
+  "131": false,
+  "133": false,
+  "145": false,
+  "154": false,
+  "156": false,
+  "157": false,
+  "161": false,
+  "163": false,
+  "167": false,
+  "184": false,
+  "186": false,
+  "188": false,
+  "189": false,
+  "192": false,
+  "194": false,
+  "195": false,
+  "197": false,
+  "199": false,
+  "212": false,
+  "213": false,
+  "214": false,
+  "220": false,
+  "105": 3
+ },
+ "cover": {
+  "105": 1
+ },
+ "autoCover": [
+  "94",
+  "122",
+  "134",
+  "149",
+  "150",
+  "162",
+  "172",
+  "173",
+  "52",
+  "130",
+  "215",
+  "217"
+ ],
+ "rules": {
+  "pack/roques-facettes.jpg": {
+   "erase": [
+    [
+     1340,
+     330,
+     260,
+     80
+    ]
+   ]
   },
-  "cover": { "105": 1 },
-  "autoCover": ["94", "122", "134", "149", "150", "162", "172", "173", "52", "130", "215", "217"],
-  "rules": {
-    "pack/roques-facettes.jpg": { "erase": [[1340, 330, 260, 80]] }
+  "pack/ariegeois-corne-blonde.jpg": {
+   "erase": [
+    [
+     1330,
+     322,
+     270,
+     148
+    ]
+   ]
+  },
+  "pack/phasme-olivier.jpg": {
+   "erase": [
+    [
+     420,
+     70,
+     340,
+     50
+    ]
+   ]
   }
+ }
 }
