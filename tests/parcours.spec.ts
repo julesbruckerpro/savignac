@@ -9,7 +9,8 @@ async function noHorizontalScroll(page: Page) {
 
 test('accueil : promesse de la Maison et quatre familles, de 46 € au prestige', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/façonnés à Foix/);
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Le geste, avant tout/i);
+  await expect(page.getByText('Livraison offerte dès 100 € d’achat').first()).toBeVisible();
   const familles = page.locator('section[aria-labelledby="familles"]');
   await expect(familles.getByText('Le Montagnol')).toBeVisible();
   await expect(familles.getByText(euro('46 €'))).toBeVisible();
@@ -121,9 +122,10 @@ test('navigation : familles de produits séparées des rubriques éditoriales', 
   test.skip(!!isMobile, 'menu desktop');
   await page.goto('/');
   const nav = page.getByRole('navigation', { name: 'Navigation principale' }).first();
-  await expect(nav.getByRole('link', { name: 'Table & cuisine' })).toBeVisible();
-  await expect(nav.getByRole('link', { name: 'Revendeurs' })).toBeVisible();
-  await expect(nav.getByRole('link', { name: 'Presse' })).toHaveCount(0);
+  for (const name of ['Pliants', 'Table', 'Cuisine', 'Prestiges', 'À propos de Savignac']) await expect(nav.getByRole('link', { name, exact: true })).toBeVisible();
+  // la presse et les revendeurs vivent sous « À propos de Savignac », pas parmi les couteaux
+  await nav.getByRole('link', { name: 'À propos de Savignac' }).hover();
+  await expect(page.locator('[data-mega]').getByRole('link', { name: 'Nos revendeurs' })).toBeVisible();
 });
 
 test('Ariégeois à friction : expédié sous 48 h, livré avec son fourreau', async ({ page }) => {
@@ -142,4 +144,10 @@ test('revendeurs : recherche transmise depuis l’accueil', async ({ page }) => 
   await page.goto('/revendeurs?q=Toulouse');
   await expect(page.getByLabel('Ville ou code postal')).toHaveValue('Toulouse');
   await expect(page.getByText(/^5 adresses$/)).toBeVisible();
+});
+
+test('curseur : aucun curseur personnalisé', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('.cursor')).toHaveCount(0);
+  expect(await page.evaluate(() => getComputedStyle(document.body).cursor)).not.toBe('none');
 });

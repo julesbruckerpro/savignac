@@ -41,11 +41,20 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
   return [
     {
       id: 'poche',
-      label: t('poche'),
+      label: t('pliants'),
       href: '/couteaux/poche',
       columns: [
         { title: t('friction'), links: ['le-montagnol', 'l-ariegeois', 'le-grat', 'le-cathare', 'le-roques', 'le-phasme'].map(model) },
         { title: t('systeme'), links: ['l-ariegeois-cran-plat', 'le-roques-cran-plat', 'le-capi'].map(model) },
+        {
+          title: 'Aussi',
+          links: [
+            { label: 'Lames fixes', href: '/couteaux/fixes', price: from(19900) },
+            { label: 'Accessoires', href: '/couteaux/accessoires', price: from(400) },
+            { label: 'Gravure sur lame', href: '/produit/gravure-personnalisee-sur-lame', price: formatPriceShort(1200) },
+            { label: 'Idées cadeaux', href: '/idees-cadeaux' },
+          ],
+        },
       ],
       feature: {
         image: '/images/produits/site/87.jpg',
@@ -56,42 +65,27 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
       },
     },
     {
-      id: 'table-cuisine',
-      label: t('tableCuisine'),
-      href: '/couteaux/table-cuisine',
+      id: 'table',
+      label: t('tableShort'),
+      href: '/couteaux/table',
       columns: [
-        {
-          title: t('table'),
-          links: [model('l-ariegeois-de-table'), model('le-grat-de-table'), model('le-roques-de-table'), prod('le-calla')],
-        },
-        {
-          title: t('cuisine'),
-          links: [prod('grat-office', 'Office'), prod('grat-cuisine', 'Chef'), prod('couteau-a-fromage', 'Fromage'), prod('coffret-chef-office-grat', 'Coffret Chef + Office')],
-        },
+        { title: 'Les modèles', links: [model('l-ariegeois-de-table'), model('le-grat-de-table'), model('le-roques-de-table'), prod('le-calla')] },
+        { title: 'Offrir', links: [{ label: 'Duos et coffrets', href: '/couteaux/table#coffrets' }, { label: 'Idées cadeaux', href: '/idees-cadeaux' }] },
       ],
     },
-    { id: 'prestige', label: t('prestige'), href: '/couteaux/prestige' },
     {
-      id: 'accessoires',
-      label: t('accessoires'),
-      href: '/couteaux/accessoires',
+      id: 'cuisine',
+      label: t('cuisine'),
+      href: '/couteaux/cuisine',
       columns: [
-        {
-          links: [
-            { label: 'Fourreaux & étuis', href: '/couteaux/accessoires#fourreaux-etuis', price: from(1200) },
-            { label: 'Pierres à aiguiser', href: '/couteaux/accessoires#pierres', price: from(600) },
-            prod('gravure-personnalisee-sur-lame', 'Gravure'),
-          ],
-        },
-        {
-          links: [prod('ciselage', 'Ciselage'), prod('prestation-atelier', 'Affûtage et réparation'), prod('coupe-choux', 'Rasage')],
-        },
+        { links: [prod('grat-office', 'Office'), prod('grat-cuisine', 'Chef'), prod('couteau-a-fromage', 'Fromage'), prod('coffret-chef-office-grat', 'Coffret Chef + Office')] },
+        { title: 'Entretenir', links: [{ label: 'Pierres à aiguiser', href: '/couteaux/accessoires#pierres', price: from(600) }, { label: 'Conseils et entretien', href: '/conseils-entretien' }] },
       ],
     },
-    { id: 'cadeaux', label: t('cadeaux'), href: '/idees-cadeaux' },
+    { id: 'prestige', label: t('prestiges'), href: '/couteaux/prestige' },
     {
       id: 'maison',
-      label: t('maison'),
+      label: t('about'),
       href: '/la-maison',
       side: 'house',
       columns: [
@@ -114,16 +108,17 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
           ],
         },
         {
-          title: 'Ils en parlent',
+          title: 'Nous trouver',
           links: [
+            { label: 'Nos revendeurs', href: '/revendeurs' },
             { label: 'Ils nous font confiance', href: '/la-maison/ils-nous-font-confiance' },
             { label: 'Presse', href: '/presse' },
             { label: 'Visite virtuelle', href: '/la-maison/visite-virtuelle' },
+            { label: 'Contact', href: '/contact' },
           ],
         },
       ],
     },
-    { id: 'revendeurs', label: t('revendeurs'), href: '/revendeurs', side: 'house' },
   ];
 }
 

@@ -7,7 +7,8 @@
   "topbar": {
     "shipping": "Livraison offerte dès 100 € en France",
     "secure": "Paiement 100 % sécurisé",
-    "language": "Langue"
+    "language": "Langue",
+    "band": "Livraison offerte dès 100 € d’achat"
   },
   "masthead": {
     "place": "Foix · Ariège",
@@ -40,7 +41,11 @@
     "tableCuisine": "Table & cuisine",
     "revendeurs": "Revendeurs",
     "shopNav": "Les couteaux",
-    "houseNav": "La Maison"
+    "houseNav": "La Maison",
+    "pliants": "Pliants",
+    "tableShort": "Table",
+    "prestiges": "Prestiges",
+    "about": "À propos de Savignac"
   },
   "search": {
     "title": "Rechercher",
@@ -48,7 +53,8 @@
     "empty": "Aucun résultat pour « {query} ».",
     "hint": "Essayez « Roques », « corne », « damas », « revendeurs ».",
     "models": "Couteaux",
-    "pages": "La Maison"
+    "pages": "La Maison",
+    "field": "Rechercher"
   },
   "common": {
     "from": "dès {price}",
@@ -243,9 +249,9 @@
     },
     "opening": {
       "kicker": "Coutellerie à Foix depuis le XVIIIᵉ siècle",
-      "title": "Des couteaux façonnés à Foix, de la poche à la table.",
-      "text": "Quatre familles se sont transmis l’échoppe du 15 rue des Marchands. Aujourd’hui, deux ateliers y montent nos pliants à friction, nos couteaux à système et nos pièces de prestige.",
-      "cta": "Découvrir les couteaux",
+      "title": "Le geste, avant tout",
+      "text": "À Foix, une tradition coutelière transmise depuis le XVIIIᵉ siècle. Chaque couteau Savignac passe entre les mains de nos couteliers avant de passer dans les vôtres.",
+      "cta": "Découvrir nos modèles",
       "cta2": "L’atelier & la fabrication",
       "alt": "Les mains d’un coutelier façonnent un manche à l’atelier"
     },

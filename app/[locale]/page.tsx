@@ -24,6 +24,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   setRequestLocale(locale);
   const t = await getTranslations('home');
   const tc = await getTranslations('common');
+  const tb = await getTranslations('topbar');
   const all = await commerce.getListings(locale);
   const by = (id: string) => all.find((l) => l.id === id)!;
   const cards = await commerce.getListingsById(curated.home, locale);
@@ -53,32 +54,32 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      {/* ① Ouverture : image pleine largeur, puis la promesse de la Maison */}
-      <section aria-labelledby="ouverture">
-        <div className="relative h-[62vh] min-h-[360px] w-full overflow-hidden md:h-[min(82vh,820px)]">
-          <Image src="/images/accueil/ouverture.jpg" alt={t('opening.alt')} fill priority sizes="100vw" className="bw slow-zoom object-cover" />
-        </div>
-        <div className="wrap pb-[var(--section)] pt-14 text-center md:pt-20">
-          <p className="label rise text-mute">{rich(t('opening.kicker'))}</p>
-          <h1 id="ouverture" className="title rise mx-auto mt-6 max-w-[20ch]" style={{ ['--d' as string]: '0.15s' }}>
+      {/* ① Ouverture plein écran (maquette validée) : en-tête posé sur l'image, titre, texte, bandeau de livraison */}
+      <section aria-labelledby="ouverture" className="on-image relative isolate flex h-[100svh] min-h-[620px] flex-col overflow-hidden bg-ink">
+        <Image src="/images/accueil/ouverture.jpg" alt={t('opening.alt')} fill priority sizes="100vw" className="bw slow-zoom -z-20 object-cover" style={{ objectPosition: '50% 45%' }} />
+        <span aria-hidden="true" className="absolute inset-0 -z-10 bg-ink opacity-45" />
+        <div className="wrap mt-auto pb-10 text-center md:pb-14">
+          <h1 id="ouverture" className="hero-title rise">
             {t('opening.title')}
           </h1>
-          <p className="text rise mx-auto mt-6 max-w-[56ch]" style={{ ['--d' as string]: '0.3s' }}>
-            {t('opening.text')}
+          <p className="hero-text rise mx-auto mt-6 max-w-[64ch] md:mt-8" style={{ ['--d' as string]: '0.2s' }}>
+            {rich(t('opening.text'))}
           </p>
-          <div className="rise mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-8" style={{ ['--d' as string]: '0.45s' }}>
-            <Link href="/couteaux/poche" className="btn">
-              <span>{t('opening.cta')}</span>
+          <p className="rise mt-9 md:mt-12" style={{ ['--d' as string]: '0.4s' }}>
+            <Link href="/couteaux" className="inline-flex min-h-11 items-center font-sans text-[13px] font-medium uppercase tracking-[0.3em] md:text-[14.5px]">
+              <span className="lu is-on" style={{ paddingBottom: 8 }}>
+                {t('opening.cta')}
+              </span>
             </Link>
-            <Link href="/la-maison/les-ateliers" className="label inline-flex min-h-11 items-center">
-              <span className="lu is-on">{t('opening.cta2')}</span>
-            </Link>
-          </div>
+          </p>
+        </div>
+        <div className="ship-band">
+          <p>{tb('band')}</p>
         </div>
       </section>
 
       {/* ② Les quatre familles : de 46 € aux pièces de prestige */}
-      <section className="wrap" aria-labelledby="familles">
+      <section className="wrap section-top" aria-labelledby="familles">
         <h2 id="familles" className="title is-46 border-b border-rule-strong pb-6">
           {t('families.title')}
         </h2>
