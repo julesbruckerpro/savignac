@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Savignac · V1 améliorée · Rapport</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 18mm 17mm 20mm; }
+  :root { --ink:#0b0b0b; --soft:#3a3a38; --mute:#6a6a67; --line:#e4e4e1; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Libre Caslon Text', Georgia, serif; color: var(--ink); font-size: 10.4pt; line-height: 1.55; margin: 0; }
+  .label { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 7.6pt; letter-spacing: .22em; text-transform: uppercase; }
+  .mute { color: var(--mute); }
+  h1 { font-weight: 400; font-size: 30pt; line-height: 1.12; margin: 6mm 0 4mm; letter-spacing: -.005em; }
+  h2 { font-weight: 400; font-size: 18pt; line-height: 1.2; margin: 0 0 3mm; padding-top: 4mm; border-top: 1px solid var(--ink); break-after: avoid; }
+  h3 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 8.4pt; letter-spacing: .18em; text-transform: uppercase; margin: 6mm 0 2mm; break-after: avoid; }
+  p { margin: 0 0 2.6mm; color: var(--soft); }
+  a { color: var(--ink); }
+  section { margin-bottom: 9mm; }
+  .cover { height: 250mm; display: flex; flex-direction: column; justify-content: space-between; break-after: page; }
+  .logo { width: 70mm; }
+  .lead { font-size: 14pt; line-height: 1.4; color: var(--ink); max-width: 150mm; }
+  .box { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); padding: 4mm 0; margin: 4mm 0; }
+  table { width: 100%; border-collapse: collapse; margin: 2mm 0 4mm; font-size: 9.4pt; }
+  th { text-align: left; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 7pt; letter-spacing: .18em; text-transform: uppercase; color: var(--mute); padding: 2mm 3mm 2mm 0; border-bottom: 1px solid var(--ink); }
+  td { vertical-align: top; padding: 2.2mm 3mm 2.2mm 0; border-bottom: 1px solid var(--line); color: var(--soft); }
+  td:first-child { color: var(--ink); width: 30%; }
+  tr { break-inside: avoid; }
+  ul { margin: 0 0 3mm; padding-left: 4.5mm; color: var(--soft); }
+  li { margin-bottom: 1.4mm; }
+  .check li { list-style: none; position: relative; padding-left: 1mm; }
+  .check li::before { content: ''; position: absolute; left: -4.5mm; top: 1.6mm; width: 2.6mm; height: 2.6mm; border: 1px solid var(--ink); }
+  .tag { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 6.6pt; letter-spacing: .16em; text-transform: uppercase; border: 1px solid var(--ink); padding: .4mm 1.6mm; white-space: nowrap; }
+  .tag.soft { border-color: var(--mute); color: var(--mute); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; }
+  .note { font-style: italic; color: var(--mute); font-size: 9pt; }
+  .src li { font-size: 8.4pt; word-break: break-all; }
+  .k { font-size: 22pt; line-height: 1; font-style: italic; color: var(--ink); }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div>
+    <img class="logo" src="../public/images/logo/savignac-logo-noir.svg" alt="Savignac">
+    <p class="label mute" style="margin-top:10mm">Coutellerie Savignac · Nouveau site · Rapport d’itération</p>
+    <h1>V1 améliorée selon les remarques de la réunion.</h1>
+    <p class="lead">Ce qui a changé sur le site, ce dont nous avons besoin pour continuer, et l’analyse de la migration vers Shopify (expédition La Poste, paiements, PayPal, données, mesure).</p>
+  </div>
+  <div class="box">
+    <div class="two">
+      <div>
+        <p class="label">Voir le site</p>
+        <p style="color:var(--ink)">Aperçu Vercel de la pull request n°1<br><a href="https://savignac-ashy.vercel.app">savignac-ashy.vercel.app</a></p>
+        <p class="note">Protégé par mot de passe si la variable SITE_PASSWORD est définie sur Vercel.</p>
+      </div>
+      <div>
+        <p class="label">État</p>
+        <p>Prototype Next.js, données relevées sur le site actuel (132 fiches, prix au centime). Aucun paiement réel. Contrôles automatiques : 23 parcours de test réussis (ordinateur et iPhone 14).</p>
+      </div>
+    </div>
+  </div>
+  <p class="label mute">20 novembre 2026 · Préparé pour Olivier Montariol, Caroline et Joséphine</p>
+</div>
+
+<section>
+  <h2>1. En bref</h2>
+  <p>Toutes les remarques de la réunion ont été prises en compte, sauf celles qui attendent une décision ou un fichier de votre part (partie 3). Les priorités de la réunion, dans l’ordre :</p>
+  <table>
+    <tr><th>Priorité de la réunion</th><th>Ce qui est fait</th><th>Statut</th></tr>
+    <tr><td>1. Simplifier le menu, séparer produits et rubriques éditoriales</td><td>Menu à 7 entrées : les familles de couteaux à gauche, « La Maison » et « Revendeurs » séparés à droite. La presse n’est plus mêlée aux couteaux.</td><td><span class="tag">Fait</span></td></tr>
+    <tr><td>2. Rendre le positionnement compréhensible dès l’accueil</td><td>Nouvelle ouverture : grande image, puis la promesse de la Maison (héritage, fabrication à Foix, de la poche à la table).</td><td><span class="tag">Fait</span> <span class="tag soft">Image à fournir</span></td></tr>
+    <tr><td>3. Équilibrer Montagnol, Ariégeois, système et prestige</td><td>Bloc « Quatre façons d’entrer dans la Maison » : Montagnol 46 €, Ariégeois dès 71 €, couteaux à système dès 100 €, prestige de 299 € à 470 €.</td><td><span class="tag">Fait</span></td></tr>
+    <tr><td>4. Fiche produit type complète</td><td>Délai affiché, contenu du colis, détail par rubrique (mécanisme, lame et dureté, manche, fabrication, mesures, entretien), lien vers l’histoire et les revendeurs.</td><td><span class="tag">Fait</span> <span class="tag soft">Données à valider</span></td></tr>
+    <tr><td>5. Preuves de confiance</td><td>Nouvelle page « Ils nous font confiance » : presse, restaurants partenaires, revendeurs. Archives expliquées une à une.</td><td><span class="tag">Fait</span> <span class="tag soft">Accords à obtenir</span></td></tr>
+    <tr><td>6. Meilleures photos et savoir-faire de l’atelier</td><td>Étapes de fabrication d’une pièce de prestige, galerie de gestes, ombre homogène sous chaque couteau.</td><td><span class="tag">Fait</span> <span class="tag soft">Photos HD à fournir</span></td></tr>
+    <tr><td>7. Préparer la mesure avant/après</td><td>Google Analytics 4 et bandeau de consentement intégrés, éteints tant que l’identifiant n’est pas renseigné.</td><td><span class="tag">Prêt</span></td></tr>
+    <tr><td>8. Vérifier La Poste, paiements, PayPal, données</td><td>Analyse en partie 4 : solutions identifiées, points à confirmer avec la banque et La Poste.</td><td><span class="tag soft">À vérifier</span></td></tr>
+    <tr><td>9. Faire évoluer les mises en avant selon les saisons</td><td>Les sélections de l’accueil sont regroupées dans un seul fichier, faciles à changer pour les fêtes.</td><td><span class="tag soft">Après lancement</span></td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>2. Modifications apportées au site</h2>
+
+  <h3>Navigation</h3>
+  <ul>
+    <li><strong>Menu par usage</strong> : Couteaux de poche · Table &amp; cuisine · Prestige · Accessoires · Idées cadeaux, puis, séparés par un filet : La Maison · Revendeurs.</li>
+    <li><strong>Couteaux de poche</strong> s’ouvre sur deux colonnes, « À friction » (Montagnol en premier) et « À système », pour donner leur place aux couteaux à système.</li>
+    <li><strong>Table &amp; cuisine</strong> réunit les deux familles sur une seule page (14 modèles).</li>
+    <li><strong>La Maison</strong> regroupe trois colonnes : Notre histoire (Histoire &amp; archives, L’atelier &amp; la fabrication, Production locale, Le film), Nos couteaux (Notre gamme, Friction ou système, Guide des aciers, Brevets), Ils en parlent (Ils nous font confiance, Presse, Visite virtuelle).</li>
+    <li>Le pied de page et le menu mobile suivent la même logique.</li>
+  </ul>
+
+  <h3>Page d’accueil</h3>
+  <ul>
+    <li>Ouverture : grande image pleine largeur (provisoire : photo d’atelier en noir et blanc, à remplacer par votre visuel), puis la phrase de marque et deux boutons.</li>
+    <li>Les quatre familles et leur rôle, de 46 € au prestige : on voit toute l’amplitude de la gamme sans surcharger.</li>
+    <li>Une sélection équilibrée de six modèles : Montagnol, Ariégeois, Ariégeois cran plat, Capi, Roques, Phasme.</li>
+    <li>Friction ou système, l’histoire des quatre familles (section noire), l’atelier et ses gestes, « Ils nous font confiance » (citations de presse, 83 revendeurs, 14 restaurants), puis un champ « Ville ou code postal » qui mène directement à la carte des revendeurs.</li>
+  </ul>
+
+  <h3>Fiche produit</h3>
+  <ul>
+    <li><strong>Délai sans chiffre</strong>, comme convenu : « Généralement expédié sous 48 h » pour les pliants à friction, la table, la cuisine et les accessoires ; « Fabriqué à la commande à Foix » pour les couteaux à système, le Phasme, le damas et le prestige.</li>
+    <li><strong>Livré avec</strong> : déduit des options du site actuel (fourreau synthétique, fourreau ou étui en cuir), affiché seulement quand l’information existe.</li>
+    <li><strong>Le couteau en détail</strong> : mécanisme expliqué en une phrase, acier avec origine et dureté, manche, fabrication (« Monté à l’atelier de Foix » ou « Entièrement façonné à l’atelier »), mesures, entretien adapté à la matière.</li>
+    <li><strong>Histoire reliée au produit</strong> : sous chaque fiche, un bandeau vers l’histoire, l’atelier et les revendeurs.</li>
+  </ul>
+
+  <h3>Gravure en temps réel</h3>
+  <ul>
+    <li>Dès qu’on coche « Gravure sur la lame », la photo zoome sur la lame et le texte apparaît en effet acier gravé, à l’inclinaison exacte de la lame.</li>
+    <li>Quatre styles, comme sur le site actuel : Bâton, Moderne, Manuscrit, Bâton moderne. Les polices d’origine étant réservées à Windows, chaque style utilise une police libre proche.</li>
+    <li>La position de la gravure est calculée automatiquement pour chacune des 150 photos (sous le marquage SAVIGNAC). Les nouvelles photos seront traitées par le même script.</li>
+    <li>Sur téléphone, l’aperçu s’affiche aussi juste sous le champ de saisie.</li>
+    <li>Une ligne, 20 caractères, 12 €. Le style choisi part au panier avec le texte.</li>
+  </ul>
+
+  <h3>Confiance, histoire, atelier</h3>
+  <ul>
+    <li><strong>Ils nous font confiance</strong> : uniquement des informations déjà publiques (5 articles de presse, 14 restaurants par ordre alphabétique, revendeurs). C’est présenté comme une sélection, pas comme des avis clients. L’emplacement des témoignages de chefs est prêt mais masqué.</li>
+    <li><strong>Histoire &amp; archives</strong> : « Les archives, lues pour vous ». Chaque document est accompagné d’une phrase qui dit ce qu’il nous apprend, en plus de sa légende.</li>
+    <li><strong>L’atelier &amp; la fabrication</strong> : les 21 étapes d’une pièce de prestige, regroupées en 5 temps (l’acier, le manche, l’ajustage, le feu, la finition), reprises du site actuel ; les manches, les lames, les étuis.</li>
+    <li><strong>Prestige</strong> : les 9 pièces actuelles, plus un bloc « Une pièce unique, dessinée avec vous » (sur mesure), sans prix inventé.</li>
+  </ul>
+
+  <h3>Direction artistique</h3>
+  <ul>
+    <li>Fond blanc cassé conservé. Les photos, sur blanc pur, s’y fondent, avec une ombre douce et homogène sous chaque couteau, dans l’esprit de Perceval.</li>
+    <li>Couteaux toujours en couleur ; noir et blanc réservé à l’atelier, aux archives et à l’histoire. Histoire et Prestige restent sur fond noir.</li>
+    <li>Curseur personnalisé supprimé : curseur normal partout, plus sobre.</li>
+    <li>Logo inchangé.</li>
+  </ul>
+
+  <h3>Mesure</h3>
+  <ul>
+    <li>Google Analytics 4 intégré, avec bandeau de consentement : rien n’est chargé ni déposé avant l’accord du visiteur. Un lien « Gérer les cookies » apparaît dans le pied de page.</li>
+    <li>Événements suivis : vue d’une fiche, choix d’une finition, ajout au panier (avec gravure et ciselage), vue du panier, début de commande.</li>
+    <li>Tant que l’identifiant GA4 n’est pas renseigné sur Vercel (variable NEXT_PUBLIC_GA_ID), rien ne s’affiche et rien n’est mesuré.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Ce dont nous avons besoin pour continuer</h2>
+  <h3>Fichiers et contenus</h3>
+  <ul class="check">
+    <li><strong>L’image d’ouverture de l’accueil</strong> (la plus grande possible, au moins 2400 px de large).</li>
+    <li><strong>Les photos du shooting</strong> : idéalement trois vues par couteau et par finition (trois-quarts ouvert, fermé, dos ou ciselage), sur fond blanc, même cadrage, lame vers la gauche.</li>
+    <li><strong>Les fiches produits rédigées avec ChatGPT</strong>, avec titres SEO et méta-descriptions.</li>
+    <li><strong>Le catalogue 2024</strong>, ou sa version à jour.</li>
+    <li><strong>Le logo vectoriel d’origine</strong> (SVG, AI ou DXF).</li>
+    <li><strong>Photos et vidéos</strong> d’atelier, de boutique, de chefs et de revendeurs, et les archives originales en haute définition.</li>
+    <li><strong>Les droits d’utilisation</strong> de ces photos (photographe, personnes visibles).</li>
+  </ul>
+  <h3>Décisions et validations</h3>
+  <ul class="check">
+    <li><strong>Délais</strong> : confirmer la règle « friction expédiée sous 48 h, système et prestige fabriqués à la commande », et dire si l’on peut afficher un nombre de jours.</li>
+    <li><strong>Gravure</strong> : nombre de caractères maximum, styles réellement proposés, gravure possible ou non sur damas, délai ajouté.</li>
+    <li><strong>Témoignages</strong> : liste des chefs, restaurants et revendeurs d’accord pour être cités, avec leur accord écrit (citation, photo, nom, logo).</li>
+    <li><strong>Prix à confirmer</strong> : Le Calla (le site vend l’unité 101 € ; 545 € est le coffret de 6 en Corian noir) ; Roques damas (305 € sur la fiche Roques, 299 € en Prestige : un ou deux produits ?) ; Montagnol (46 € sur le site, « 49 € » cité en réunion).</li>
+    <li><strong>Options du site actuel</strong> : garder l’acier carbone XC75 et le damas en option là où le site les propose ?</li>
+    <li><strong>Pièces de prestige jusqu’à 900 €</strong> évoquées en réunion : aucune n’est en vente aujourd’hui (maximum 470 €). Photos, prix et matières à transmettre si elles existent.</li>
+    <li><strong>Olivier ou frêne</strong> : le site vend de l’« olivier », le catalogue et certaines adresses du site parlent de frêne.</li>
+    <li><strong>Horaires de la boutique</strong> (absents du site actuel).</li>
+  </ul>
+  <h3>Accès et informations techniques</h3>
+  <ul class="check">
+    <li><strong>Le nom du module de paiement bancaire actuel</strong> et de la banque (Crédit Agricole, CIC, Société Générale, BNP…), et le coût du contrat.</li>
+    <li><strong>Le contrat La Poste / Colissimo</strong> : numéro de compte Colissimo entreprise, outil utilisé aujourd’hui pour les étiquettes, organisation de l’enlèvement quotidien.</li>
+    <li><strong>Le compte PayPal</strong> utilisé aujourd’hui.</li>
+    <li><strong>Les statistiques PrestaShop</strong> (ou l’accès Google Analytics existant) des 12 derniers mois, pour établir la référence avant/après.</li>
+    <li><strong>L’identifiant Google Analytics 4</strong> (ou l’accord pour en créer un au nom de la coutellerie).</li>
+    <li>Le contact de l’ancienne webmaster (CCI), si elle accepte d’aider sur PrestaShop.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Analyse de la migration vers Shopify</h2>
+  <p>Objectif : ne basculer qu’une fois validés les commandes, les paiements, l’expédition et la continuité de service. Le site PrestaShop reste en ligne jusqu’à la bascule.</p>
+
+  <h3>Catalogue : une fiche par modèle, avec variantes</h3>
+  <table>
+    <tr><th>Besoin</th><th>Ce que permet Shopify</th><th>Conclusion</th></tr>
+    <tr><td>Une fiche par modèle (L’Ariégeois : 35 déclinaisons)</td><td>Jusqu’à 2 048 variantes par produit depuis octobre 2025, mais 3 options au maximum par produit.</td><td>Faisable : Mécanisme, Manche, Lame (Format pour la table).</td></tr>
+    <tr><td>Gravure, style de gravure, ciselage</td><td>Propriétés de ligne (texte saisi par le client) ; prix porté par un produit « service » caché.</td><td>Faisable, comme dans le prototype.</td></tr>
+    <tr><td>Pastilles de matière, récit, caractéristiques</td><td>Métachamps sur les valeurs d’option et sur les produits.</td><td>Faisable.</td></tr>
+    <tr><td>Prestige</td><td>Collection filtrée par étiquette « prestige ».</td><td>Pas de doublon de produit.</td></tr>
+  </table>
+
+  <h3>Expédition La Poste et étiquettes</h3>
+  <ul>
+    <li><strong>Colissimo – Officiel</strong> (application éditée par un partenaire, développée avec les équipes de La Poste) : étiquettes en masse, points relais, retours, documents de douane CN23. Payante (de l’ordre de 19 à 22 $ par mois selon la formule, à vérifier), essai gratuit.</li>
+    <li><strong>La Poste Pro Expéditions</strong> (éditée par La Poste SA) : toutes les offres La Poste, installation gratuite, frais La Poste en plus.</li>
+    <li>À vérifier avec La Poste : reprise du contrat Colissimo actuel, impression des étiquettes depuis Shopify, maintien de l’enlèvement quotidien à la boutique.</li>
+  </ul>
+
+  <h3>Paiement par carte</h3>
+  <ul>
+    <li><strong>Shopify Payments</strong> est disponible pour une entreprise basée en France : Visa, Mastercard, American Express et Cartes Bancaires, sans contrat bancaire séparé.</li>
+    <li><strong>Module de la banque actuelle</strong> : je n’ai pas trouvé de connecteur Shopify pour Up2pay e-Transactions (Crédit Agricole), Sogecommerce (Société Générale) ou Mercanet (BNP). Monetico (CIC) est signalé incompatible par des commerçants. À confirmer selon votre banque.</li>
+    <li><strong>Alternative française</strong> : PayPlug (groupe BPCE) dispose d’une application Shopify. Shopify cite aussi Stripe et Mollie.</li>
+    <li>Un seul prestataire de paiement par carte peut être actif à la fois.</li>
+    <li>Recommandation : comparer le coût du contrat bancaire actuel avec Shopify Payments ; sauf condition bancaire très favorable, Shopify Payments est le plus simple.</li>
+  </ul>
+
+  <h3>PayPal</h3>
+  <ul>
+    <li>PayPal reste possible. Avec Shopify Payments en France, il passe par le portefeuille PayPal intégré ; avec une passerelle tierce, PayPal Express Checkout s’ajoute à côté. Les étapes exactes sont à vérifier dans l’administration Shopify au moment de la configuration.</li>
+  </ul>
+
+  <h3>Reprise des données</h3>
+  <ul>
+    <li>Outils de migration PrestaShop vers Shopify : <strong>LitExtension</strong> (produits, clients, commandes, pages, données SEO, avec démonstration gratuite), <strong>Cart2Cart</strong> (de 79 à 699 $ selon la taille de la boutique, selon l’éditeur), <strong>Matrixify</strong> (imports et redirections).</li>
+    <li>Le catalogue sera recréé avec la nouvelle structure (une fiche par modèle) à partir des données déjà relevées ; les clients et l’historique des commandes peuvent être transférés par l’un de ces outils. Faire d’abord un essai sur un échantillon.</li>
+    <li>À vérifier avant le choix : transfert des comptes clients (les mots de passe ne suivent généralement pas, les clients devront en recréer un) et des consentements e-mail.</li>
+    <li><strong>Référencement</strong> : les 132 anciennes adresses de fiches et les pages du site actuel ont déjà leur redirection 301 vers les nouvelles pages, prête à être reprise dans Shopify.</li>
+  </ul>
+
+  <h3>Deux façons de construire le site Shopify</h3>
+  <table>
+    <tr><th>Option</th><th>Avantages</th><th>Limites</th></tr>
+    <tr><td>A. Thème Shopify reprenant ce design</td><td>L’équipe modifie textes, photos et mises en avant elle-même dans Shopify. Les applications (Colissimo, avis, etc.) s’intègrent directement. Pas d’hébergement séparé.</td><td>Configurateur et aperçu de gravure à recoder dans le thème.</td></tr>
+    <tr><td>B. Garder ce site, branché sur Shopify</td><td>Le prototype est déjà construit pour cela : seule la couche de données change. Rendu et vitesse identiques à l’aperçu.</td><td>Deux outils à maintenir (Vercel et Shopify). Certaines applications Shopify ne s’affichent pas. Les textes éditoriaux demandent un outil d’édition séparé.</td></tr>
+  </table>
+  <p>Recommandation : <strong>option A</strong>, pour que Joséphine et Caroline soient autonomes au quotidien, sauf si vous préférez garder exactement ce site. À décider ensemble.</p>
+
+  <h3>Mesure avant / après</h3>
+  <ul>
+    <li><strong>Pour Olivier : la mesure est déjà prête dans le nouveau site.</strong> Google Analytics 4 est intégré avec son bandeau de consentement : il suffit de renseigner l’identifiant pour l’allumer. Sur Shopify, la même mesure se branche avec l’application Google officielle et le bandeau de consentement de Shopify.</li>
+    <li>Étape indispensable avant de fixer un objectif (15 %, 25 % du chiffre d’affaires ?) : relever sur PrestaShop les chiffres des 12 derniers mois (visites, commandes, taux de conversion, panier moyen, ventes par modèle, mois de décembre).</li>
+    <li>Indicateurs à suivre après le lancement : taux de conversion, panier moyen, part du site dans le chiffre d’affaires, ventes par famille (friction, système, prestige), taux d’ajout au panier par fiche, part des gravures.</li>
+  </ul>
+
+  <h3>Étapes proposées jusqu’à la bascule</h3>
+  <table>
+    <tr><th>Étape</th><th>Contenu</th></tr>
+    <tr><td>1. Valider la V1</td><td>Structure, accueil, fiche type, textes ; réception des photos et fiches.</td></tr>
+    <tr><td>2. Ouvrir la boutique Shopify</td><td>Choix de l’abonnement, du paiement (Shopify Payments ou banque), de l’application La Poste ; création du catalogue.</td></tr>
+    <tr><td>3. Construire le thème</td><td>Option A ou B ; configurateur, gravure, pages éditoriales, redirections.</td></tr>
+    <tr><td>4. Reprendre les données</td><td>Essai sur un échantillon, puis clients et commandes.</td></tr>
+    <tr><td>5. Recette complète</td><td>Commandes test de bout en bout : paiement carte et PayPal, étiquette Colissimo, e-mails, remboursement.</td></tr>
+    <tr><td>6. Bascule</td><td>Hors période des fêtes, nom de domaine transféré, redirections actives, mesure allumée, PrestaShop gardé quelques semaines en lecture.</td></tr>
+  </table>
+  <p class="note">Les tarifs et fonctions cités viennent des pages des éditeurs et de l’aide Shopify consultées le 20 novembre 2026 ; ils sont à reconfirmer au moment de souscrire.</p>
+</section>
+
+<section>
+  <h2>5. Sources consultées</h2>
+  <ul class="src">
+    <li>Colissimo – Officiel, Shopify App Store : https://apps.shopify.com/colissimo-officiel</li>
+    <li>La Poste Pro Expéditions, Shopify App Store : https://apps.shopify.com/la-poste-pro-expeditions</li>
+    <li>Shopify Payments en France, aide Shopify : https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries/france/accepting-payments</li>
+    <li>PayPal Wallet pour la France, aide Shopify : https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries/france/paypal-wallet</li>
+    <li>Activation des moyens de paiement supplémentaires, aide Shopify : https://help.shopify.com/fr/manual/payments/additional-payment-methods/activate-payment-methods</li>
+    <li>PayPlug, Shopify App Store : https://apps.shopify.com/payplug-paiement-integre</li>
+    <li>PayPlug en France, blog Shopify : https://www.shopify.com/fr/blog/payplug-en-france</li>
+    <li>Limite de 2 048 variantes, Shopify : https://changelog.shopify.com/posts/we-ve-increased-the-product-variant-limit-to-2048</li>
+    <li>LitExtension, migration PrestaShop vers Shopify : https://litextension.com/fr/shopify-migration/prestashop-to-shopify-migration.html</li>
+    <li>Cart2Cart, Shopify App Store : https://apps.shopify.com/cart2cart-shopify-migration-module</li>
+    <li>Up2pay e-Transactions, Crédit Agricole : https://www.credit-agricole.fr/professionnel/compte/e-commerce/Up2pay_e-Transactions.only-content.html</li>
+  </ul>
+</section>
+
+</body>
+</html>
