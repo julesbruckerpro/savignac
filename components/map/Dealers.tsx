@@ -40,6 +40,12 @@ export function Dealers({ dealers }: { dealers: DealerPoint[] }) {
   const [ready, setReady] = useState(false);
   const selectFromMap = useRef<(id: string) => void>(() => undefined);
 
+  // recherche transmise depuis l'accueil (?q=Toulouse)
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get('q');
+    if (q) setQuery(q);
+  }, []);
+
   const located = useMemo(() => dealers.filter((d) => d.lat !== undefined && d.lng !== undefined), [dealers]);
   const filtered = useMemo(() => {
     const q = fold(query.trim());

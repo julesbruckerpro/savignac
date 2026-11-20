@@ -18,7 +18,7 @@ export default async function ComicPage({ params }: { params: Promise<{ locale: 
       <PressNav current="/presse/fabrication-illustree" />
       <section className="wrap section-bottom pt-12">
         <div className="grid grid-cols-1 items-center gap-x-8 gap-y-8 md:grid-cols-12">
-          <a href={press.comic.url} target="_blank" rel="noopener noreferrer" data-cursor="voir" className="block border border-rule md:col-span-4" aria-label="Lire la bande dessinée">
+          <a href={press.comic.url} target="_blank" rel="noopener noreferrer" className="block border border-rule md:col-span-4" aria-label="Lire la bande dessinée">
             <span className="relative block aspect-[3/4] w-full bg-white">
               <Image src={press.comic.cover} alt="Couverture de la bande dessinée « Fabrication du couteau de chasse »" fill sizes="(min-width: 768px) 400px, 100vw" className="bw object-contain" />
             </span>

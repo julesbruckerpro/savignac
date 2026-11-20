@@ -50,12 +50,13 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
       }}
     >
       <nav aria-label={t('main')}>
-        <ul className={`flex items-stretch ${compact ? 'gap-x-[clamp(8px,1vw,20px)]' : 'justify-between gap-x-3'}`}>
-          {nav.map((item) => {
+        <ul className={`flex items-stretch ${compact ? 'gap-x-[clamp(10px,1.2vw,22px)]' : 'gap-x-[clamp(14px,2vw,32px)]'}`}>
+          {nav.map((item, index) => {
+            const firstHouse = item.side === 'house' && nav[index - 1]?.side !== 'house';
             const active = pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href + '/'));
             const hasMega = !!item.columns;
             return (
-              <li key={item.id} className="flex" onMouseEnter={() => schedule(hasMega ? item.id : null, hasMega ? 120 : 250)}>
+              <li key={item.id} className={`flex ${firstHouse ? `ml-auto border-l border-rule ${compact ? 'pl-[clamp(10px,1.2vw,22px)]' : 'pl-[clamp(14px,2vw,32px)]'}` : ''}`} onMouseEnter={() => schedule(hasMega ? item.id : null, hasMega ? 120 : 250)}>
                 <Link
                   href={item.href}
                   data-nav={item.id}
@@ -109,7 +110,7 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
               ))}
             </div>
             {shown.feature ? (
-              <Link href={shown.feature.href} className="group col-span-5 block" data-cursor="voir">
+              <Link href={shown.feature.href} className="group col-span-5 block">
                 <span className="block overflow-hidden">
                   <Image src={shown.feature.image} alt={shown.feature.alt} width={800} height={235} sizes="480px" className="card-photo h-auto w-full" />
                 </span>

@@ -52,6 +52,13 @@ export const collections: Collection[] = [
     },
   },
   {
+    handle: 'table-cuisine',
+    title: 'Table & cuisine',
+    intro:
+      'Pour la nappe et pour le plan de travail. Des couteaux de table tirés de nos modèles historiques, à l’unité, en duo ou en coffret ; des couteaux de cuisine nés du Grat, avec sa petite capuche au bout du manche.',
+    seo: { title: 'Couteaux de table et de cuisine', description: 'Couteaux de table et de cuisine fabriqués à Foix : L’Ariégeois de table, Le Grat de table, Le Calla, couteaux d’office, de chef et à fromage.' },
+  },
+  {
     handle: 'cuisine',
     title: 'Cuisine',
     intro:
@@ -97,6 +104,6 @@ export const accessoryGroups: { id: string; title: string }[] = [
 export const curated = {
   nouveautes: ['le-capi', 'le-roques-cran-plat', 'le-phasme'],
   meilleuresVentes: ['l-ariegeois', 'le-roques', 'le-montagnol', 'le-grat'],
-  home: ['le-roques', 'l-ariegeois', 'le-cathare', 'le-grat', 'le-montagnol', 'le-phasme'],
+  home: ['le-montagnol', 'l-ariegeois', 'l-ariegeois-cran-plat', 'le-capi', 'le-roques', 'le-phasme'],
   gamme: ['le-grat', 'l-ariegeois', 'le-cathare', 'le-roques', 'le-montagnol', 'le-phasme', 'le-capi'],
 };

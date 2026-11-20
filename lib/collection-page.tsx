@@ -40,7 +40,7 @@ export async function CollectionPage({ handle, locale, crumbs }: { handle: strin
           })
         ) : (
           <FilteredGrid
-            facets={handle === 'poche' || handle === 'tous' ? ['mecanisme', 'manche', 'acier', 'prix'] : handle === 'friction' || handle === 'systeme' ? ['manche', 'acier', 'prix'] : ['manche', 'prix']}
+            facets={handle === 'poche' || handle === 'tous' ? ['mecanisme', 'manche', 'acier', 'prix'] : handle === 'friction' || handle === 'systeme' ? ['manche', 'acier', 'prix'] : handle === 'table-cuisine' ? ['manche', 'prix'] : ['manche', 'prix']}
             items={listings.map((l, i) => ({
               id: l.id,
               price: l.fromPrice,

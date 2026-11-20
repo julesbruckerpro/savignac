@@ -70,6 +70,7 @@ const IN_COLLECTION: Record<string, (l: Listing) => boolean> = {
   friction: (l) => l.category === 'poche' && (l.facets.mecanisme.includes('friction') || l.facets.mecanisme.includes('piemontais')),
   systeme: (l) => l.category === 'poche' && l.facets.mecanisme.includes('cran-plat'),
   table: (l) => l.category === 'table',
+  'table-cuisine': (l) => l.category === 'table' || l.category === 'cuisine',
   cuisine: (l) => l.category === 'cuisine',
   fixes: (l) => l.category === 'fixes',
   accessoires: (l) => l.category === 'accessoires',

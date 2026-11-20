@@ -3,7 +3,26 @@ import { typoDeep } from '@/lib/typo';
 const AT = '/images/atelier';
 
 export const workshops = typoDeep({
-  intro: { title: 'Les ateliers.', text: 'Une boutique, deux ateliers, et une seconde boutique en face : quatre adresses, toutes à Foix.' },
+  intro: {
+    title: 'L’atelier & la fabrication.',
+    text: 'Deux ateliers, une boutique, et une seconde boutique en face : quatre adresses, toutes à Foix. Les couteaux y sont montés ; les pièces de prestige y sont entièrement façonnées.',
+  },
+  fabrication: {
+    title: 'Les étapes d’une pièce de prestige.',
+    text: 'Les pièces de prestige et les pièces sur mesure sont entièrement fabriquées à l’atelier, par enlèvement de matière. Voici, dans l’ordre, ce que demande l’une d’elles.',
+    phases: [
+      { title: 'L’acier', steps: ['Découpe grossière de la lame, du ressort et des platines', 'Détourage précis des pièces d’acier', 'Perçage de la lame, du ressort et des platines'] },
+      { title: 'Le manche', steps: ['Découpe des plaquettes : bois, corne ou matière synthétique', 'Perçage des plaquettes'] },
+      { title: 'L’ajustage', steps: ['Pré-montage des éléments', 'Ajustage : réglage du ressort, harmonie du contour', 'Première mise en géométrie de la lame (émouture grossière)', 'Ciselage du ressort et des platines'] },
+      { title: 'Le feu', steps: ['Trempe de la lame et du ressort', 'Recuit de la lame et du ressort', 'Nettoyage des pièces'] },
+      { title: 'La finition', steps: ['Montage du couteau complet', 'Mise en forme et polissage des plaquettes', 'Géométrie finale de la lame (émouture fine)', 'Polissage, affûtage et nettoyage de la lame'] },
+    ],
+    materials: [
+      { title: 'Les manches', text: 'Les bois sont préparés à l’atelier, depuis la grume des bois locaux ou les quillons de bois précieux, séchés sur place et imbibés d’huile de lin. Les bois de cerf issus de la mue des cerfs locaux sont travaillés à l’atelier.' },
+      { title: 'Les lames', text: 'Les lames en aciers standards sont préparées par Verdier Manufacture, à Celles-sur-Durolle, puis usinées, rectifiées, ajustées, aiguisées et guillochées à l’atelier.' },
+      { title: 'Les étuis', text: 'Fourreaux et étuis en cuir sont développés avec l’ESAT les Dolmens, à Martiel, en Aveyron. Nos couteaux sont, sauf exception, livrés avec un fourreau en feutrine ou en cuir.' },
+    ],
+  },
   chapters: [
     {
       id: 'le-15',

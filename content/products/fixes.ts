@@ -36,7 +36,7 @@ export const leBosc = define({
   shortLine: 'Le Bosc, « la forêt » en occitan : cent couteaux numérotés.',
   legacyCategoryId: '44',
   upsells: FIXES_UPSELLS,
-  variants: site(113, { mancheGroup: true, lame: false }),
+  variants: site(113, { mancheGroup: true, lame: false, included: ['Étui en cuir fait en Ariège, au point sellier'] }),
   description: [
     'Le Bosc, « la forêt » en occitan. Un couteau robuste pour le bois et la chasse, réalisé en série limitée de cent modèles numérotés.',
     'Le crantage et la garde donnent une prise franche. La courbe, l’épaisseur et l’émouture de la lame sont pensées pour un usage polyvalent et intensif. Il est livré avec son étui en cuir, fait en Ariège au point sellier.',

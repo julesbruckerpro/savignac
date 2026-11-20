@@ -16,6 +16,8 @@ export interface NavItem {
   href: string;
   columns?: NavColumn[];
   feature?: { image: string; alt: string; label: string; href: string; caption: string };
+  /** 'house' : rubriques éditoriales, séparées des familles de produits. */
+  side?: 'shop' | 'house';
 }
 
 type T = (key: string, values?: Record<string, string>) => string;
@@ -37,55 +39,37 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
   };
 
   return [
-    { id: 'roques', label: t('roques'), href: '/modele/le-roques' },
     {
       id: 'poche',
       label: t('poche'),
       href: '/couteaux/poche',
       columns: [
-        { title: t('friction'), links: ['l-ariegeois', 'le-cathare', 'le-roques', 'le-grat', 'le-montagnol', 'le-phasme'].map(model) },
+        { title: t('friction'), links: ['le-montagnol', 'l-ariegeois', 'le-grat', 'le-cathare', 'le-roques', 'le-phasme'].map(model) },
         { title: t('systeme'), links: ['l-ariegeois-cran-plat', 'le-roques-cran-plat', 'le-capi'].map(model) },
       ],
       feature: {
-        image: '/images/produits/roques-facettes.jpg',
-        alt: 'Le Roques, manche en corne noire à facettes, lame inox, vue de trois-quarts',
+        image: '/images/produits/site/87.jpg',
+        alt: 'L’Ariégeois cran plat, manche en ébène royal, lame inox, vue de trois-quarts',
         label: t('compose'),
-        href: '/modele/le-roques',
-        caption: 'Le Roques, corne noire à facettes',
+        href: '/modele/l-ariegeois?mecanisme=cran-plat',
+        caption: 'L’Ariégeois cran plat, ébène royal',
       },
     },
     {
-      id: 'table',
-      label: t('table'),
-      href: '/couteaux/table',
+      id: 'table-cuisine',
+      label: t('tableCuisine'),
+      href: '/couteaux/table-cuisine',
       columns: [
         {
-          links: [
-            model('l-ariegeois-de-table'),
-            model('le-grat-de-table'),
-            model('le-roques-de-table'),
-            prod('le-calla'),
-            { label: 'Les coffrets', href: '/couteaux/table#coffrets' },
-          ],
+          title: t('table'),
+          links: [model('l-ariegeois-de-table'), model('le-grat-de-table'), model('le-roques-de-table'), prod('le-calla')],
+        },
+        {
+          title: t('cuisine'),
+          links: [prod('grat-office', 'Office'), prod('grat-cuisine', 'Chef'), prod('couteau-a-fromage', 'Fromage'), prod('coffret-chef-office-grat', 'Coffret Chef + Office')],
         },
       ],
     },
-    {
-      id: 'cuisine',
-      label: t('cuisine'),
-      href: '/couteaux/cuisine',
-      columns: [
-        {
-          links: [
-            prod('grat-office', 'Office'),
-            prod('grat-cuisine', 'Chef'),
-            prod('couteau-a-fromage', 'Fromage'),
-            prod('coffret-chef-office-grat', 'Coffret Chef + Office'),
-          ],
-        },
-      ],
-    },
-    { id: 'fixes', label: t('fixes'), href: '/couteaux/fixes' },
     { id: 'prestige', label: t('prestige'), href: '/couteaux/prestige' },
     {
       id: 'accessoires',
@@ -95,16 +79,12 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
         {
           links: [
             { label: 'Fourreaux & étuis', href: '/couteaux/accessoires#fourreaux-etuis', price: from(1200) },
-            { label: 'Pierres à aiguiser', href: '/couteaux/accessoires#pierres', price: from(900) },
+            { label: 'Pierres à aiguiser', href: '/couteaux/accessoires#pierres', price: from(600) },
             prod('gravure-personnalisee-sur-lame', 'Gravure'),
           ],
         },
         {
-          links: [
-            prod('ciselage', 'Ciselage (guillochage)'),
-            prod('prestation-atelier', 'Prestation atelier'),
-            prod('coupe-choux', 'Rasage'),
-          ],
+          links: [prod('ciselage', 'Ciselage'), prod('prestation-atelier', 'Affûtage et réparation'), prod('coupe-choux', 'Rasage')],
         },
       ],
     },
@@ -113,30 +93,37 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
       id: 'maison',
       label: t('maison'),
       href: '/la-maison',
+      side: 'house',
       columns: [
         {
+          title: 'Notre histoire',
           links: [
-            { label: 'Histoire', href: '/la-maison/histoire' },
-            { label: 'Les ateliers', href: '/la-maison/les-ateliers' },
+            { label: 'Histoire & archives', href: '/la-maison/histoire' },
+            { label: 'L’atelier & la fabrication', href: '/la-maison/les-ateliers' },
             { label: 'Une production locale', href: '/la-maison/une-production-locale' },
+            { label: 'Le film', href: '/la-maison#film' },
           ],
         },
         {
+          title: 'Nos couteaux',
           links: [
             { label: 'Notre gamme', href: '/la-maison/notre-gamme' },
+            { label: 'Friction ou système', href: '/friction-ou-systeme' },
+            { label: 'Guide des aciers', href: '/guide-des-aciers' },
             { label: 'Les brevets', href: '/la-maison/brevets' },
-            { label: 'Visite virtuelle', href: '/la-maison/visite-virtuelle' },
           ],
         },
         {
+          title: 'Ils en parlent',
           links: [
-            { label: 'Le film', href: '/la-maison#film' },
+            { label: 'Ils nous font confiance', href: '/la-maison/ils-nous-font-confiance' },
             { label: 'Presse', href: '/presse' },
-            { label: 'Revendeurs', href: '/revendeurs' },
+            { label: 'Visite virtuelle', href: '/la-maison/visite-virtuelle' },
           ],
         },
       ],
     },
+    { id: 'revendeurs', label: t('revendeurs'), href: '/revendeurs', side: 'house' },
   ];
 }
 

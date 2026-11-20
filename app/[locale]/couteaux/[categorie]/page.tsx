@@ -5,7 +5,7 @@ import { commerce } from '@/lib/commerce';
 import { CollectionPage } from '@/lib/collection-page';
 
 type Params = Promise<{ locale: string; categorie: string }>;
-const HANDLES = ['poche', 'friction', 'systeme', 'table', 'cuisine', 'fixes', 'accessoires'];
+const HANDLES = ['poche', 'friction', 'systeme', 'table-cuisine', 'table', 'cuisine', 'fixes', 'accessoires'];
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -24,6 +24,11 @@ export default async function Page({ params }: { params: Params }) {
   if (!HANDLES.includes(categorie)) notFound();
   const data = await commerce.getCollection(categorie, locale);
   if (!data) notFound();
-  const parent = categorie === 'friction' || categorie === 'systeme' ? [{ label: 'Couteaux de poche', href: '/couteaux/poche' }] : [];
+  const parent =
+    categorie === 'friction' || categorie === 'systeme'
+      ? [{ label: 'Couteaux de poche', href: '/couteaux/poche' }]
+      : categorie === 'table' || categorie === 'cuisine'
+        ? [{ label: 'Table & cuisine', href: '/couteaux/table-cuisine' }]
+        : [];
   return <CollectionPage handle={categorie} locale={locale} crumbs={[...parent, { label: data.collection.title }]} />;
 }

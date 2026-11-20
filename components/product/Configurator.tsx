@@ -9,11 +9,13 @@ import { Swatch } from '@/components/ui/Swatch';
 import { GROUP_LABELS, GROUP_ORDER, MECHANISM_LABELS, STEEL_LABELS } from '@/content/materials';
 import { useCart } from '@/lib/cart-store';
 import type { OptionId, Product, Variant } from '@/lib/commerce/types';
-import { ORDER, defaultVariant, finishLabel, label, pick, sanitizeEngraving, selectionToQuery, valuesFor, type Selection } from '@/lib/configurator';
+import { ORDER, availability, defaultVariant, detailRows, finishLabel, label, pick, sanitizeEngraving, selectionToQuery, valuesFor, type Selection } from '@/lib/configurator';
 import { formatPrice, formatPriceShort } from '@/lib/format';
 import { flags } from '@/lib/site';
 import { rich } from '@/lib/typo';
-import { Gallery, type GalleryView } from './Gallery';
+import { ENGRAVE_STYLES } from '@/lib/engrave-fonts';
+import { trackItem } from '@/lib/analytics';
+import { Gallery, KnifeStage, type GalleryView } from './Gallery';
 
 export interface UpsellLine {
   name: string;
@@ -46,6 +48,7 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
   const [engrave, setEngrave] = useState(false);
   const [engraving, setEngraving] = useState('');
   const [engravingError, setEngravingError] = useState(false);
+  const [engraveStyle, setEngraveStyle] = useState(ENGRAVE_STYLES[0]);
   const [chisel, setChisel] = useState(false);
   const [sticky, setSticky] = useState(false);
   const buyRef = useRef<HTMLButtonElement>(null);
@@ -79,6 +82,13 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
     return () => io.disconnect();
   }, []);
 
+  const item = (v: Variant, price = v.price) => ({ item_id: v.sku, item_name: product.name, item_variant: finishLabel(product, v), item_category: product.category, price: price / 100 });
+  useEffect(() => {
+    trackItem('view_item', item(variant));
+    // une seule fois à l'arrivée sur la fiche
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   function choose(id: OptionId, value: string) {
     userChanged.current = true;
     const rule = product.optionNotes?.find((n) => n.when[id] === value);
@@ -91,6 +101,7 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
       setNote({ option: id, text: rule?.note ?? fallback });
     } else setNote(null);
     setVariant(next);
+    trackItem('select_finish', item(next), { option: id, value });
   }
 
   function selectVariant(v: Variant) {
@@ -116,8 +127,12 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
       return;
     }
     const attributes: Record<string, string> = {};
-    if (engravingOn) attributes.Gravure = text;
+    if (engravingOn) {
+      attributes.Gravure = text;
+      attributes['Style de gravure'] = engraveStyle.label;
+    }
     if (chiselOn) attributes.Ciselage = 'Oui';
+    trackItem('add_to_cart', { ...item(variant, total), quantity: 1 }, { engraving: engravingOn, chiseling: chiselOn });
     add({
       sku: variant.sku,
       productHandle: product.handle,
@@ -236,7 +251,7 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
         <div className="grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-12">
           <div className="min-w-0 lg:col-span-7">
             <div className="lg:sticky lg:top-24">
-              <Gallery views={views} swapKey={variant.sku} engraving={engravingOn ? engraving.trim() : undefined} />
+              <Gallery views={views} swapKey={variant.sku} engraving={engravingOn ? { text: engraving.trim(), placeholder: 'Votre texte', style: engraveStyle } : undefined} />
             </div>
           </div>
 
@@ -249,6 +264,10 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
             <div className="mt-6">
               <PriceBox cents={total} label={tc('priceTtc')} />
             </div>
+            <p className="label-sm mt-3 flex items-center gap-2 text-soft" data-testid="disponibilite" aria-live="polite">
+              <span aria-hidden="true" className={`inline-block h-[7px] w-[7px] !rounded-full ${availability(product, variant).kind === 'stock' ? 'bg-fg' : 'border border-fg'}`} />
+              {availability(product, variant).label}
+            </p>
             {flags.currencySwitch ? <p className="caption mt-2">{tc('chfNote')}</p> : null}
 
             {ORDER.map((id) => optionGroup(id))}
@@ -269,6 +288,16 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
                 </label>
                 {engrave ? (
                   <div className="mt-2">
+                    <fieldset className="mb-4 mt-1 min-w-0">
+                      <legend className="label-sm mb-2 text-mute">Style de gravure</legend>
+                      <div className="flex flex-wrap gap-2">
+                        {ENGRAVE_STYLES.map((st) => (
+                          <button key={st.id} type="button" className="pill !px-4" aria-pressed={engraveStyle.id === st.id} onClick={() => setEngraveStyle(st)}>
+                            <span className={`${st.className} text-[17px] leading-none`}>{st.upper ? st.label.toUpperCase() : st.label}</span>
+                          </button>
+                        ))}
+                      </div>
+                    </fieldset>
                     <label htmlFor={`${uid}-gravure`} className="sr-only">
                       {t('engravingLabel')}
                     </label>
@@ -285,9 +314,14 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
                       aria-describedby={`${uid}-gravure-aide`}
                       className="field italic"
                     />
+                    {variant.images.troisQuarts ? (
+                      <div className="mt-4 border border-rule lg:hidden" aria-hidden="true">
+                        <KnifeStage src={variant.images.troisQuarts} alt="" engraving={{ text: engraving.trim(), placeholder: 'Votre texte', style: engraveStyle }} />
+                      </div>
+                    ) : null}
                     <p id={`${uid}-gravure-aide`} className="mt-2 flex justify-between gap-4 text-[13px] italic text-mute">
                       <span role={engravingError ? 'alert' : undefined} className={engravingError ? 'text-fg' : ''}>
-                        {engravingError ? 'Écrivez le texte à graver, ou décochez la gravure.' : t('engravingNote')}
+                        {engravingError ? 'Écrivez le texte à graver, ou décochez la gravure.' : 'Aperçu indicatif sur la photo. Gravure réalisée à l’atelier de Foix.'}
                       </span>
                       <span className="not-italic tabular-nums">
                         {engraving.length}/{product.engraving.maxChars}
@@ -319,7 +353,6 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
               </span>
             </button>
             <p className="label-sm mt-4 text-center leading-relaxed text-mute">{t('reassurance')}</p>
-            {flags.showLeadTimes && variant.madeToOrder ? <p className="mt-3 text-center text-[14px] italic text-soft">{variant.madeToOrder.delayLabel}</p> : null}
           </div>
         </div>
       </div>
@@ -369,33 +402,21 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
       <section className="wrap section-top">
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-12">
           <div className="lg:col-span-6">
-            <h2 className="label mb-5">{t('specs')}</h2>
+            <h2 className="label mb-5">Le couteau en détail</h2>
             <dl className="specs text-[16px]">
-              {product.mechanisms.length > 0 && mechanism && mechanism !== 'fixe' ? (
-                <div>
-                  <dt className="label self-center text-mute">{t('mecanisme')}</dt>
-                  <dd>{MECHANISM_LABELS[mechanism]}</dd>
-                </div>
-              ) : null}
-              {selection.lame ? (
-                <div>
-                  <dt className="label self-center text-mute">{t('lame')}</dt>
-                  <dd>{STEEL_LABELS[selection.lame]}</dd>
-                </div>
-              ) : null}
-              {selection.manche && product.category !== 'accessoires' ? (
-                <div>
-                  <dt className="label self-center text-mute">{t('manche')}</dt>
-                  <dd>{label(product, 'manche', selection.manche)}</dd>
-                </div>
-              ) : null}
-              {specs.map((s) => (
-                <div key={s.label + s.value}>
-                  <dt className="label self-center text-mute">{s.label}</dt>
-                  <dd>{rich(s.value)}</dd>
+              {detailRows(product, variant, specs).map((r) => (
+                <div key={r.label + r.value}>
+                  <dt className="label pt-1 text-mute">{r.label}</dt>
+                  <dd>
+                    {rich(r.value)}
+                    {r.note ? <span className="mt-1 block text-[14px] leading-snug text-mute">{rich(r.note)}</span> : null}
+                  </dd>
                 </div>
               ))}
             </dl>
+            <Link href="/conseils-entretien" className="label mt-5 inline-flex min-h-11 items-center">
+              <span className="lu is-on">Tous nos conseils d’entretien</span>
+            </Link>
           </div>
           {upsells.length ? (
             <div className="lg:col-span-5 lg:col-start-8">
@@ -427,7 +448,7 @@ export function Configurator({ product, upsells, atelier }: { product: Product; 
             <ul className="mx-auto flex w-max min-w-full max-w-none gap-x-6 px-[var(--gutter)] pt-8 xl:px-[max(var(--gutter),calc((100vw-1280px)/2))]">
               {others.map((v) => (
                 <li key={v.sku} className="w-[260px] flex-none">
-                  <button type="button" onClick={() => selectVariant(v)} className="group block w-full text-left" data-cursor="voir">
+                  <button type="button" onClick={() => selectVariant(v)} className="group block w-full text-left">
                     <span className="relative block aspect-[3.4/1] w-full">
                       {v.images.troisQuarts ? <Image src={v.images.troisQuarts} alt="" fill sizes="260px" loading="lazy" className="knife" /> : null}
                     </span>

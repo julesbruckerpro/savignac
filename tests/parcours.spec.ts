@@ -7,11 +7,14 @@ async function noHorizontalScroll(page: Page) {
   expect(overflow).toBeLessThanOrEqual(0);
 }
 
-test('accueil : logo, navigation, Le Roques et son bouton', async ({ page }) => {
+test('accueil : promesse de la Maison et quatre familles, de 46 € au prestige', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Le Roques' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Composer le vôtre' }).first()).toBeVisible();
-  await expect(page.getByText(euro('de 73 € à 305 €'))).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/façonnés à Foix/);
+  const familles = page.locator('section[aria-labelledby="familles"]');
+  await expect(familles.getByText('Le Montagnol')).toBeVisible();
+  await expect(familles.getByText(euro('46 €'))).toBeVisible();
+  await expect(familles.getByText('Couteaux à système')).toBeVisible();
+  await expect(familles.getByText(euro('de 299 € à 470 €'))).toBeVisible();
   await expect(page.locator('body')).not.toContainText('[À FOURNIR');
   await noHorizontalScroll(page);
 });
@@ -26,8 +29,11 @@ test('configurateur → panier → commande démo : Roques facettes, damas, grav
   await expect(page).toHaveURL(/lame=damas/);
 
   await page.getByText('Gravure sur la lame· Bêta').click();
+  await page.getByRole('button', { name: 'Manuscrit' }).click();
   await page.getByLabel('Texte à graver').fill('Pour Jean');
+  await expect(page.getByTestId('apercu-gravure').first()).toHaveText('Pour Jean');
   await expect(page.getByText(euro('317,00 €')).first()).toBeVisible();
+  await expect(page.getByTestId('disponibilite')).toHaveText('Fabriqué à la commande à Foix');
 
   await page.getByRole('button', { name: /Ajouter au panier · 317,00/ }).click();
   const drawer = page.getByRole('dialog', { name: 'Ajouté au panier' });
@@ -37,6 +43,7 @@ test('configurateur → panier → commande démo : Roques facettes, damas, grav
 
   await expect(page).toHaveURL(/\/panier$/);
   await expect(page.locator('#contenu').getByText(/Gravure\s: «\sPour Jean\s»/)).toBeVisible();
+  await expect(page.locator('#contenu').getByText(/Style de gravure\s: Manuscrit/)).toBeVisible();
   await expect(page.getByTestId('livraison')).toHaveText('Offerte');
   await expect(page.getByTestId('total')).toHaveText(euro('317,00 €'));
   await noHorizontalScroll(page);
@@ -75,7 +82,7 @@ test('prestige : page noire, ajout d’une pièce au panier', async ({ page }) =
   await page.goto('/couteaux/prestige');
   const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
   expect(bg).toBe('rgb(11, 11, 11)');
-  await expect(page.getByRole('heading', { level: 2 })).toHaveCount(9);
+  await expect(page.locator('h2[id^="piece-"]')).toHaveCount(9);
   await page.getByRole('button', { name: 'Ajouter au panier' }).first().click();
   await expect(page.getByRole('dialog', { name: 'Ajouté au panier' })).toContainText(euro('299,00 €'));
 });
@@ -108,4 +115,31 @@ test('prix exacts du site sur un échantillon de fiches', async ({ page }) => {
     await page.goto(path);
     await expect(page.getByText(euro(price)).first(), path).toBeVisible();
   }
+});
+
+test('navigation : familles de produits séparées des rubriques éditoriales', async ({ page, isMobile }) => {
+  test.skip(!!isMobile, 'menu desktop');
+  await page.goto('/');
+  const nav = page.getByRole('navigation', { name: 'Navigation principale' }).first();
+  await expect(nav.getByRole('link', { name: 'Table & cuisine' })).toBeVisible();
+  await expect(nav.getByRole('link', { name: 'Revendeurs' })).toBeVisible();
+  await expect(nav.getByRole('link', { name: 'Presse' })).toHaveCount(0);
+});
+
+test('Ariégeois à friction : expédié sous 48 h, livré avec son fourreau', async ({ page }) => {
+  await page.goto('/modele/l-ariegeois?manche=chene');
+  await expect(page.getByTestId('disponibilite')).toHaveText('Généralement expédié sous 48 h');
+  await expect(page.getByText('Fourreau synthétique').first()).toBeVisible();
+});
+
+test('ils nous font confiance : presse et restaurants, sans faux avis', async ({ page }) => {
+  await page.goto('/la-maison/ils-nous-font-confiance');
+  await expect(page.getByRole('heading', { name: 'À leur table.' })).toBeVisible();
+  await expect(page.locator('body')).not.toContainText('[À FOURNIR');
+});
+
+test('revendeurs : recherche transmise depuis l’accueil', async ({ page }) => {
+  await page.goto('/revendeurs?q=Toulouse');
+  await expect(page.getByLabel('Ville ou code postal')).toHaveValue('Toulouse');
+  await expect(page.getByText(/^5 adresses$/)).toBeVisible();
 });

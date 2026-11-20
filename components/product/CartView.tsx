@@ -6,6 +6,7 @@ import { Heart } from '@/components/ui/Heart';
 import { useCart } from '@/lib/cart-store';
 import { formatPrice } from '@/lib/format';
 import { site } from '@/lib/site';
+import { track } from '@/lib/analytics';
 import { CartLineRow, ShippingGauge } from './CartLineRow';
 
 /** Panier de démonstration : aucun paiement, aucune donnée collectée. */
@@ -81,7 +82,7 @@ export function CartView() {
                 </dd>
               </div>
             </dl>
-            <button type="button" onClick={() => { setDemo(true); window.scrollTo({ top: 0 }); }} className="btn btn-block mt-8">
+            <button type="button" onClick={() => { track('begin_checkout', { currency: 'EUR', value: cart.total / 100, items: cart.lines.map((l) => ({ item_id: l.sku, item_name: l.name, item_variant: l.finish, price: l.unitPrice / 100, quantity: l.quantity })) }); setDemo(true); window.scrollTo({ top: 0 }); }} className="btn btn-block mt-8">
               <span>{t('checkout')}</span>
             </button>
             <Link href="/couteaux" className="label mx-auto mt-3 flex min-h-11 w-max items-center">

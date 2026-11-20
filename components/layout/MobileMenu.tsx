@@ -41,10 +41,11 @@ export function MobileMenu({ open, onClose, nav, cartCount, onCart }: { open: bo
       </div>
       <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6">
         <ul>
-          {nav.map((item) => {
+          {nav.map((item, index) => {
             const expanded = section === item.id;
+            const firstHouse = item.side === 'house' && nav[index - 1]?.side !== 'house';
             return (
-              <li key={item.id} className="border-b border-line">
+              <li key={item.id} className={`border-b border-line ${firstHouse ? 'mt-6 border-t border-t-ink' : ''}`}>
                 {item.columns ? (
                   <>
                     <button

@@ -116,7 +116,7 @@ export function Header({ nav, search }: { nav: NavItem[]; search: SearchEntry[] 
           <Link href="/" aria-label={t('masthead.home')} className="block w-[150px] flex-none nav:w-[180px]">
             <Logo />
           </Link>
-          <div className="hidden nav:block">
+          <div className="hidden min-w-0 flex-1 nav:block">
             <MegaNav nav={nav} compact />
           </div>
           {actions(false)}

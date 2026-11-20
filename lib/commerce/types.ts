@@ -33,6 +33,8 @@ export interface Variant {
   available: boolean;
   /** Donnée du site actuel, masquée tant que NEXT_PUBLIC_SHOW_LEAD_TIMES=false. */
   madeToOrder?: { delayLabel: string };
+  /** Livré avec (déduit de l'option incluse sur le site actuel, ex. fourreau). */
+  included?: string[];
   /** Identifiant de la fiche sur le site actuel (redirections 301). */
   legacyId?: string;
   tags?: string[]; // 'prestige'…

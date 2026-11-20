@@ -33,7 +33,7 @@ export default async function RangePage({ params }: { params: Promise<{ locale: 
           const story = product.stories[0];
           return (
             <article key={l.id} className="grid grid-cols-1 items-center gap-x-8 gap-y-6 border-t border-rule-strong py-12 lg:grid-cols-12" data-reveal>
-              <Link href={l.href} data-cursor="voir" className="card block lg:col-span-5" tabIndex={-1} aria-hidden="true">
+              <Link href={l.href} className="card block lg:col-span-5" tabIndex={-1} aria-hidden="true">
                 <span className="relative block aspect-[3.4/1] w-full overflow-hidden">
                   <Image src={l.image} alt="" fill sizes="(min-width: 1024px) 520px, 100vw" className="knife card-photo" />
                 </span>

@@ -41,7 +41,7 @@ export default async function PrestigePage({ params }: { params: Promise<{ local
         return (
           <section key={piece.id} className="wrap" aria-labelledby={`piece-${piece.id}`}>
             <div className="grid min-h-[min(820px,92vh)] grid-cols-1 content-center items-center gap-x-8 gap-y-10 border-t border-rule py-16 lg:grid-cols-12">
-              <Link href={piece.href} data-cursor="voir" className="block border border-paper bg-white lg:col-span-8" data-reveal aria-label={`${piece.product.name} : voir la fiche`}>
+              <Link href={piece.href} className="block border border-paper bg-white lg:col-span-8" data-reveal aria-label={`${piece.product.name} : voir la fiche`}>
                 <span className="relative block aspect-[3.4/1] w-full">{image ? <Image src={image} alt={`${piece.product.name}, ${Object.values(finishes)[0].toLowerCase()}`} fill sizes="(min-width: 1024px) 840px, 100vw" priority={i === 0} /> : null}</span>
               </Link>
               <div className="lg:col-span-4" data-reveal style={{ ['--d' as string]: '80ms' }}>
@@ -62,7 +62,26 @@ export default async function PrestigePage({ params }: { params: Promise<{ local
           </section>
         );
       })}
-      <div className="h-[var(--section)]" />
+      <section className="wrap section" aria-labelledby="sur-mesure">
+        <div className="grid grid-cols-1 items-center gap-x-8 gap-y-10 border-t border-rule pt-16 lg:grid-cols-12">
+          <div className="relative aspect-[4/5] w-full overflow-hidden lg:col-span-5">
+            <Image src="/images/atelier/production-damas-en-cours.jpg" alt="Une lame damas en cours de fabrication à l’atelier" fill sizes="(min-width: 1024px) 520px, 100vw" className="bw object-cover" />
+          </div>
+          <div className="lg:col-span-6 lg:col-start-7">
+            <p className="label text-mute">Sur mesure</p>
+            <h2 id="sur-mesure" className="title mt-5 max-w-[16ch]">
+              Une pièce unique, dessinée avec vous.
+            </h2>
+            <p className="text mt-6">
+              Depuis 2015, l’atelier fabrique des couteaux sur mesure, à partir des dessins de ses clients. Les pièces sur mesure, comme les pièces de prestige, sont entièrement façonnées à l’atelier de Foix.
+            </p>
+            <p className="text mt-4">Décrivez-nous votre projet : le mécanisme, la lame, la matière du manche. L’atelier vous répond.</p>
+            <Link href="/contact?objet=sur-mesure" className="btn mt-9">
+              <span>Parler de votre projet</span>
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

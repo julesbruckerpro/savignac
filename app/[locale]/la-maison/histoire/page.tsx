@@ -3,22 +3,21 @@ import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { HistoryBlack } from '@/components/editorial/HistoryBlack';
 import { PageIntro } from '@/components/editorial/PageIntro';
-import { Photo } from '@/components/editorial/Photo';
 import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import { Heart } from '@/components/ui/Heart';
 import { history } from '@/content/pages/history';
 import { Link } from '@/i18n/navigation';
 import { rich } from '@/lib/typo';
 
-export const metadata: Metadata = { title: 'Histoire de la Maison', description: 'Des Roques, maîtres couteliers fuxéens au XVIIIᵉ siècle, aux Montariol : l’histoire de la Coutellerie Savignac, reconstituée grâce aux archives de Foix.' };
+export const metadata: Metadata = { title: 'Histoire & archives', description: 'Des Roques, maîtres couteliers fuxéens au XVIIIᵉ siècle, aux Montariol : l’histoire de la Coutellerie Savignac, reconstituée grâce aux archives de Foix.' };
 
 export default async function HistoryPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   return (
     <>
-      <Breadcrumb items={[{ label: 'La Maison', href: '/la-maison' }, { label: 'Histoire' }]} />
-      <PageIntro label="Histoire" title={history.intro.title} text={history.intro.text} wide />
+      <Breadcrumb items={[{ label: 'La Maison', href: '/la-maison' }, { label: 'Histoire & archives' }]} />
+      <PageIntro label="Histoire & archives" title={history.intro.title} text={history.intro.text} wide />
 
       <HistoryBlack
         entryImage={{
@@ -73,12 +72,25 @@ export default async function HistoryPage({ params }: { params: Promise<{ locale
       </section>
 
       <section className="wrap section" aria-labelledby="archives">
-        <h2 id="archives" className="label border-b border-rule-strong pb-5">
-          Archives
-        </h2>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-12 pt-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-6 border-b border-rule-strong pb-8 lg:grid-cols-12">
+          <h2 id="archives" className="title is-46 lg:col-span-5">
+            Les archives, lues pour vous.
+          </h2>
+          <p className="text lg:col-span-6 lg:col-start-7">
+            Ces documents sont conservés aux archives départementales de Foix ou par la famille. Les actes manuscrits sont difficiles à déchiffrer : nous en avons retenu quelques-uns, chacun avec ce qu’il nous apprend.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 gap-x-8 gap-y-14 pt-10 sm:grid-cols-2 lg:grid-cols-4">
           {history.gallery.map((g, i) => (
-            <Photo key={g.src + i} src={g.src} alt={g.alt} caption={g.caption} ratio="4/5" sizes="(min-width: 1024px) 300px, (min-width: 640px) 46vw, 92vw" />
+            <figure key={g.src + i} data-reveal style={{ ['--d' as string]: `${(i % 4) * 60}ms` }}>
+              <span className="relative block aspect-[4/5] w-full overflow-hidden">
+                <Image src={g.src} alt={g.alt} fill sizes="(min-width: 1024px) 300px, (min-width: 640px) 46vw, 92vw" className="bw object-cover" />
+              </span>
+              <figcaption className="mt-4">
+                <span className="block text-[16px] leading-snug">{rich(g.learn)}</span>
+                <span className="caption mt-2 block">{rich(g.caption)}</span>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </section>

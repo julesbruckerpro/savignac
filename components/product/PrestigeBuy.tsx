@@ -5,6 +5,7 @@ import { useCart } from '@/lib/cart-store';
 import type { Variant } from '@/lib/commerce/types';
 import { formatPrice } from '@/lib/format';
 import { flags } from '@/lib/site';
+import { trackItem } from '@/lib/analytics';
 
 /** Achat direct d'une pièce de prestige (bouton blanc sur noir). */
 export function PrestigeBuy({ name, productHandle, href, variants, finishes, mancheLabels }: { name: string; productHandle: string; href: string; variants: Variant[]; finishes: Record<string, string>; mancheLabels: Record<string, string> }) {
@@ -37,9 +38,10 @@ export function PrestigeBuy({ name, productHandle, href, variants, finishes, man
       <button
         type="button"
         className="btn mt-8"
-        onClick={() =>
-          add({ sku: v.sku, productHandle, href, name, variantTitle: v.title, finish: finishes[v.sku], image: v.images.troisQuarts, unitPrice: v.price, attributes: {} })
-        }
+        onClick={() => {
+          trackItem('add_to_cart', { item_id: v.sku, item_name: name, item_variant: finishes[v.sku], item_category: 'prestige', price: v.price / 100, quantity: 1 });
+          add({ sku: v.sku, productHandle, href, name, variantTitle: v.title, finish: finishes[v.sku], image: v.images.troisQuarts, unitPrice: v.price, attributes: {} });
+        }}
       >
         <span>{t('addToCart')}</span>
       </button>
