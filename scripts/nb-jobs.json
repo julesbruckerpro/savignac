@@ -241,7 +241,7 @@
   "noTrim": true
  },
  {
-  "from": "raw/cms-img/production-locale__PRODUCTION_Auguste_SAVIGNAC_profil_10H.jpg",
+  "from": "pack/accueil/ouverture-mains.jpg",
   "to": "accueil/ouverture.jpg",
   "noTrim": true,
   "maxWidth": 2000

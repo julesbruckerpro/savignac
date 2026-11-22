@@ -56,7 +56,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       {/* ① Ouverture plein écran (maquette validée) : en-tête posé sur l'image, titre, texte, bandeau de livraison */}
       <section aria-labelledby="ouverture" className="on-image relative isolate flex h-[100svh] min-h-[620px] flex-col overflow-hidden bg-ink">
-        <Image src="/images/accueil/ouverture.jpg" alt={t('opening.alt')} fill priority sizes="100vw" className="bw slow-zoom -z-20 object-cover" style={{ objectPosition: '50% 45%' }} />
+        <Image src="/images/accueil/ouverture.jpg" alt={t('opening.alt')} fill priority sizes="100vw" className="bw slow-zoom -z-20 object-cover" style={{ objectPosition: '50% 50%' }} />
         <span aria-hidden="true" className="absolute inset-0 -z-10 bg-ink opacity-45" />
         <div className="wrap mt-auto pb-10 text-center md:pb-14">
           <h1 id="ouverture" className="hero-title rise">
@@ -87,7 +87,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           {families.map((f, i) => (
             <Link key={f.key} href={f.href} className="card group flex flex-col border-b border-rule pb-6" data-reveal style={{ ['--d' as string]: `${i * 80}ms` }}>
               <span className="relative block aspect-[3.4/1] w-full overflow-hidden">
-                <span className="floor" aria-hidden="true" />
                 <Image src={f.image} alt={f.alt} fill sizes="(min-width: 1024px) 300px, (min-width: 640px) 46vw, 92vw" className="knife card-photo" />
               </span>
               <span className="label-sm mt-6 block text-mute">{t(`families.${f.key}Label`)}</span>

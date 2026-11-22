@@ -56,7 +56,7 @@ export function Gallery({ views, swapKey, engraving }: { views: GalleryView[]; s
         onClick={() => setZoom(true)}
         aria-label={t('zoom')}
        
-        className="relative block h-[clamp(190px,56vw,300px)] w-full overflow-hidden border-b border-rule md:h-[420px]"
+        className="relative block h-[clamp(170px,46vw,300px)] w-full overflow-hidden border-b border-rule md:h-[340px]"
       >
         <span key={`${swapKey}-${view.id}`} className="swap absolute inset-0 block [container-type:inline-size]">
           {view.cutout ? (
@@ -120,7 +120,6 @@ export function KnifeStage({ src, alt, engraving, priority = false }: { src: str
   return (
     <span className="relative block aspect-[3.4/1] w-full overflow-hidden bg-bg [container-type:inline-size]">
       <span className="engrave-stage absolute inset-0 block" style={zone ? { transform: `scale(${ZOOM})`, transformOrigin: `${zone.x}% ${zone.y}%` } : undefined}>
-        <span className="floor" aria-hidden="true" />
         <Image src={src} alt={alt} fill priority={priority} sizes="(min-width: 1024px) 1480px, 200vw" className="knife" />
         {zone && engraving ? (
           <span

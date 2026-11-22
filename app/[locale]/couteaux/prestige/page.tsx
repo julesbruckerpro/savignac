@@ -25,7 +25,7 @@ export default async function PrestigePage({ params }: { params: Promise<{ local
   return (
     <div data-page-theme="dark" className="bg-bg text-fg">
       <Breadcrumb items={[{ label: 'Prestige' }]} />
-      <header className="wrap pb-16 pt-12 md:pb-24 md:pt-20">
+      <header className="wrap pb-12 pt-12 md:pb-16 md:pt-20">
         <p className="label text-mute">Prestige</p>
         <h1 className="title rise mt-5 max-w-[16ch]">Des pièces montées une à une.</h1>
         <p className="text rise mt-6" style={{ ['--d' as string]: '0.15s' }}>
@@ -40,7 +40,7 @@ export default async function PrestigePage({ params }: { params: Promise<{ local
         const image = piece.variants[0].images.troisQuarts;
         return (
           <section key={piece.id} className="wrap" aria-labelledby={`piece-${piece.id}`}>
-            <div className="grid min-h-[min(820px,92vh)] grid-cols-1 content-center items-center gap-x-8 gap-y-10 border-t border-rule py-16 lg:grid-cols-12">
+            <div className="grid grid-cols-1 items-center gap-x-8 gap-y-10 border-t border-rule py-16 lg:grid-cols-12 lg:py-24">
               <Link href={piece.href} className="block border border-paper bg-white lg:col-span-8" data-reveal aria-label={`${piece.product.name} : voir la fiche`}>
                 <span className="relative block aspect-[3.4/1] w-full">{image ? <Image src={image} alt={`${piece.product.name}, ${Object.values(finishes)[0].toLowerCase()}`} fill sizes="(min-width: 1024px) 840px, 100vw" priority={i === 0} /> : null}</span>
               </Link>

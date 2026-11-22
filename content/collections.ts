@@ -104,6 +104,6 @@ export const accessoryGroups: { id: string; title: string }[] = [
 export const curated = {
   nouveautes: ['le-capi', 'le-roques-cran-plat', 'le-phasme'],
   meilleuresVentes: ['l-ariegeois', 'le-roques', 'le-montagnol', 'le-grat'],
-  home: ['le-montagnol', 'l-ariegeois', 'l-ariegeois-cran-plat', 'le-capi', 'le-roques', 'le-phasme'],
+  home: ['l-ariegeois-cran-plat', 'le-capi', 'le-roques', 'le-grat', 'le-phasme', 'le-cathare'],
   gamme: ['le-grat', 'l-ariegeois', 'le-cathare', 'le-roques', 'le-montagnol', 'le-phasme', 'le-capi'],
 };

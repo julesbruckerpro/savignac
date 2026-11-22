@@ -140,7 +140,8 @@ export function detailRows(product: Product, v: Variant, specs: { label: string;
     const atelier = v.tags?.includes('prestige') || v.options.lame === 'damas' ? 'Entièrement façonné à l’atelier de Foix.' : 'Monté à l’atelier de Foix.';
     rows.push({ label: 'Fabrication', value: atelier });
   }
-  for (const s of specs) rows.push({ label: s.label, value: s.value });
+  // le mécanisme est déjà expliqué plus haut : pas de ligne « Montage » qui le répète
+  for (const s of specs) if (!(s.label === 'Montage' && /cran plat/i.test(s.value))) rows.push({ label: s.label, value: s.value });
   if (v.included?.length) rows.push({ label: 'Livré avec', value: v.included.join(', ') });
   if (product.category !== 'accessoires') {
     const group = mancheOption?.group;

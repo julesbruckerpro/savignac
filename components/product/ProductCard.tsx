@@ -37,7 +37,6 @@ export async function ProductCard({
     <article className="card group relative flex h-full flex-col border-b border-rule pb-6" data-reveal style={{ ['--d' as string]: `${(index % 3) * 80}ms` }}>
       <Link href={override?.href ?? listing.href} className="flex h-full flex-col">
         <span className="relative block aspect-[3.4/1] w-full overflow-hidden">
-          {cutout ? <span className="floor" aria-hidden="true" /> : null}
           {image ? (
             <Image
               src={image}
