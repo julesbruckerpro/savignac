@@ -239,5 +239,11 @@
   "from": "raw/cms-img/fabrication-illustree__BD1-fabrication-couteau.jpg",
   "to": "presse/bd-fabrication.jpg",
   "noTrim": true
+ },
+ {
+  "from": "pack/accueil/ouverture-mains.jpg",
+  "to": "accueil/ouverture.jpg",
+  "noTrim": true,
+  "maxWidth": 2000
  }
 ]

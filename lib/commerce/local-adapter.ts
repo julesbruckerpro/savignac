@@ -70,6 +70,7 @@ const IN_COLLECTION: Record<string, (l: Listing) => boolean> = {
   friction: (l) => l.category === 'poche' && (l.facets.mecanisme.includes('friction') || l.facets.mecanisme.includes('piemontais')),
   systeme: (l) => l.category === 'poche' && l.facets.mecanisme.includes('cran-plat'),
   table: (l) => l.category === 'table',
+  'table-cuisine': (l) => l.category === 'table' || l.category === 'cuisine',
   cuisine: (l) => l.category === 'cuisine',
   fixes: (l) => l.category === 'fixes',
   accessoires: (l) => l.category === 'accessoires',
@@ -118,7 +119,9 @@ export const commerce: CommerceAdapter & {
     for (const p of products) {
       const byLegacy = new Map<string, Variant[]>();
       for (const v of p.variants) if (v.tags?.includes('prestige') && v.legacyId) byLegacy.set(v.legacyId, [...(byLegacy.get(v.legacyId) ?? []), v]);
-      for (const [id, variants] of byLegacy) {
+      for (const [id, unsorted] of byLegacy) {
+        // la finition réellement photographiée d'abord
+        const variants = [...unsorted].sort((a, b) => Number(b.images.exact !== false) - Number(a.images.exact !== false));
         const manche = p.options.find((o) => o.id === 'manche');
         pieces.push({
           id,

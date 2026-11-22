@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { Logo } from '@/components/ui/Logo';
 import { site } from '@/lib/site';
+import { CookieSettingsLink } from './Analytics';
 import { LocaleSwitcher } from './LocaleSwitcher';
 
 export async function Footer() {
@@ -12,8 +13,7 @@ export async function Footer() {
       title: t('shop'),
       links: [
         { label: tn('poche'), href: '/couteaux/poche' },
-        { label: tn('table'), href: '/couteaux/table' },
-        { label: tn('cuisine'), href: '/couteaux/cuisine' },
+        { label: tn('tableCuisine'), href: '/couteaux/table-cuisine' },
         { label: tn('fixes'), href: '/couteaux/fixes' },
         { label: tn('prestige'), href: '/couteaux/prestige' },
         { label: tn('accessoires'), href: '/couteaux/accessoires' },
@@ -28,20 +28,19 @@ export async function Footer() {
         { label: t('care'), href: '/conseils-entretien' },
         { label: t('steels'), href: '/guide-des-aciers' },
         { label: t('mechanisms'), href: '/friction-ou-systeme' },
-        { label: t('dealers'), href: '/revendeurs' },
         { label: t('account'), href: '/compte' },
       ],
     },
     {
       title: t('house'),
       links: [
-        { label: t('history'), href: '/la-maison/histoire' },
-        { label: t('workshops'), href: '/la-maison/les-ateliers' },
+        { label: 'Histoire & archives', href: '/la-maison/histoire' },
+        { label: 'L’atelier & la fabrication', href: '/la-maison/les-ateliers' },
         { label: t('local'), href: '/la-maison/une-production-locale' },
-        { label: t('range'), href: '/la-maison/notre-gamme' },
-        { label: t('patents'), href: '/la-maison/brevets' },
-        { label: t('tour'), href: '/la-maison/visite-virtuelle' },
+        { label: 'Ils nous font confiance', href: '/la-maison/ils-nous-font-confiance' },
         { label: t('press'), href: '/presse' },
+        { label: t('dealers'), href: '/revendeurs' },
+        { label: t('tour'), href: '/la-maison/visite-virtuelle' },
       ],
     },
     {
@@ -103,6 +102,9 @@ export async function Footer() {
                 </a>
               </li>
             ))}
+            <li>
+              <CookieSettingsLink />
+            </li>
             <li>
               <a href={site.sisterSite} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-9 items-center normal-case tracking-[0.12em]">
                 <span className="lu">{t('combs')}</span>

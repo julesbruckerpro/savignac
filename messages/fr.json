@@ -7,7 +7,8 @@
   "topbar": {
     "shipping": "Livraison offerte dès 100 € en France",
     "secure": "Paiement 100 % sécurisé",
-    "language": "Langue"
+    "language": "Langue",
+    "band": "Livraison offerte dès 100 € d’achat"
   },
   "masthead": {
     "place": "Foix · Ariège",
@@ -36,15 +37,24 @@
     "compose": "Composer le vôtre",
     "seeAll": "Tout voir",
     "from": "dès {price}",
-    "skip": "Aller au contenu"
+    "skip": "Aller au contenu",
+    "tableCuisine": "Table & cuisine",
+    "revendeurs": "Revendeurs",
+    "shopNav": "Les couteaux",
+    "houseNav": "La Maison",
+    "pliants": "Pliants",
+    "tableShort": "Table",
+    "prestiges": "Prestiges",
+    "about": "À propos de Savignac"
   },
   "search": {
     "title": "Rechercher",
     "placeholder": "Un modèle, une matière, une page",
-    "empty": "Aucun résultat pour « {query} ».",
-    "hint": "Essayez « Roques », « corne », « damas », « revendeurs ».",
+    "empty": "Aucun résultat pour « {query} ».",
+    "hint": "Essayez « Roques », « corne », « damas », « revendeurs ».",
     "models": "Couteaux",
-    "pages": "La Maison"
+    "pages": "La Maison",
+    "field": "Rechercher"
   },
   "common": {
     "from": "dès {price}",
@@ -96,9 +106,9 @@
     "cgv": "Conditions générales de vente",
     "legal": "Mentions légales",
     "privacy": "Confidentialité",
-    "combs": "Les peignes en corne : peigne-savignac.com",
+    "combs": "Les peignes en corne : peigne-savignac.com",
     "rights": "© Coutellerie Savignac",
-    "shopLabel": "La boutique « Le 15 »",
+    "shopLabel": "La boutique « Le 15 »",
     "follow": "Nous suivre"
   },
   "cart": {
@@ -107,7 +117,7 @@
     "view": "Voir le panier",
     "continue": "Continuer",
     "empty": "Votre panier attend son premier couteau.",
-    "engraving": "Gravure : « {text} »",
+    "engraving": "Gravure : « {text} »",
     "chisel": "Ciselage du dos de lame",
     "quantity": "Quantité",
     "decrease": "Retirer un exemplaire",
@@ -236,6 +246,47 @@
       "tour": "Visite virtuelle",
       "dealers": "Nos revendeurs",
       "alt": "La boutique du 15 rue des Marchands, à Foix"
+    },
+    "opening": {
+      "kicker": "Coutellerie à Foix depuis le XVIIIᵉ siècle",
+      "title": "Le geste, avant tout",
+      "text": "À Foix, une tradition coutelière transmise depuis le XVIIIᵉ siècle. Chaque couteau Savignac passe entre les mains de nos couteliers avant de passer dans les vôtres.",
+      "cta": "Découvrir nos modèles",
+      "cta2": "L’atelier & la fabrication",
+      "alt": "Les mains gantées d’un coutelier tiennent un couteau en cours de montage"
+    },
+    "families": {
+      "title": "Quatre façons d’entrer dans la Maison.",
+      "montagnolLabel": "Le premier couteau",
+      "montagnolText": "Le pliant des paysans et des bergers ariégeois, en bois local.",
+      "ariegeoisLabel": "La référence de Foix",
+      "ariegeoisText": "Le capucin pyrénéen, devenu courbe par nécessité. Notre modèle historique.",
+      "systemeLabel": "À système",
+      "systemeTitle": "Couteaux à système",
+      "systemeText": "Un ressort retient la lame et l’arrête à 90°. L’Ariégeois cran plat, Le Roques cran plat, Le Capi.",
+      "prestigeLabel": "Pièces d’exception",
+      "prestigeTitle": "Prestige",
+      "prestigeText": "Lames damas, bois de fer d’Arizona, loupes : des pièces montées une à une."
+    },
+    "craft": {
+      "label": "L’atelier & la fabrication",
+      "title": "Ce qui se passe à l’établi.",
+      "text": "À l’atelier historique du 17, sur la place au Beurre, et à Peysales, au sud de Foix : on débite les bois, on façonne les manches, on ajuste et on monte. Les pièces de prestige y sont entièrement façonnées.",
+      "cta": "Voir l’atelier"
+    },
+    "trust": {
+      "label": "Ils nous font confiance",
+      "title": "La presse, les tables, les couteliers.",
+      "restaurants": "restaurants ont choisi nos couteaux pour leur table",
+      "dealers": "couteliers et boutiques présentent nos couteaux",
+      "cta": "Ils nous font confiance"
+    },
+    "find": {
+      "label": "Près de chez vous",
+      "title": "Voir nos couteaux en vrai.",
+      "text": "Plus de quatre-vingts couteliers et boutiques présentent nos couteaux en France et en Belgique. Et à Foix, l’atelier monte votre couteau sur place.",
+      "placeholder": "Ville ou code postal",
+      "submit": "Trouver"
     }
   }
 }

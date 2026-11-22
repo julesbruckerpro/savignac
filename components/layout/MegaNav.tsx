@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import type { NavItem } from '@/lib/nav';
@@ -50,12 +50,19 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
       }}
     >
       <nav aria-label={t('main')}>
-        <ul className={`flex items-stretch ${compact ? 'gap-x-[clamp(10px,1.25vw,22px)]' : 'justify-between gap-x-3'}`}>
-          {nav.map((item) => {
+        <ul className={`flex items-stretch ${compact ? 'gap-x-[clamp(10px,1.3vw,24px)]' : 'gap-x-[clamp(22px,2.9vw,46px)]'}`}>
+          {nav.map((item, index) => {
+            const firstHouse = item.side === 'house' && nav[index - 1]?.side !== 'house';
             const active = pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href + '/'));
             const hasMega = !!item.columns;
             return (
-              <li key={item.id} className="flex" onMouseEnter={() => schedule(hasMega ? item.id : null, hasMega ? 120 : 250)}>
+              <Fragment key={item.id}>
+              {firstHouse ? (
+                <li aria-hidden="true" className={`nav-link flex items-center font-sans ${compact ? 'h-16' : 'h-11'}`}>
+                  |
+                </li>
+              ) : null}
+              <li className="flex" onMouseEnter={() => schedule(hasMega ? item.id : null, hasMega ? 120 : 250)}>
                 <Link
                   href={item.href}
                   data-nav={item.id}
@@ -72,11 +79,12 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
                       window.setTimeout(() => root.current?.querySelector<HTMLElement>('[data-mega] a')?.focus(), 40);
                     }
                   }}
-                  className={`nav-link flex items-center whitespace-nowrap font-sans font-medium uppercase ${compact ? 'h-16' : 'h-[52px]'}`}
+                  className={`nav-link flex items-center whitespace-nowrap font-sans font-medium uppercase ${compact ? 'h-16' : 'h-11'}`}
                 >
                   <span className={`lu ${active || openId === item.id ? 'is-on' : ''}`}>{item.label}</span>
                 </Link>
               </li>
+              </Fragment>
             );
           })}
         </ul>
@@ -84,7 +92,7 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
 
       <div
         data-mega
-        className={`absolute inset-x-0 top-full z-40 border-b border-rule-strong bg-bg transition-[opacity,visibility] duration-200 ${
+        className={`theme-light absolute inset-x-0 top-full z-40 border-b border-rule-strong bg-bg transition-[opacity,visibility] duration-200 ${
           isOpen ? 'visible opacity-100' : 'invisible opacity-0'
         } ${compact ? 'border-t border-t-rule' : ''}`}
         onMouseEnter={() => window.clearTimeout(timer.current)}
@@ -109,9 +117,9 @@ export function MegaNav({ nav, compact = false }: { nav: NavItem[]; compact?: bo
               ))}
             </div>
             {shown.feature ? (
-              <Link href={shown.feature.href} className="group col-span-5 block" data-cursor="voir">
-                <span className="block overflow-hidden bg-white">
-                  <Image src={shown.feature.image} alt={shown.feature.alt} width={800} height={235} sizes="480px" className="card-photo h-auto w-full" />
+              <Link href={shown.feature.href} className="group col-span-5 block">
+                <span className="block overflow-hidden">
+                  <Image src={shown.feature.image} alt={shown.feature.alt} width={800} height={235} sizes="480px" className="knife card-photo h-auto w-full" />
                 </span>
                 <span className="mt-4 flex items-baseline justify-between gap-4">
                   <span className="caption">{shown.feature.caption}</span>

@@ -18,7 +18,7 @@ export const collections: Collection[] = [
     editorial: {
       title: 'Du capucin au cran plat.',
       columns: [
-        'Tous nos pliants descendent du capucin, le couteau à friction des bergers pyrénéens : une lame, un manche, deux clous. Ferdinand Grat le fabriquait à Foix au XIXᵉ siècle ; la Maison en a tiré L’Ariégeois, Le Cathare, Le Grat, Le Roques, Le Montagnol et Le Phasme.',
+        'Nos pliants à friction descendent du capucin, le couteau des bergers pyrénéens : une lame, un manche, deux clous. Ferdinand Grat le fabriquait à Foix au XIXᵉ siècle ; la Maison en a tiré L’Ariégeois, Le Cathare, Le Grat, Le Roques et Le Montagnol. Le Phasme, lui, s’inspire du coupe-chou.',
         'Les couteaux à système ajoutent un ressort : le cran plat maintient la lame ouverte et l’arrête à 90° avant de la refermer. C’est le mécanisme de L’Ariégeois cran plat, du Roques cran plat et du Capi.',
       ],
     },
@@ -50,6 +50,13 @@ export const collections: Collection[] = [
         'Un couteau de table ne se lave pas, il s’essuie : un chiffon humide suffit. Jamais de lave-vaisselle, et un peu d’huile de temps à autre sur les manches de bois et de corne.',
       ],
     },
+  },
+  {
+    handle: 'table-cuisine',
+    title: 'Table & cuisine',
+    intro:
+      'Pour la nappe et pour le plan de travail. Des couteaux de table tirés de nos modèles historiques, à l’unité, en duo ou en coffret ; des couteaux de cuisine nés du Grat, avec sa petite capuche au bout du manche.',
+    seo: { title: 'Couteaux de table et de cuisine', description: 'Couteaux de table et de cuisine fabriqués à Foix : L’Ariégeois de table, Le Grat de table, Le Calla, couteaux d’office, de chef et à fromage.' },
   },
   {
     handle: 'cuisine',
@@ -97,6 +104,6 @@ export const accessoryGroups: { id: string; title: string }[] = [
 export const curated = {
   nouveautes: ['le-capi', 'le-roques-cran-plat', 'le-phasme'],
   meilleuresVentes: ['l-ariegeois', 'le-roques', 'le-montagnol', 'le-grat'],
-  home: ['le-roques', 'l-ariegeois', 'le-cathare', 'le-grat', 'le-montagnol', 'le-phasme'],
+  home: ['l-ariegeois-cran-plat', 'le-capi', 'le-roques', 'le-grat', 'le-phasme', 'le-cathare'],
   gamme: ['le-grat', 'l-ariegeois', 'le-cathare', 'le-roques', 'le-montagnol', 'le-phasme', 'le-capi'],
 };

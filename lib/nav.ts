@@ -16,6 +16,8 @@ export interface NavItem {
   href: string;
   columns?: NavColumn[];
   feature?: { image: string; alt: string; label: string; href: string; caption: string };
+  /** 'house' : rubriques éditoriales, séparées des familles de produits. */
+  side?: 'shop' | 'house';
 }
 
 type T = (key: string, values?: Record<string, string>) => string;
@@ -37,37 +39,38 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
   };
 
   return [
-    { id: 'roques', label: t('roques'), href: '/modele/le-roques' },
     {
       id: 'poche',
-      label: t('poche'),
+      label: t('pliants'),
       href: '/couteaux/poche',
       columns: [
-        { title: t('friction'), links: ['l-ariegeois', 'le-cathare', 'le-roques', 'le-grat', 'le-montagnol', 'le-phasme'].map(model) },
+        { title: t('friction'), links: ['le-montagnol', 'l-ariegeois', 'le-grat', 'le-cathare', 'le-roques', 'le-phasme'].map(model) },
         { title: t('systeme'), links: ['l-ariegeois-cran-plat', 'le-roques-cran-plat', 'le-capi'].map(model) },
+        {
+          title: 'Aussi',
+          links: [
+            { label: 'Lames fixes', href: '/couteaux/fixes', price: from(19900) },
+            { label: 'Accessoires', href: '/couteaux/accessoires', price: from(400) },
+            { label: 'Gravure sur lame', href: '/produit/gravure-personnalisee-sur-lame', price: formatPriceShort(1200) },
+            { label: 'Idées cadeaux', href: '/idees-cadeaux' },
+          ],
+        },
       ],
       feature: {
-        image: '/images/produits/roques-facettes.jpg',
-        alt: 'Le Roques, manche en corne noire à facettes, lame inox, vue de trois-quarts',
+        image: '/images/produits/site/87.jpg',
+        alt: 'L’Ariégeois cran plat, manche en ébène royal, lame inox, vue de trois-quarts',
         label: t('compose'),
-        href: '/modele/le-roques',
-        caption: 'Le Roques, corne noire à facettes',
+        href: '/modele/l-ariegeois?mecanisme=cran-plat',
+        caption: 'L’Ariégeois cran plat, ébène royal',
       },
     },
     {
       id: 'table',
-      label: t('table'),
+      label: t('tableShort'),
       href: '/couteaux/table',
       columns: [
-        {
-          links: [
-            model('l-ariegeois-de-table'),
-            model('le-grat-de-table'),
-            model('le-roques-de-table'),
-            prod('le-calla'),
-            { label: 'Les coffrets', href: '/couteaux/table#coffrets' },
-          ],
-        },
+        { title: 'Les modèles', links: [model('l-ariegeois-de-table'), model('le-grat-de-table'), model('le-roques-de-table'), prod('le-calla')] },
+        { title: 'Offrir', links: [{ label: 'Duos et coffrets', href: '/couteaux/table#coffrets' }, { label: 'Idées cadeaux', href: '/idees-cadeaux' }] },
       ],
     },
     {
@@ -75,64 +78,43 @@ export function buildNav(listings: Listing[], products: Product[], t: T): NavIte
       label: t('cuisine'),
       href: '/couteaux/cuisine',
       columns: [
-        {
-          links: [
-            prod('grat-office', 'Office'),
-            prod('grat-cuisine', 'Chef'),
-            prod('couteau-a-fromage', 'Fromage'),
-            prod('coffret-chef-office-grat', 'Coffret Chef + Office'),
-          ],
-        },
+        { links: [prod('grat-office', 'Office'), prod('grat-cuisine', 'Chef'), prod('couteau-a-fromage', 'Fromage'), prod('coffret-chef-office-grat', 'Coffret Chef + Office')] },
+        { title: 'Entretenir', links: [{ label: 'Pierres à aiguiser', href: '/couteaux/accessoires#pierres', price: from(600) }, { label: 'Conseils et entretien', href: '/conseils-entretien' }] },
       ],
     },
-    { id: 'fixes', label: t('fixes'), href: '/couteaux/fixes' },
-    { id: 'prestige', label: t('prestige'), href: '/couteaux/prestige' },
-    {
-      id: 'accessoires',
-      label: t('accessoires'),
-      href: '/couteaux/accessoires',
-      columns: [
-        {
-          links: [
-            { label: 'Fourreaux & étuis', href: '/couteaux/accessoires#fourreaux-etuis', price: from(1200) },
-            { label: 'Pierres à aiguiser', href: '/couteaux/accessoires#pierres', price: from(900) },
-            prod('gravure-personnalisee-sur-lame', 'Gravure'),
-          ],
-        },
-        {
-          links: [
-            prod('ciselage', 'Ciselage (guillochage)'),
-            prod('prestation-atelier', 'Prestation atelier'),
-            prod('coupe-choux', 'Rasage'),
-          ],
-        },
-      ],
-    },
-    { id: 'cadeaux', label: t('cadeaux'), href: '/idees-cadeaux' },
+    { id: 'prestige', label: t('prestiges'), href: '/couteaux/prestige' },
     {
       id: 'maison',
-      label: t('maison'),
+      label: t('about'),
       href: '/la-maison',
+      side: 'house',
       columns: [
         {
+          title: 'Notre histoire',
           links: [
-            { label: 'Histoire', href: '/la-maison/histoire' },
-            { label: 'Les ateliers', href: '/la-maison/les-ateliers' },
+            { label: 'Histoire & archives', href: '/la-maison/histoire' },
+            { label: 'L’atelier & la fabrication', href: '/la-maison/les-ateliers' },
             { label: 'Une production locale', href: '/la-maison/une-production-locale' },
+            { label: 'Le film', href: '/la-maison#film' },
           ],
         },
         {
+          title: 'Nos couteaux',
           links: [
             { label: 'Notre gamme', href: '/la-maison/notre-gamme' },
+            { label: 'Friction ou système', href: '/friction-ou-systeme' },
+            { label: 'Guide des aciers', href: '/guide-des-aciers' },
             { label: 'Les brevets', href: '/la-maison/brevets' },
-            { label: 'Visite virtuelle', href: '/la-maison/visite-virtuelle' },
           ],
         },
         {
+          title: 'Nous trouver',
           links: [
-            { label: 'Le film', href: '/la-maison#film' },
+            { label: 'Nos revendeurs', href: '/revendeurs' },
+            { label: 'Ils nous font confiance', href: '/la-maison/ils-nous-font-confiance' },
             { label: 'Presse', href: '/presse' },
-            { label: 'Revendeurs', href: '/revendeurs' },
+            { label: 'Visite virtuelle', href: '/la-maison/visite-virtuelle' },
+            { label: 'Contact', href: '/contact' },
           ],
         },
       ],

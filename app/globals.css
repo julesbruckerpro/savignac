@@ -16,6 +16,10 @@
   --paper-80: #c9c9c5;
   --paper-55: #9a9a96;
   --line-dark: #2a2a28;
+  /* aperçu de gravure : teinte d'acier gravé (produit, pas interface) */
+  --engrave: #45484b;
+  --engrave-hi: #ffffffb3;
+  --engrave-lo: #00000026;
 
   /* rôles, inversés dans les zones noires */
   --bg: var(--paper);
@@ -51,6 +55,15 @@ html:has([data-page-theme='dark']) {
   --rule-strong: var(--paper);
   --rule-tile: var(--line-dark);
   --rule-pill: var(--ink-55);
+}
+.on-image {
+  --fg: var(--paper);
+  --fg-strong: var(--paper);
+  --fg-soft: var(--paper);
+  --fg-mute: var(--paper-80);
+  --rule: var(--paper-55);
+  --rule-strong: var(--paper);
+  color: var(--fg);
 }
 .theme-light {
   --bg: var(--paper);
@@ -758,66 +771,12 @@ html.js [data-curtain].is-in {
   }
 }
 
-/* curseur */
-.cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 200;
-  pointer-events: none;
-  display: none;
-  mix-blend-mode: difference;
-}
-html.has-cursor .cursor {
-  display: block;
-}
-.cursor-dot {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 8px;
-  height: 8px;
-  margin: -4px 0 0 -4px;
-  border-radius: 50% !important;
-  background: var(--paper);
-  border: 1px solid var(--paper);
-  display: grid;
-  place-items: center;
-  transition: width 300ms var(--ease), height 300ms var(--ease), margin 300ms var(--ease),
-    background-color 300ms var(--ease), opacity 200ms;
-}
-.cursor[data-state='link'] .cursor-dot {
-  width: 40px;
-  height: 40px;
-  margin: -20px 0 0 -20px;
-  background: transparent;
-}
-.cursor[data-state='voir'] {
-  mix-blend-mode: normal;
-}
-.cursor[data-state='voir'] .cursor-dot {
-  width: 64px;
-  height: 64px;
-  margin: -32px 0 0 -32px;
-  background: var(--ink);
-  border-color: var(--ink);
-}
-.cursor[data-state='hidden'] .cursor-dot {
-  opacity: 0;
-}
-.cursor-word {
-  opacity: 0;
-  color: var(--paper);
-  transition: opacity 200ms;
-  margin-right: -0.24em;
-}
-.cursor[data-state='voir'] .cursor-word {
-  opacity: 1;
-}
-
 /* carte des revendeurs : fond monochrome */
 .dealers-map .maplibregl-canvas {
-  filter: grayscale(1) contrast(1.05);
+  filter: grayscale(1) contrast(0.92) brightness(1.06);
+}
+input[type='search']::-webkit-search-cancel-button {
+  appearance: none;
 }
 .dealers-map .maplibregl-ctrl-attrib {
   font-family: var(--font-sans);
@@ -872,10 +831,12 @@ html.has-cursor .cursor {
   display: none;
 }
 .theme-dark .logo-noir,
+.on-image .logo-noir,
 html:has([data-page-theme='dark']) .logo-noir {
   display: none;
 }
 .theme-dark .logo-blanc,
+.on-image .logo-blanc,
 html:has([data-page-theme='dark']) .logo-blanc {
   display: block;
 }
@@ -885,36 +846,96 @@ html:has([data-page-theme='dark']) .logo-blanc {
 .theme-light .logo-blanc {
   display: none !important;
 }
-html.has-cursor,
-html.has-cursor a,
-html.has-cursor button,
-html.has-cursor label {
-  cursor: none;
-}
-html.has-cursor input,
-html.has-cursor textarea,
-html.has-cursor select {
-  cursor: auto;
-}
+
 
 /* navigation principale : Jost 11 px, resserrée sous 1340 px pour tenir sur une ligne */
 .nav-link {
-  font-size: 11px;
+  font-size: 13.5px;
   letter-spacing: 0.2em;
 }
 @media (max-width: 1339px) {
   .nav-link {
-    font-size: 10.5px;
-    letter-spacing: 0.16em;
+    font-size: 12.5px;
+    letter-spacing: 0.18em;
   }
 }
 .nav-compact .nav-link {
   font-size: 10.5px;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1560px) {
   .nav-compact .nav-link {
     font-size: 11px;
     letter-spacing: 0.18em;
   }
+}
+
+/* aperçu de gravure sur la lame */
+.engrave-stage {
+  background: var(--bg);
+  transition: transform 900ms var(--ease);
+  will-change: transform;
+}
+.engrave-text {
+  position: absolute;
+  white-space: nowrap;
+  line-height: 1;
+  color: var(--engrave);
+  opacity: 0.82;
+  text-shadow: 0 -0.035em 0 var(--engrave-lo), 0 0.045em 0 var(--engrave-hi);
+  pointer-events: none;
+  transition: opacity 300ms var(--ease);
+}
+.engrave-text.is-empty {
+  opacity: 0.32;
+}
+
+/* en-tête : « COUTELLERIE » composé sous le logo */
+.brand-sub {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.62em;
+  margin-right: -0.62em;
+  line-height: 1;
+}
+/* bandeau de livraison */
+.ship-band {
+  background: var(--ink-80);
+  color: var(--paper);
+  text-align: center;
+}
+.ship-band p {
+  margin: 0;
+  padding: 11px var(--gutter);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--paper);
+}
+@media (min-width: 768px) {
+  .ship-band p {
+    font-size: 12.5px;
+    letter-spacing: 0.3em;
+    padding-block: 13px;
+  }
+}
+/* ouverture de l'accueil */
+.hero-title {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(30px, 4.6vw, 70px);
+  line-height: 1.08;
+  letter-spacing: 0.14em;
+  margin-right: -0.14em;
+}
+.hero-text {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: clamp(16px, 1.32vw, 21px);
+  line-height: 1.75;
 }

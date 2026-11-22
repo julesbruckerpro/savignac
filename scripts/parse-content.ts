@@ -83,7 +83,6 @@ async function dealers() {
 
   const out: Dealer[] = [];
   let kind: Dealer['kind'] = 'revendeur';
-  let dept = { code: '', name: '' };
   let country: Dealer['country'] = 'France';
   let cur: (Partial<Dealer> & { pre: string[] }) | null = null;
   const flush = () => {
@@ -100,9 +99,9 @@ async function dealers() {
     if (!line || line === '##') continue;
     if (/^nos partenaires$/i.test(line)) { flush(); kind = 'partenaire'; country = 'France'; continue; }
     if (/^nos revendeurs$/i.test(line) || /^cliquez/i.test(line)) continue;
-    if (/^belgique$/i.test(line)) { flush(); country = 'Belgique'; dept = { code: 'BE', name: 'Belgique' }; continue; }
+    if (/^belgique$/i.test(line)) { flush(); country = 'Belgique'; continue; }
     const dm = line.match(/^(.+?)\s*[-–]\s*(\d{2})$/);
-    if (dm && line === line.toUpperCase()) { flush(); dept = { code: dm[2], name: DEPARTMENTS[dm[2]] ?? titleCase(dm[1]) }; country = 'France'; continue; }
+    if (dm && line === line.toUpperCase()) { flush(); country = 'France'; continue; }
     if (bold) {
       flush();
       cur = { kind, name: /[a-zà-ÿ]/.test(line) ? line.replace(/'/g, '’') : titleCase(line), pre: [], country };

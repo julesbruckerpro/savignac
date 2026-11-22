@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import { Configurator, type UpsellLine } from '@/components/product/Configurator';
 import { ProductCard, ProductGrid } from '@/components/product/ProductCard';
+import { HouseStrip } from '@/components/editorial/HouseStrip';
 import { commerce, type Product } from '@/lib/commerce';
 import { formatPriceShort } from '@/lib/format';
 import { site } from '@/lib/site';
@@ -77,6 +78,7 @@ export async function ProductPage({ product, locale }: { product: Product; local
           caption: 'À l’atelier : le façonnage d’un manche au backstand.',
         }}
       />
+      {product.category !== 'accessoires' ? <HouseStrip /> : null}
       <section className="wrap section">
         <h2 className="label border-b border-rule-strong pb-5">{product.category === 'accessoires' ? 'À voir aussi' : t('sameWorkshop')}</h2>
         <ProductGrid className="pt-10">

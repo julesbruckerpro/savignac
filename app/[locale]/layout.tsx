@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import '../globals.css';
-import { CustomCursor } from '@/components/layout/CustomCursor';
+import { Analytics } from '@/components/layout/Analytics';
 import { Footer } from '@/components/layout/Footer';
 import { Header } from '@/components/layout/Header';
 import { RevealObserver } from '@/components/layout/RevealObserver';
@@ -37,8 +37,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const PAGES: [string, string, string][] = [
-  ['Histoire de la Maison', '/la-maison/histoire', 'histoire familles roques grat savignac montariol archives'],
-  ['Les ateliers', '/la-maison/les-ateliers', 'atelier boutique peysales le 15 le 17'],
+  ['Histoire & archives', '/la-maison/histoire', 'histoire familles roques grat savignac montariol archives'],
+  ['L’atelier & la fabrication', '/la-maison/les-ateliers', 'atelier fabrication etapes boutique peysales le 15 le 17'],
+  ['Ils nous font confiance', '/la-maison/ils-nous-font-confiance', 'presse restaurants chefs temoignages confiance'],
+  ['Table & cuisine', '/couteaux/table-cuisine', 'table cuisine office chef fromage coffret'],
   ['Une production locale', '/la-maison/une-production-locale', 'partenaires bois corne aciers fabrication'],
   ['Notre gamme', '/la-maison/notre-gamme', 'modeles gamme'],
   ['Les brevets', '/la-maison/brevets', 'marques dessins deposes'],
@@ -104,7 +106,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           <Footer />
           <SmoothScroll />
           <RevealObserver />
-          <CustomCursor />
+          <Analytics />
         </NextIntlClientProvider>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} />
       </body>

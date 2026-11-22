@@ -13,9 +13,9 @@ export function CartLineRow({ line, compact = false, onNavigate }: { line: CartL
   const extras = Object.entries(line.attributes);
   return (
     <li className={`grid gap-x-5 border-b border-rule py-6 ${compact ? 'grid-cols-[96px_1fr]' : 'grid-cols-[96px_1fr] md:grid-cols-[160px_1fr_auto]'}`}>
-      <Link href={line.href} onClick={onNavigate} className="block self-start bg-white" data-cursor="voir" tabIndex={-1} aria-hidden="true">
+      <Link href={line.href} onClick={onNavigate} className="block self-start" tabIndex={-1} aria-hidden="true">
         {line.image ? (
-          <Image src={line.image} alt="" width={320} height={94} sizes="160px" className="h-auto w-full" />
+          <Image src={line.image} alt="" width={320} height={94} sizes="160px" className="knife h-auto w-full" />
         ) : (
           <span className="block aspect-[3.4/1] w-full" />
         )}
@@ -27,7 +27,7 @@ export function CartLineRow({ line, compact = false, onNavigate }: { line: CartL
         <p className="mt-1 text-[15px] italic leading-snug text-soft">{line.finish}</p>
         {extras.map(([k, v]) => (
           <p key={k} className="mt-1 text-[15px] italic leading-snug text-soft">
-            {k === 'Gravure' ? t('engraving', { text: v }) : k === 'Ciselage' ? t('chisel') : `${k} : ${v}`}
+            {k === 'Gravure' ? t('engraving', { text: v }) : k === 'Ciselage' ? t('chisel') : `${k}\u00a0: ${v}`}
           </p>
         ))}
         <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2">

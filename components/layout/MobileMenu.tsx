@@ -32,8 +32,9 @@ export function MobileMenu({ open, onClose, nav, cartCount, onCart }: { open: bo
       className={`theme-light fixed inset-0 z-[110] flex flex-col transition-[opacity,visibility] duration-300 ${open ? 'visible opacity-100' : 'invisible opacity-0'}`}
     >
       <div className="flex h-14 flex-none items-center justify-between border-b border-ink px-4">
-        <Link href="/" onClick={onClose} className="block w-[150px]" aria-label="Savignac">
+        <Link href="/" onClick={onClose} className="block w-[150px] text-center" aria-label="Savignac">
           <Logo />
+          <span className="brand-sub mt-[5px] block text-[9px]">Coutellerie</span>
         </Link>
         <button type="button" onClick={onClose} className="label -mr-2 flex min-h-11 items-center px-2">
           <span className="lu is-on">{t('close')}</span>
@@ -41,10 +42,11 @@ export function MobileMenu({ open, onClose, nav, cartCount, onCart }: { open: bo
       </div>
       <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6">
         <ul>
-          {nav.map((item) => {
+          {nav.map((item, index) => {
             const expanded = section === item.id;
+            const firstHouse = item.side === 'house' && nav[index - 1]?.side !== 'house';
             return (
-              <li key={item.id} className="border-b border-line">
+              <li key={item.id} className={`border-b border-line ${firstHouse ? 'mt-6 border-t border-t-ink' : ''}`}>
                 {item.columns ? (
                   <>
                     <button
@@ -92,6 +94,20 @@ export function MobileMenu({ open, onClose, nav, cartCount, onCart }: { open: bo
               </li>
             );
           })}
+        </ul>
+        <ul className="mt-8 space-y-1">
+          {[
+            ['Nos revendeurs', '/revendeurs'],
+            ['Idées cadeaux', '/idees-cadeaux'],
+            ['Livraison et retours', '/livraison-retours'],
+            ['Contact', '/contact'],
+          ].map(([label, href]) => (
+            <li key={href}>
+              <Link href={href} onClick={onClose} className="flex min-h-11 items-center text-[18px]">
+                {label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="flex h-14 flex-none items-center justify-between border-t border-ink px-4">

@@ -85,3 +85,68 @@ export function sanitizeEngraving(raw: string, max: number): string {
     .replace(/\s{2,}/g, ' ')
     .slice(0, max);
 }
+
+/* ------------------------------------------------------------------ fiche produit : détail technique */
+
+const MADE_TO_ORDER_MECHANISMS = new Set(['cran-plat', 'piemontais']);
+
+/** Délai affiché sans chiffre tant que l'atelier n'a pas confirmé les règles exactes. */
+export function availability(product: Product, v: Variant): { kind: 'stock' | 'commande'; label: string } {
+  const mechanism = v.options.mecanisme ?? product.mechanisms[0];
+  const onOrder = v.tags?.includes('prestige') || v.options.lame === 'damas' || MADE_TO_ORDER_MECHANISMS.has(mechanism ?? '') || !!v.madeToOrder;
+  return onOrder ? { kind: 'commande', label: 'Fabriqué à la commande à Foix' } : { kind: 'stock', label: 'Généralement expédié sous 48 h' };
+}
+
+const MECHANISM_TEXT: Record<string, string> = {
+  friction: 'Deux clous : la lame tourne sur l’un, s’arrête sur l’autre. Léger, simple, sans ressort.',
+  'cran-plat': 'Un ressort maintient la lame ouverte et l’arrête à 90° ; il faut prolonger le geste pour la refermer.',
+  piemontais: 'Lentille dite piémontaise : il s’ouvre et se ferme d’une main et reste bloqué en position ouverte.',
+};
+
+const STEEL_TEXT: Record<string, { name: string; text: string }> = {
+  '14C28': { name: 'Inox 14C28', text: 'Acier inoxydable Sandvik, dureté 59 ± 1 HRC. Il ne craint pas l’humidité et se laisse oublier.' },
+  XC75: { name: 'Carbone XC75', text: 'Acier carbone des aciéries de Bonpertuis, dureté 59 ± 1 HRC. Il s’affûte volontiers et se patine : à essuyer et huiler.' },
+  RWL34: { name: 'RWL34', text: 'Acier inoxydable fritté, dureté 60 ± 1 HRC.' },
+  damas: { name: 'Damas', text: 'Damasteel, mélange de RWL34 et de PMC27 : un damas inoxydable, dureté 60 ± 1 HRC.' },
+};
+
+const CARE_TEXT: Record<string, string> = {
+  corne: 'Nourrir la corne d’un peu d’huile de temps en temps ; ne pas la laisser tremper, jamais de lave-vaisselle.',
+  bois: 'Huiler le manche de temps en temps ; ne pas le laisser tremper, jamais de lave-vaisselle.',
+  autre: 'Essuyer la lame avec un chiffon humide plutôt que sous l’eau ; jamais de lave-vaisselle.',
+};
+
+export interface DetailRow {
+  label: string;
+  value: string;
+  note?: string;
+}
+
+/** Les rubriques de la fiche, dans l'ordre demandé : mécanisme, lame, manche, fabrication, mesures, colis, entretien. */
+export function detailRows(product: Product, v: Variant, specs: { label: string; value: string }[]): DetailRow[] {
+  const rows: DetailRow[] = [];
+  const mechanism = v.options.mecanisme ?? product.mechanisms[0];
+  if (mechanism && MECHANISM_TEXT[mechanism]) rows.push({ label: 'Mécanisme', value: MECHANISM_LABELS[mechanism], note: MECHANISM_TEXT[mechanism] });
+  const steel = v.options.lame ? STEEL_TEXT[v.options.lame] : undefined;
+  if (steel) rows.push({ label: 'Lame', value: steel.name, note: steel.text });
+  const manche = v.options.manche;
+  const mancheOption = product.options.find((o) => o.id === 'manche')?.values.find((x) => x.id === manche);
+  if (manche && product.category !== 'accessoires') {
+    const group = mancheOption?.group;
+    const groupText = group === 'bois-locaux' ? 'Bois d’Ariège, séché sur place et imprégné d’huile de lin.' : group === 'corne' ? 'Corne taillée dans la masse.' : undefined;
+    rows.push({ label: 'Manche', value: label(product, 'manche', manche), note: groupText });
+  }
+  if (product.category === 'poche') {
+    const atelier = v.tags?.includes('prestige') || v.options.lame === 'damas' ? 'Entièrement façonné à l’atelier de Foix.' : 'Monté à l’atelier de Foix.';
+    rows.push({ label: 'Fabrication', value: atelier });
+  }
+  // le mécanisme est déjà expliqué plus haut : pas de ligne « Montage » qui le répète
+  for (const s of specs) if (!(s.label === 'Montage' && /cran plat/i.test(s.value))) rows.push({ label: s.label, value: s.value });
+  if (v.included?.length) rows.push({ label: 'Livré avec', value: v.included.join(', ') });
+  if (product.category !== 'accessoires') {
+    const group = mancheOption?.group;
+    const care = group === 'corne' ? CARE_TEXT.corne : group === 'bois-locaux' || group === 'bois-precieux' ? CARE_TEXT.bois : CARE_TEXT.autre;
+    rows.push({ label: 'Entretien', value: v.options.lame === 'XC75' ? `${care} La lame carbone s’essuie et s’huile après usage.` : care });
+  }
+  return rows;
+}

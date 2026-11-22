@@ -7,98 +7,123 @@ import { ProductCard, ProductGrid } from '@/components/product/ProductCard';
 import { Heart } from '@/components/ui/Heart';
 import { Price } from '@/components/ui/Price';
 import { curated } from '@/content/collections';
+import dealersData from '@/content/dealers.json';
+import { press } from '@/content/pages/guides';
 import { Link } from '@/i18n/navigation';
 import { commerce } from '@/lib/commerce';
 import { formatPriceShort } from '@/lib/format';
 import { rich } from '@/lib/typo';
 
+/**
+ * Accueil. Image d'ouverture : public/images/accueil/ouverture.jpg (provisoire, à remplacer par le visuel fourni).
+ * Puis les quatre familles (appel, référence, système, prestige), la sélection, l'histoire, l'atelier,
+ * la confiance et les points de vente.
+ */
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('home');
   const tc = await getTranslations('common');
+  const tb = await getTranslations('topbar');
   const all = await commerce.getListings(locale);
   const by = (id: string) => all.find((l) => l.id === id)!;
   const cards = await commerce.getListingsById(curated.home, locale);
-  const roques = by('le-roques');
   const friction = (await commerce.getCollection('friction', locale))!.listings;
   const systeme = (await commerce.getCollection('systeme', locale))!.listings;
-  const table = (await commerce.getCollection('table', locale))!.listings;
+  const pieces = await commerce.getPrestigePieces(locale);
+  const prestigePrices = pieces.flatMap((p) => p.variants.map((v) => v.price));
   const min = (ls: { fromPrice: number }[]) => Math.min(...ls.map((l) => l.fromPrice));
   const dès = (cents: number) => tc('from', { price: formatPriceShort(cents) });
+  const dealers = (dealersData as { kind: string }[]).filter((d) => d.kind === 'revendeur').length;
+  const restaurants = (dealersData as { kind: string }[]).filter((d) => d.kind === 'partenaire').length;
+  const quotes = press.articles.filter((a) => a.quote).slice(0, 3);
+
+  const families = [
+    { key: 'montagnol', title: by('le-montagnol').name, href: by('le-montagnol').href, image: by('le-montagnol').image, price: <Price cents={by('le-montagnol').fromPrice} />, alt: by('le-montagnol').imageAlt },
+    { key: 'ariegeois', title: by('l-ariegeois').name, href: by('l-ariegeois').href, image: by('l-ariegeois').image, price: <Price cents={by('l-ariegeois').fromPrice} from />, alt: by('l-ariegeois').imageAlt },
+    { key: 'systeme', title: t('families.systemeTitle'), href: '/couteaux/systeme', image: '/images/produits/site/87.jpg', price: <Price cents={min(systeme)} from />, alt: 'L’Ariégeois cran plat, manche en ébène royal' },
+    {
+      key: 'prestige',
+      title: t('families.prestigeTitle'),
+      href: '/couteaux/prestige',
+      image: '/images/produits/site/110.jpg',
+      price: <Price cents={Math.min(...prestigePrices)} to={Math.max(...prestigePrices)} />,
+      alt: 'L’Ariégeois cran plat en bois de fer d’Arizona, lame damas',
+    },
+  ];
 
   return (
     <>
-      {/* ③ Ouverture : la pièce signature */}
-      <section className="wrap pb-[var(--section)] pt-8 md:pt-14">
-        <div className="grid grid-cols-1 items-center gap-x-8 gap-y-8 lg:grid-cols-12">
-          <div className="order-2 lg:order-1 lg:col-span-5">
-            <p className="label rise text-mute">{t('hero.kicker')}</p>
-            <h1 className="name-xl rise mt-5" style={{ ['--d' as string]: '0.15s' }}>
-              {t('hero.name')}
-            </h1>
-            <p className="lyric rise mt-6 max-w-[20ch]" style={{ ['--d' as string]: '0.35s' }}>
-              {t('hero.lead')}
-            </p>
-            <p className="text rise mt-6 max-w-[46ch]" style={{ ['--d' as string]: '0.5s' }}>
-              {rich(t('hero.text'))}
-            </p>
-            <div className="rise mt-9 flex flex-wrap items-center gap-x-8 gap-y-5" style={{ ['--d' as string]: '0.65s' }}>
-              <Link href={roques.href} className="btn">
-                <span>{t('hero.cta')}</span>
-              </Link>
-              <Price cents={roques.fromPrice} to={roques.toPrice} className="text-[20px]" />
-            </div>
-          </div>
-          <Link href={roques.href} data-cursor="voir" aria-label={t('hero.cta')} className="order-1 block overflow-hidden lg:order-2 lg:col-span-7">
-            <span className="relative block aspect-[3.4/1] w-full lg:aspect-auto lg:h-[440px]">
-              <Image src="/images/produits/roques-facettes.jpg" alt={t('hero.alt')} fill priority sizes="(min-width: 1024px) 740px, 100vw" className="knife slow-zoom" />
-            </span>
-          </Link>
+      {/* ① Ouverture plein écran (maquette validée) : en-tête posé sur l'image, titre, texte, bandeau de livraison */}
+      <section aria-labelledby="ouverture" className="on-image relative isolate flex h-[100svh] min-h-[620px] flex-col overflow-hidden bg-ink">
+        <Image src="/images/accueil/ouverture.jpg" alt={t('opening.alt')} fill priority sizes="100vw" className="bw slow-zoom -z-20 object-cover" style={{ objectPosition: '50% 50%' }} />
+        <span aria-hidden="true" className="absolute inset-0 -z-10 bg-ink opacity-45" />
+        <div className="wrap mt-auto pb-10 text-center md:pb-14">
+          <h1 id="ouverture" className="hero-title rise">
+            {t('opening.title')}
+          </h1>
+          <p className="hero-text rise mx-auto mt-6 max-w-[64ch] md:mt-8" style={{ ['--d' as string]: '0.2s' }}>
+            {rich(t('opening.text'))}
+          </p>
+          <p className="rise mt-9 md:mt-12" style={{ ['--d' as string]: '0.4s' }}>
+            <Link href="/couteaux" className="inline-flex min-h-11 items-center font-sans text-[13px] font-medium uppercase tracking-[0.3em] md:text-[14.5px]">
+              <span className="lu is-on" style={{ paddingBottom: 8 }}>
+                {t('opening.cta')}
+              </span>
+            </Link>
+          </p>
+        </div>
+        <div className="ship-band">
+          <p>{tb('band')}</p>
         </div>
       </section>
 
-      {/* ④ Choisir son couteau */}
-      <section className="wrap">
+      {/* ② Les quatre familles : de 46 € aux pièces de prestige */}
+      <section className="wrap section-top" aria-labelledby="familles">
+        <h2 id="familles" className="title is-46 border-b border-rule-strong pb-6">
+          {t('families.title')}
+        </h2>
+        <div className="grid grid-cols-1 gap-x-8 gap-y-12 pt-12 sm:grid-cols-2 lg:grid-cols-4">
+          {families.map((f, i) => (
+            <Link key={f.key} href={f.href} className="card group flex flex-col border-b border-rule pb-6" data-reveal style={{ ['--d' as string]: `${i * 80}ms` }}>
+              <span className="relative block aspect-[3.4/1] w-full overflow-hidden">
+                <Image src={f.image} alt={f.alt} fill sizes="(min-width: 1024px) 300px, (min-width: 640px) 46vw, 92vw" className="knife card-photo" />
+              </span>
+              <span className="label-sm mt-6 block text-mute">{t(`families.${f.key}Label`)}</span>
+              <span className="name-card mt-2 block">{f.title}</span>
+              <span className="mt-2 block text-[15px] leading-snug text-soft">{t(`families.${f.key}Text`)}</span>
+              <span className="mt-auto flex items-baseline justify-between gap-4 pt-5">
+                <span className="text-[17px]">{f.price}</span>
+                <span className="label">
+                  <span className="lu lu-group">{tc('discover')}</span>
+                </span>
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ③ Choisir son couteau */}
+      <section className="wrap section-top">
         <div className="flex items-end justify-between gap-6 border-b border-rule-strong pb-6">
-          <h2 className="title">{t('choose.title')}</h2>
+          <h2 className="title is-46">{t('choose.title')}</h2>
           <Link href="/couteaux" className="label mb-2 hidden min-h-11 items-center sm:flex">
             <span className="lu is-on">{t('choose.all')}</span>
           </Link>
         </div>
         <ProductGrid className="pt-12">
           {cards.map((l, i) => (
-            <ProductCard key={l.id} listing={l} index={i} />
+            <ProductCard key={l.id} listing={l} index={i} swatches />
           ))}
         </ProductGrid>
-        <ul className="label mt-10 flex flex-col gap-y-1 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center sm:gap-x-4">
-          {[
-            { label: by('l-ariegeois-cran-plat').name, href: by('l-ariegeois-cran-plat').href, price: by('l-ariegeois-cran-plat').fromPrice },
-            { label: by('le-capi').name, href: by('le-capi').href, price: by('le-capi').fromPrice },
-            { label: t('choose.table'), href: '/couteaux/table', price: min(table) },
-          ].map((l, i) => (
-            <li key={l.href} className="flex items-center gap-x-4">
-              {i > 0 ? (
-                <span aria-hidden="true" className="hidden text-mute sm:inline">
-                  ·
-                </span>
-              ) : null}
-              <Link href={l.href} className="inline-flex min-h-11 items-center">
-                <span className="lu">
-                  {l.label} · {dès(l.price)}
-                </span>
-              </Link>
-            </li>
-          ))}
-          <li className="sm:hidden">
-            <Link href="/couteaux" className="inline-flex min-h-11 items-center">
-              <span className="lu is-on">{t('choose.all')}</span>
-            </Link>
-          </li>
-        </ul>
+        <p className="mt-10 text-center sm:hidden">
+          <Link href="/couteaux" className="label inline-flex min-h-11 items-center">
+            <span className="lu is-on">{t('choose.all')}</span>
+          </Link>
+        </p>
       </section>
 
-      {/* ⑤ Friction ou système */}
+      {/* ④ Friction ou système */}
       <section className="wrap section-top" aria-labelledby="mecanismes">
         <h2 id="mecanismes" className="sr-only">
           {t('mechanisms.title')}
@@ -109,7 +134,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             { k: 'system', img: '/images/produits/couteau-systeme.jpg', href: '/couteaux/systeme', price: min(systeme) },
           ].map((c, i) => (
             <article key={c.k} data-reveal style={{ ['--d' as string]: `${i * 80}ms` }}>
-              <Link href={c.href} data-cursor="voir" className="card block" tabIndex={-1} aria-hidden="true">
+              <Link href={c.href} className="card block" tabIndex={-1} aria-hidden="true">
                 <span className="relative block aspect-[3.4/1] w-full max-w-[408px] overflow-hidden">
                   <Image src={c.img} alt="" fill sizes="408px" className="knife card-photo" />
                 </span>
@@ -132,7 +157,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </p>
       </section>
 
-      {/* ⑥ Histoire : section noire */}
+      {/* ⑤ Histoire : section noire */}
       <HistoryBlack
         entryImage={{ src: '/images/archives/archive-facade-1920.jpg', alt: t('history.alt'), caption: t('history.caption') }}
         exitImages={[
@@ -160,19 +185,89 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </HistoryBlack>
 
-      {/* ⑦ Venir à Foix */}
-      <section className="wrap section">
+      {/* ⑥ L'atelier et la fabrication */}
+      <section className="wrap section" aria-labelledby="atelier">
+        <div className="grid grid-cols-1 items-end gap-x-8 gap-y-8 lg:grid-cols-12">
+          <div className="lg:col-span-5" data-reveal>
+            <p className="label text-mute">{t('craft.label')}</p>
+            <h2 id="atelier" className="title is-46 mt-5">
+              {t('craft.title')}
+            </h2>
+            <p className="text mt-6">{t('craft.text')}</p>
+            <Link href="/la-maison/les-ateliers" className="label mt-8 inline-flex min-h-11 items-center">
+              <span className="lu is-on">{t('craft.cta')}</span>
+            </Link>
+          </div>
+          <div className="grid grid-cols-3 gap-3 md:gap-6 lg:col-span-7">
+            {[
+              ['/images/atelier/production-debit-bois.jpg', 'Le débit des bois', 'Le débit.'],
+              ['/images/atelier/atelier-2.jpg', 'Le façonnage d’un manche au backstand', 'Le façonnage.'],
+              ['/images/atelier/atelier-3.jpg', 'Le montage à l’établi', 'Le montage.'],
+            ].map(([src, alt, cap]) => (
+              <Photo key={src} src={src} alt={alt} caption={cap} ratio="4/5" sizes="(min-width: 1024px) 260px, 31vw" />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ⑦ Ils nous font confiance */}
+      <section className="wrap section-bottom" aria-labelledby="confiance">
+        <div className="border-t border-rule-strong pt-12">
+          <p className="label text-mute">{t('trust.label')}</p>
+          <h2 id="confiance" className="title is-46 mt-5 max-w-[22ch]">
+            {t('trust.title')}
+          </h2>
+          <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3">
+            {quotes.map((q) => (
+              <figure key={q.date} className="border-t border-rule pt-6" data-reveal>
+                <blockquote className="text-[20px] italic leading-snug">{q.quote}</blockquote>
+                <figcaption className="label-sm mt-4 text-mute">
+                  {q.media} · {q.date.slice(0, 4)}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+          <dl className="mt-12 grid grid-cols-1 gap-x-8 gap-y-6 border-y border-rule py-8 sm:grid-cols-2">
+            <div className="flex items-baseline gap-4">
+              <dt className="price text-[40px] leading-none">{dealers}</dt>
+              <dd className="text-s">{t('trust.dealers')}</dd>
+            </div>
+            <div className="flex items-baseline gap-4">
+              <dt className="price text-[40px] leading-none">{restaurants}</dt>
+              <dd className="text-s">{t('trust.restaurants')}</dd>
+            </div>
+          </dl>
+          <p className="mt-8">
+            <Link href="/la-maison/ils-nous-font-confiance" className="label inline-flex min-h-11 items-center">
+              <span className="lu is-on">{t('trust.cta')}</span>
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* ⑧ Près de chez vous : revendeurs et boutique de Foix */}
+      <section className="wrap section-bottom" aria-labelledby="pres-de-chez-vous">
         <div className="grid grid-cols-1 items-center gap-x-8 gap-y-10 lg:grid-cols-12">
           <div className="lg:col-span-5" data-reveal>
-            <p className="label text-mute">{t('visit.label')}</p>
-            <h2 className="title mt-5">{t('visit.title')}</h2>
-            <p className="text mt-6">{t('visit.text')}</p>
-            <div className="label mt-8 flex flex-wrap gap-x-8 gap-y-2">
+            <p className="label text-mute">{t('find.label')}</p>
+            <h2 id="pres-de-chez-vous" className="title is-46 mt-5">
+              {t('find.title')}
+            </h2>
+            <p className="text mt-6">{t('find.text')}</p>
+            <form action="/revendeurs" method="get" role="search" className="mt-8 flex items-end gap-4">
+              <div className="min-w-0 flex-1">
+                <label htmlFor="q-revendeur" className="label">
+                  {t('find.placeholder')}
+                </label>
+                <input id="q-revendeur" name="q" type="search" autoComplete="off" className="field" placeholder="Toulouse, 75, Bruxelles…" />
+              </div>
+              <button type="submit" className="btn !px-6">
+                <span>{t('find.submit')}</span>
+              </button>
+            </form>
+            <div className="label mt-6 flex flex-wrap gap-x-8 gap-y-2">
               <Link href="/la-maison/visite-virtuelle" className="inline-flex min-h-11 items-center">
                 <span className="lu is-on">{t('visit.tour')}</span>
-              </Link>
-              <Link href="/revendeurs" className="inline-flex min-h-11 items-center">
-                <span className="lu is-on">{t('visit.dealers')}</span>
               </Link>
             </div>
           </div>
@@ -180,7 +275,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* ⑧ Engagements */}
+      {/* ⑨ Engagements */}
       <Commitments className="section-bottom" />
     </>
   );

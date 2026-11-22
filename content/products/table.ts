@@ -28,7 +28,7 @@ export const lAriegeoisDeTable = define({
   upsells: TABLE_UPSELLS,
   variants: [
     ...site(109, { format: 'unite', manche: 'bois', lame: false }),
-    ...site(41, { format: 'duo', manche: 'corne-noire', lame: false }),
+    ...site(41, { format: 'duo', manche: 'corne-noire', lame: false, included: ['Fourreau en cuir de vache'] }),
     ...site(165, { format: 'coffret-6', manche: 'bois-assortis', lame: false }),
     ...site(180, { format: 'coffret-6', mancheGroup: true, photoManche: 'corian-noir', lame: false }),
     ...site(42, { format: 'coffret-6', manche: 'corne-noire', lame: false }),

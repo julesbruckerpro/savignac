@@ -74,6 +74,8 @@ export interface Pick {
   /** La photo du site montre ce manche (pour une légende honnête sur les autres). */
   photoManche?: string;
   tags?: string[];
+  /** Contenu du colis quand le site ne le porte pas en option (ex. étui du Bosc). */
+  included?: string[];
   /** Photos du pack fourni, prioritaires sur celles du site. */
   images?: VariantImages;
 }
@@ -88,7 +90,8 @@ export function site(id: number, pick: Pick = {}): Variant[] {
   const mancheGroupName = pick.mancheGroup ? MANCHE_GROUPS.find((g) => p.groups[g]) : undefined;
   const manches: (string | undefined)[] = mancheGroupName ? p.groups[mancheGroupName].map((v) => MANCHE[v] ?? v) : [pick.manche];
   const formats: (string | undefined)[] = pick.formatGroup && p.groups[pick.formatGroup] ? p.groups[pick.formatGroup].map((v) => FORMAT[v] ?? v) : [pick.format];
-  const photoLame = pick.lame || (lameGroup ? LAME[lameGroup[0]] : '14C28');
+  const offered = lames.filter((l): l is string => !!l);
+  const photoLame = pick.lame || (offered.includes('14C28') || offered.length === 0 ? '14C28' : offered[0]);
   const delay = p.availabilityText ? DELAYS.find(([re]) => re.test(p.availabilityText!))?.[1] : undefined;
   const img = IMAGES[p.id];
 
@@ -103,6 +106,11 @@ export function site(id: number, pick: Pick = {}): Variant[] {
         const matching = p.combos.filter((c) => Object.entries(wanted).every(([g, v]) => c.attrs[g] === v));
         if (p.combos.length && Object.keys(wanted).length && matching.length === 0) continue; // combinaison inexistante sur le site
         const price = matching.length && Object.keys(wanted).length ? Math.min(...matching.map((c) => c.price)) : p.price;
+        // option d'accessoire incluse : celle de la déclinaison la moins chère
+        const pool = matching.length ? matching : p.combos;
+        const cheapest = pool.length ? pool.reduce((a, b) => (b.price < a.price ? b : a)) : undefined;
+        const acc = cheapest?.attrs['Accessoires'];
+        const included = acc ? [/synth/i.test(acc) ? 'Fourreau synthétique' : /etui/i.test(acc) ? 'Étui en cuir' : 'Fourreau en cuir'] : pick.included;
         const options: Partial<Record<OptionId, string>> = {};
         if (pick.mecanisme) options.mecanisme = pick.mecanisme;
         if (format) options.format = format;
@@ -119,6 +127,7 @@ export function site(id: number, pick: Pick = {}): Variant[] {
           images: pick.images ? { exact, shows, ...pick.images } : { troisQuarts: img?.troisQuarts, ferme: img?.ferme, exact, shows },
           available: true,
           madeToOrder: delay ? { delayLabel: delay } : undefined,
+          included,
           legacyId: p.id,
           tags: pick.tags,
         });
